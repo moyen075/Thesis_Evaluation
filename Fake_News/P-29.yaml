@@ -1,0 +1,100 @@
+paragraph_id: "P-29"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on electronic media refers to spreading fake information using fake images and interviews and also usage or AI made of old videos. Nowadays, social& meadia players 
+ a significant role in public life. Our news media is largly depending upon social media-like facebook, twitter (x), instagram and so on. Now it's easy to spread news and 
+ information within a short time span. But this technology has also a dark side The ill minded people are using this medium A for personal interest. Nowadays, false information
+ in widely spreading by social media This hampers the peoples' perception. and trust towarch the social media. Various fake images and videos are created to spread misleading 
+ news. Sometimes, news media uses this news without verifying. Therefore, it makes a public perception toward that news but when the truth prevails it disappoints people and 
+ they make question-mark toward the news media. Sometimes it instigates socio-political strikes and it damages social harmony. This misleading news also effects the stock market 
+ greatly. the business communi -ty also suffers for this type of misdeed. Therefore, many media companies are buit to verify the news and to stop the flow of fake news and 
+ information. At the end, it's damaging consequences are so severe. People also suffer for fake medical information. To sum up, we have to take the duty & individually to verify 
+ a news instantly for sake of social peace and harmony.
+
+initial_score: 7.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt by defining fake news and listing impacts like trust and the stock market. However, it lacks a specific real-world example (e.g., a named event) and does not explain the technical mechanisms like algorithms or echo chambers required for an exceptional score.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a functional beginning and end, but the logical flow is clunky. The transition from social media platforms to the stock market and medical information feels like a list rather than a cohesive argument.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and understandable but lacks technical precision. Phrases like "ill minded people" and "dark side" are more conversational/informal than academic.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains numerous errors in spelling ("largly", "towarch", "buit"), typos ("social& meadia", "medium A"), and grammar ("in widely spreading", "effects" vs "affects") that impede the reading experience.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "social& meadia players a significant role"
+      Issue: Typo in 'media' and subject-verb agreement error.
+      Correction: "social media plays a significant role"
+  2. "false information in widely spreading"
+      Issue: Incorrect auxiliary verb usage.
+      Correction: "false information is widely spreading"
+  3. "towarch the social media"
+      Issue: Spelling error.
+      Correction: "towards social media"
+  4. "effects the stock market"
+      Issue: Confusion between noun 'effect' and verb 'affect'.
+      Correction: "affects the stock market"
+  5. "many media companies are buit"
+      Issue: Spelling error.
+      Correction: "many media companies are built"
+  
+  Improvement Feedback:
+  1. "Fake news on electronic media refers to spreading fake information..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace repetitive and common words like "fake" with technical terms such as "disinformation" or "fabricated content." For example: "Disinformation on digital platforms involves the intentional dissemination of fabricated narratives..."
+  2. "The ill minded people are using this medium A for personal interest."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use objective, formal language instead of emotive descriptors like "ill minded." For example: "Malicious actors exploit these platforms to advance private agendas."
+  3. "Sometimes it instigates socio-political strikes..."
+      Target Area: Content & Relevance
+      Suggestion: To improve depth, provide a specific real-world example as per the rubric. For example: "For instance, during the 2016 US Presidential election, the viral spread of disinformation significantly altered public perception and voter behavior."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It touches on the consequences of fake news, such as damaging social harmony and affecting the stock market, but does not provide a sophisticated impact analysis or real-world examples that are closely tied to the mechanisms of social media.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is not clearly defined. Transitions between ideas are not seamless, which disrupts the cohesion of the argument.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary used is standard but lacks technical terms specific to the field of social media and disinformation. The tone is generally formal but could benefit from more objective language and the avoidance of vague phrases.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar and mechanics, including punctuation, spelling, and capitalization errors, which impede the clarity of the message.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "social& meadia"
+      Issue: Typographical error
+      Correction: "social media"
+  2. "Now it's easy to spread news and information within a short time span."
+      Issue: Lack of formal tone
+      Correction: "The dissemination of news and information can now occur rapidly."
+  3. "The ill minded people are using this medium A for personal interest."
+      Issue: Grammar and clarity
+      Correction: "Malicious individuals are exploiting social media for personal gain."
+  4. "This misleading news also effects the stock market greatly."
+      Issue: Incorrect use of "effects" instead of "affects"
+      Correction: "This misleading news also affects the stock market greatly."
+  
+  Improvement Feedback:
+  1. "Fake news on electronic media refers to spreading fake information using fake images and interviews and also usage or AI made of old videos."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more precise and technical terms such as "disinformation" and "deepfakes" to enhance the academic register of the paragraph. For example, "Fake news on social media involves the dissemination of disinformation through manipulated images, fabricated interviews, and AI-generated content, including deepfakes."
+  2. "Nowadays, social& meadia players a significant role in public life."
+      Target Area: Organization & Cohesion
+      Suggestion: Strengthen the topic sentence to clearly define the role of social media in public life and its relation to fake news. For instance, "Given the significant role social media plays in contemporary public life, it has become a critical vector for the spread of fake news."
+  3. "To sum up, we have to take the duty & individually to verify a news instantly for sake of social peace and harmony"
+      Target Area: Grammar & Mechanics
+      Suggestion: Improve the conclusion by using proper grammar and punctuation. For example, "In conclusion, it is our individual responsibility to verify news promptly to maintain social peace and harmony."
+ 

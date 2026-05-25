@@ -1,0 +1,93 @@
+paragraph_id: "P-48"
+
+paragraph: |
+ Fake News On Social Media
+
+ As news is becoming readily available to everyone fake news on social media is a growing problem. There is an over abundance of information and to maintain the limelight and 
+ relevancy people are actively spreading false news which nobody bothers to check the authenticity. Fake news is the deliberate distortion of issues to incite animosity. Social 
+ media is working as an amplifier as everyone uses it. People are more prone to believe whatever they see on the internet, as they accept any news which aligns with their beliefs. 
+ This is called the confirmation bias. Since people's brain is wired to prioritize threats over good news, news channels and immoral people's spread fake news on social media. 
+ Fake news always feels consequential and immediate, which is why most of the people don't check or read the actual source. This is very concerning as it is shaping a generation 
+ with paranoia and existential dread. As this creates a "them vs us" scenario in our society, communal conflict increases exponentially. Fake news was always an impending problem 
+ but social media is working as a catalyst. Because of this the problem can't be ignored anymore. Fake news thrives in an environment where critical thinking is replaced by panic 
+ and hysteria. So, before panicing we need to check the actual source of the news, we see on the internet. Social media is used by every class of people so while posting something 
+ how it can be interpreted should be kept in mind. In short it is through reasoned skepticism and curiosity, we can stop the proliferation of fake news on social media.
+
+initial_score: 8.0
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The paragraph effectively addresses the psychological drivers of fake news, such as confirmation bias. However, it lacks a specific real-world example and a technical explanation of social media mechanisms like algorithms, which are required for the highest score tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic logical structure, but the flow is clunky. Transitions between the definition, psychological causes, and societal consequences are somewhat abrupt, and several sentences are over-extended without proper punctuation.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses appropriate terms like "confirmation bias" and "proliferation," but the tone is occasionally subjective ("very concerning," "paranoia"). It fails to incorporate higher-level field-specific terms such as "disinformation" or "echo chambers."
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are more than three mechanical errors, including spelling ("panicing"), subject-verb agreement ("brain is"), and punctuation slips. However, these do not significantly impede the reader's understanding.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "As news is becoming readily available to everyone fake news on social media is a growing problem."
+      Issue: Missing comma after an introductory dependent clause.
+      Correction: "As news is becoming readily available to everyone, fake news on social media is a growing problem."
+  2. "Since people's brain is wired to prioritize threats..."
+      Issue: Error in number agreement (plural possessive "people's" usually requires the plural "brains").
+      Correction: "Since people's brains are wired to prioritize threats..."
+  3. "...news channels and immoral people's spread fake news on social media."
+      Issue: Incorrect use of possessive punctuation on a plural subject performing an action.
+      Correction: "...news channels and immoral people spread fake news on social media."
+  4. "So, before panicing we need to check..."
+      Issue: Spelling error and missing comma after an introductory phrase.
+      Correction: "So, before panicking, we need to check..."
+  
+  Improvement Feedback:
+  1. "Social media is working as an amplifier as everyone uses it."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise technical terminology to describe how social media functions. Better alternative: "Social media functions as a powerful amplifier through algorithmic curation and the rapid virality of sensationalist content."
+  2. "As this creates a 'them vs us' scenario in our society, communal conflict increases exponentially."
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional tier, ground this analysis in a specific real-world event. Better alternative: "As this creates a 'them vs us' scenario, communal conflict increases exponentially, as seen in the role of social media rumors in inciting ethnic violence in Myanmar or India."
+
+
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well, provides a definition of fake news, and discusses its impact on society. However, it lacks a sophisticated impact analysis and real-world examples specific to social media mechanisms.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a clear beginning, middle, and end, but the logical flow is sometimes clunky, and the topic sentence could be stronger. Transitions between ideas could be smoother.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms specific to the field, such as disinformation, algorithmic bias, or echo chambers. The tone is generally formal but could be more objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, or sentence structure, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "As news is becoming readily available to everyone fake news on social media is a growing problem."
+      Issue: Lack of comma after the introductory phrase.
+      Correction: "As news is becoming readily available to everyone, fake news on social media is a growing problem."
+  2. "People are more prone to believe whatever they see on the internet, as they accept any news which aligns with their beliefs."
+      Issue: The sentence is a bit informal and could be rephrased for better clarity.
+      Correction: "Individuals tend to believe information on the internet that aligns with their existing beliefs."
+  3. "This is very concerning as it is shaping a generation with paranoia and existential dread."
+      Issue: The sentence is somewhat emotional and could be rephrased for a more objective tone.
+      Correction: "This is a concerning trend, as it may contribute to increased paranoia and existential dread among younger generations."
+  
+  Improvement Feedback:
+  1. "Fake news is the deliberate distortion of issues to incite animosity."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms like "disinformation" to describe the deliberate spread of false information. For example, "Fake news, a form of disinformation, involves the deliberate distortion of issues to incite animosity."
+  2. "Social media is working as an amplifier as everyone uses it."
+      Target Area: Organization & Cohesion
+      Suggestion: Provide more specific examples of how social media amplifies fake news, such as through algorithms or viral challenges. For instance, "Social media platforms, with their algorithms designed to increase engagement, can amplify fake news, making it spread rapidly among users."
+  3. "So, before panicking we need to check the actual source of the news, we see on the internet."
+      Target Area: Grammar & Mechanics
+      Suggestion: Rephrase the sentence for better clarity and grammar. For example, "To avoid panic, it is essential to verify the source of news found on the internet."
+ 

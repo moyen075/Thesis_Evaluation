@@ -1,0 +1,99 @@
+paragraph_id: "P-28"
+
+paragraph: |
+ Fake News on Social media
+
+ Propaganda, fake news nowadays, spreading mostly through Social media, can cause huge negative impact on the society or the country as a whole. The Fake News are the news 
+ that the generated intentionally to marginalize some community from the mainstream or to get political agenda done. This kind of news can cause violence, mistrust, disharmony 
+ among many living communities in any country. At first, this kind of news was, used to be deliberately produced by the government or authority during war time or war like 
+ situation. The main agenda to do that was to unite a whole nation against their so called enemies. But in modern times it is not limited only in war-like situations. As 
+ there is a presence of social media, every person  in general has become news generators. And as everyone has that power, some of us tends to use this on various oray story. 
+ The idea of producing false news pops up when there is a particular reason to do that which may be some political benefit or some social benefit. Suppose, in these days a 
+ news on social meadia gets viral which goes against the muslim community by some different religious groups, the whole muslim community will get united and start butchering 
+ every othen people from different religious groups. By doing so, a total anarchy will be in the country which can lead us to civil war if external parties get involved for 
+ their interests. That's why this kinds of propaganda are self-destructive. This must be obliterated. The people who spreads the news usually want their community to trust on 
+ them for their survival and they want to the community to make them their Leader. This kind of political practice can call upon the doomsday for a whole nation. To stop this 
+ kind of news, we must be motre conscions about ourselves. We must think about all the people and communities living in harmony. Any kinds of trial for propaganda must be tried 
+ to be obliterated by CROSS-checking the real news, on the ground multiple time. Thus, we can make our society- country more powerful/unitedly.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt and defines fake news, but the analysis is generic. It fails to mention specific social media mechanisms like algorithms or virality as required for the highest tier. Additionally, the example provided is hypothetical rather than a documented real-world case.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The submission fails the "paragraph unity" requirement by splitting the response into several small sections. The logical flow between the historical context and the modern social media impact is clunky, and the PEE (Point-Evidence-Explanation) structure is inconsistent.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is appropriate but basic. It lacks technical terminology such as 'disinformation,' 'echo chambers,' or 'algorithmic bias.' Furthermore, the tone becomes overly emotional and subjective with phrases like 'butchering' and 'doomsday.'
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains pervasive errors in spelling ('meadia,' 'conscions,' 'othen'), subject-verb agreement ('Fake News are,' 'some of us tends'), and syntax that make the paragraph difficult to read and unprofessional.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "The Fake News are the news that the generated intentionally"
+      Issue: 'News' is an uncountable noun requiring a singular verb; the phrase also has a missing auxiliary verb for the passive voice.
+      Correction: Fake news is content that is generated intentionally.
+  2. "social meadia"
+      Issue: Repeated spelling error of a core topic word.
+      Correction: social media.
+  3. "butchering every othen people"
+      Issue: Spelling error and an inappropriately graphic/informal tone for an academic social science context.
+      Correction: committing violence against other groups.
+  4. "this kinds of propaganda are self-destructive"
+      Issue: Lack of agreement between the singular demonstrative 'this' and the plural noun 'kinds.'
+      Correction: these kinds of propaganda are self-destructive (or: this kind of propaganda is).
+  5. "we must be motre conscions"
+      Issue: Multiple spelling errors.
+      Correction: we must be more conscious.
+  
+  Improvement Feedback:
+  1. "Suppose, in these days a news on social meadia gets viral which goes against the muslim community..."
+      Target Area: Content & Relevance
+      Suggestion: Replace the hypothetical 'Suppose' scenario with a documented real-world event to meet the 'Exceptional' rubric criteria. For example: 'A notable instance occurred in Myanmar, where disinformation spread on Facebook was linked by UN investigators to the incitement of violence against the Rohingya.'
+  2. "The people who spreads the news usually want their community to trust on them..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize technical terminology to describe social media dynamics. A better alternative would be: 'Malicious actors often exploit digital echo chambers and confirmation bias to consolidate influence and disseminate disinformation within specific demographics.'
+
+
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the topic of fake news on social media and its negative impacts, but it lacks a sophisticated impact analysis and real-world examples that are specifically tied to social media mechanisms like algorithms and virality.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is not clearly defined. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary used is standard but lacks technical terms specific to the field of social media and fake news, such as disinformation, algorithmic bias, and echo chambers. The tone is not consistently formal and objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable errors in grammar, punctuation, and spelling that do not severely impede understanding but are frequent enough to detract from the overall quality of the submission.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Propaganda, fake news nowadays, spreading mostly through Social media, can cause huge negative impact on the society or the country as a whole."
+      Issue: Lack of a clear topic sentence and grammatical errors.
+      Correction: Fake news, which spreads primarily through social media, can have a profoundly negative impact on society as a whole.
+  2. "The Fake News are the news that the generated intentionally to marginalize some community from the mainstream or to get political agenda done."
+      Issue: Grammatical error and lack of precision in terminology.
+      Correction: Fake news refers to intentionally generated information aimed at marginalizing certain communities or advancing political agendas.
+  3. "This kind of news can cause violence, mistrust, disharmony among many living communities in any country."
+      Issue: Sentence is somewhat generic and lacks specific examples.
+      Correction: For instance, the spread of fake news can lead to increased violence, mistrust, and disharmony among communities, as seen in recent events where misinformation sparked social unrest.
+  
+  Improvement Feedback:
+  1. "At first, this kind of news was, used to be deliberately produced by the government or authority during war time or war like situation."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more precise and formal vocabulary, such as "Historically, fake news was often deliberately disseminated by governments or authorities during wartime or periods of conflict."
+  2. "The idea of producing false news pops up when there is a particular reason to do that which may be some political benefit or some social benefit."
+      Target Area: Organization & Cohesion
+      Suggestion: Improve the logical flow by connecting ideas more clearly, for example, "The production of fake news is often motivated by the potential for political or social gain, highlighting the need for critical evaluation of information."
+  3. "To stop this kind of news, we must be more conscious about ourselves."
+      Target Area: Content & Relevance
+      Suggestion: Enhance the depth of argument by providing specific strategies for mitigating the spread of fake news, such as "Implementing fact-checking initiatives and promoting media literacy can help counter the spread of fake news on social media."
+ 

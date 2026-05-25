@@ -1,0 +1,98 @@
+paragraph_id: "P-32"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on Social Media; a great problem in mordern age is caused by unawareness of people, availability of social media and result in mass chaos, unstability in society 
+ etc. Fake news means something doesn't happed but some people spread this news to create chaos and social unstability. Now-a-days Facebook, Whatsapp, instragram etc. are 
+ very avaiable in the world. Every person who has a mobile phone has an account on this social media platform. If some people or a person spread some unreal then people who 
+ are unaware about the cause and effects of the news share it. Though he doesn't even know it is true or not. When any fake news spread among the millions social media 
+ subscribers it create chaos among the socity. At first, unawareness of sharing any news in social media is the main cause of spreading the fake news. Secondly, nowadays most 
+ of the people in the world use social media. So Social Media become available in every country. If anyone share a fake news, there is a lack of monitoring which is the great 
+ cause of the spreading of fake news. Sometimes something doesn't happend in anyone can make a AI based fake news and spread it among the millions of users. As a result of 
+ spreading fake news creates social chaos, unstables the socities, moreover destroys the peace of a nation etc. Sometimes, bad peoples creates fake news on sensitive topics 
+ like religious which creates social chaos among two groups of people in a society which destrory the peace of the people. Sometimes it become a war or civil war, Sometimes, 
+ those who tries to unstable a country, they make fake news on a sensitive subject and spread it through social media and it atacks the emotions of the millions. So fake news 
+ is a great problem in the world now-a-days and it is very easy to spread among millions of people by social media. As there is a lack of monitoring and unawareness of people 
+ so it becomes a great issue for the peace of a country or society. In conclusion, fake news causes a social unstability and creates chaos among the people and it is spread 
+ through social media among millions of people, so it is a great problem in our world.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies the causes and effects of fake news but remains generic, lacking a specific real-world case study or detailed analysis of social media algorithms.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic structure, but it is highly repetitive. The logical flow is hindered by a weak topic sentence and clunky transitions.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and occasionally informal ('bad peoples'). It fails to employ precise technical terminology such as 'disinformation' or 'echo chambers.'
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: Significant spelling mistakes (mordern, unstability, socity) and frequent sentence fragments make the writing difficult to follow.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. 'mordern'
+      Issue: Spelling error.
+      Correction: modern
+  2. 'unstability'
+      Issue: Incorrect word form.
+      Correction: instability
+  3. 'Fake news on Social Media; a great problem in mordern age...'
+      Issue: Grammatical fragment and improper use of semicolon.
+      Correction: Fake news on social media is a significant problem in the modern age; it is caused by public unawareness and the widespread availability of digital platforms.
+  4. 'bad peoples'
+      Issue: Incorrect pluralization and informal register.
+      Correction: malicious actors
+  5. 'Though he doesn't even know it is true or not.'
+      Issue: Sentence fragment.
+      Correction: This occurs even though the user may not know if the information is accurate.
+  
+  Improvement Feedback:
+  1. 'Fake news means something doesn't happed but some people spread this news to create chaos'
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace basic definitions with academic terminology to sound more objective. For example: 'Fake news, or disinformation, refers to the intentional dissemination of false information designed to mislead the public and incite social unrest.'
+  2. 'As a result of spreading fake news creates social chaos...'
+      Target Area: Content & Relevance
+      Suggestion: To reach the 'Exceptional' tier, you must include a specific real-world example to ground your argument. For example: 'A notable instance of this occurred during the 2016 US Election, where foreign entities used targeted social media ads to spread polarizing disinformation.'
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides some examples but does not delve deeply into the mechanisms of social media (algorithms, virality) and their impact.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The flow of the argument is somewhat disjointed.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses informal language and lacks technical terminology related to the topic (e.g., disinformation, algorithmic bias, echo chambers). It also fails to maintain a formal, objective tone.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar, punctuation, and spelling that impede the clarity of the message, though they do not make the paragraph impossible to read.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on Social Media; a great problem in mordern age"
+      Issue: Spelling error and lack of formal tone.
+      Correction: "Fake news on social media is a significant problem in the modern age."
+  2. "something doesn't happed but some people spread this news to create chaos and social unstability."
+      Issue: Grammar and spelling errors.
+      Correction: "something that did not happen, but some people spread such news to create chaos and social instability."
+  3. "Now-a-days Facebook, Whatsapp, instragram etc. are very avaiable in the world."
+      Issue: Informal language and spelling errors.
+      Correction: "Currently, Facebook, WhatsApp, Instagram, etc., are widely available worldwide."
+  
+  Improvement Feedback:
+  1. "Fake news means something doesn't happed but some people spread this news to create chaos and social unstability."
+      Target Area: Content & Relevance
+      Suggestion: Provide a more nuanced definition of fake news, discussing its implications and the role of social media in its dissemination. For example, "Fake news refers to fabricated information that is spread through social media platforms, often aiming to create chaos and social instability, and can be particularly dangerous due to the viral nature of online content."
+  2. "If some people or a person spread some unreal then people who are unaware about the cause and effects of the news share it."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary. Instead of "unreal," consider "disinformation" or "false information." The sentence could be rephrased as, "When individuals disseminate disinformation, unaware users may share it without understanding its causes and effects, contributing to the rapid spread of fake news."
+  3. "Sometimes, bad peoples creates fake news on sensitive topics like religious which creates social chaos among two groups of people in a society which destrory the peace of the people."
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct grammatical errors and rephrase for clarity. For example, "Sometimes, malicious individuals create fake news about sensitive topics, such as religion, which can incite social chaos between different groups within a society, thereby destroying peace."
+ 

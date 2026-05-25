@@ -1,0 +1,96 @@
+paragraph_id: "P-21"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media is currently an alarming issue throughout the world as it creates conflictions, disharmony, wars among the people. Fake news on social media is 
+ termed as fake or false news that is intentionally created to destroy peace and harmony. Nowadays, it has become a powerful weapon for terrorist people. It creates unstability, 
+ conflictions and disharmony. If it spreads out for a long it may create more concerning issues like wars. We can see around the world a lot of countries are fighting with 
+ each other just based on a fake news. Many people are facing consequence of this , even though they are innocent. To solve this problem Social media like facebook, instagram, 
+ youtube etc should be under control of Government. It will not allow social media to spread fake news. Social media users should also be accountable for their activities in 
+ social media. If they make any types of violent activities by spreading false news, they should be under the custody of law. Government can make Some rules and regulations of 
+ using social media. Public awareness is also important as a lot of people believe any kind of news blindly. People should check the news correctly before making any kind of 
+ serious issues. Fake news on social media is a concerning problems around the world which should be resolved for the sake of people's harmony peace and unity. 
+
+initial_score: 7.5
+
+gemini:
+ score: 4.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.0 / 3.0
+     Reason: The text offers a surface-level overview of the issue but fails to address social-media-specific mechanisms like algorithms or virality. Crucially, it lacks a specific, named real-world example as required for a higher score.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph is functional with a beginning, middle, and end, but the flow is clunky and repetitive. The transition from the description of the problem to the proposed solutions is abrupt.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard but lacks academic precision. Technical terms like 'disinformation' or 'echo chambers' are absent, and several non-standard words (e.g., 'conflictions') are used.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: Pervasive errors throughout the text include improper capitalization of proper nouns (facebook), noun countability errors (a fake news), and subject-verb/number disagreement (a concerning problems).
+  
+  Overall Score: 4.0 / 10
+  
+  Corrective Feedback:
+  1. "conflictions"
+      Issue: This is a non-standard word form.
+      Correction: conflicts
+  2. "unstability"
+      Issue: Incorrect prefix for the noun form.
+      Correction: instability
+  3. "a fake news"
+      Issue: 'News' is an uncountable noun and should not be used with the indefinite article 'a'.
+      Correction: fake news
+  4. "facebook, instagram, youtube"
+      Issue: Proper nouns (brand names) must be capitalized.
+      Correction: Facebook, Instagram, YouTube
+  5. "a concerning problems"
+      Issue: Number disagreement between the singular article 'a' and the plural noun 'problems'.
+      Correction: a concerning problem
+  
+  Improvement Feedback:
+  1. "Fake news on social media is currently an alarming issue throughout the world..."
+      Target Area: Content & Relevance
+      Suggestion: To achieve an 'Exceptional' rating, explain how social media differs from traditional rumors. Example: "Misinformation on social media is amplified by algorithms that prioritize high-engagement content, regardless of its factual accuracy."
+  2. "We can see around the world a lot of countries are fighting with each other just based on a fake news."
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific real-world example to ground your analysis. Example: "The devastating impact of social media misinformation is evident in instances like the 2021 Capitol Riot or the ethnic violence in Myanmar facilitated by Facebook posts."
+  3. "To solve this problem Social media like facebook..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise, formal terminology to elevate the register. Example: "To mitigate this crisis, regulatory oversight of digital platforms is necessary to ensure algorithmic accountability."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides a general overview of the issue and its consequences but does not delve into the mechanisms of social media (algorithms, virality) that contribute to the spread of fake news.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed. The topic sentence is weak, and transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology. It lacks a formal, objective tone in some areas.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure issues, but they do not significantly impede the meaning.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media is currently an alarming issue throughout the world as it creates conflictions, disharmony, wars among the people."
+      Issue: Lack of specific evidence and unclear sentence structure.
+      Correction: Consider rephrasing for clarity, e.g., "The spread of fake news on social media has become a significant concern globally, leading to increased conflict and social unrest."
+  2. "Social media like facebook, instagram, youtube etc should be under control of Government."
+      Issue: Informal language and lack of punctuation.
+      Correction: "Social media platforms, such as Facebook, Instagram, and YouTube, should be subject to government regulation."
+  3. "People should check the news correctly before making any kind of serious issues."
+      Issue: Unclear sentence structure and informal language.
+      Correction: "It is essential for individuals to verify the accuracy of news before taking any serious actions."
+  
+  Improvement Feedback:
+  1. "Fake news on social media is termed as fake or false news that is intentionally created to destroy peace and harmony."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms, such as "disinformation" or "malicious propaganda," to describe fake news. For example, "Fake news on social media refers to disinformation that is intentionally disseminated to disrupt social cohesion."
+  2. "To solve this problem Social media like facebook, instagram, youtube etc should be under control of Government."
+      Target Area: Organization & Cohesion
+      Suggestion: Introduce this point with a transitional phrase to improve the flow of ideas. For instance, "One potential solution to mitigate the spread of fake news is to implement government regulations on social media platforms."
+  3. "Public awareness is also important as a lot of people believe any kind of news blindly."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or statistics to support the claim about public awareness. For example, "Raising public awareness is crucial, as studies have shown that a significant portion of the population tends to believe news without verifying its accuracy, highlighting the need for critical media literacy."
+   

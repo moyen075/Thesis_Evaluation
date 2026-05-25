@@ -1,0 +1,93 @@
+paragraph_id: "P-01"
+
+paragraph: |
+ Fake News on Social Media
+
+ We are living in an age of social media and social media highly influences our daily life. But fake news on those medias 
+ haves become a great concern for us. Fake news on social media has become a social and national security issue and keeping 
+ this matter unsolved can threaten our personal, social and national life. Fake news is spread on social media mainly driven 
+ by evil intention, to create chaos and anarchy. Lack of strict rules and regulations facilitate this spread. Sometimes, even 
+ popular news agencies spread news on social media without proper crosschecking and verification and most of the time those 
+ news turn out to be false. Sometimes they do so only to gain viewership. These false news are harmful to our social stability. 
+ In Our country, it is a common scenario to attack a particular religion or tribe based on these fake social media news. These 
+ types of incidents creates a bad impression about our country to the international sector. Fake news also plays with public 
+ trust and if this types of news is spread too much, people even tend to disbelieve true news. This issue has prevailed in our 
+ country for quite a long time and now it is high time we took stern actions against it. The people associated with spreading 
+ false news must be given exemplary punishment. The social media rules made be strict and proper monitoring system should be 
+ ensured from national level. The individuals should verify before sharing false news in social media and report if the news 
+ is false. To conclude, if the individuals are cautious, the related authority is strict and the government is willing, we can 
+ stop the spread of false news in earliest possible time.
+
+initial_score: 8.0
+
+gemini:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student identifies the issue of fake news and provides a specific real-world example regarding religious and tribal tensions in their country. However, it lacks the sophisticated analysis of social media-specific mechanisms such as algorithmic bias, echo chambers, or the technical nature of virality required for a 3.0.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph follows a logical progression from definition to cause, consequence, and solution. However, the flow is somewhat clunky, particularly in the transitions between the impact analysis and the concluding call to action.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and functional but lacks academic precision. The use of phrases like "evil intention," "bad impression," and "it's high time" are more conversational/informal than the technical register (e.g., disinformation, proliferation) expected for an academic social science topic.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are several grammatical errors, including subject-verb agreement ("medias haves"), misuse of uncountable nouns ("those news turn"), and faulty modal constructions ("made be strict"). However, these do not significantly impede the reader's understanding.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "fake news on those medias haves become"
+      Issue: "Media" is already plural (singular: medium), and the auxiliary verb "have" is misspelled/conjugated incorrectly.
+      Correction: "fake news on these media platforms has become"
+  2. "most of the time those news turn out to be false"
+      Issue: "News" is an uncountable noun and cannot be used with the plural demonstrative "those" or the plural verb "turn."
+      Correction: "most of the time, that news turns out to be false"
+  3. "The social media rules made be strict"
+      Issue: Incorrect modal verb and passive voice construction.
+      Correction: "Social media regulations should be made strict"
+  
+  Improvement Feedback:
+  1. "driven by evil intention"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use objective academic terminology rather than subjective or emotional descriptors. Suggestion: Change to "motivated by malicious intent or the deliberate spread of disinformation."
+  2. "social media highly influences our daily life"
+      Target Area: Content & Relevance
+      Suggestion: Incorporate specific mechanisms of social media to elevate the argument's depth. Suggestion: "The engagement-based algorithms of social media platforms significantly influence public discourse."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples of the impact of fake news on social media, but it could be more sophisticated in its analysis and depth of argument.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a clear beginning, middle, and end, but the logical flow is sometimes clunky and the topic sentence could be stronger.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology, and the tone is not consistently formal.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas and subject-verb agreement slips, but they do not impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "We are living in an age of social media and social media highly influences our daily life."
+      Issue: The sentence is wordy and could be more concise.
+      Correction: "Social media has a significant influence on our daily lives."
+  2. "Fake news on social media has become a social and national security issue and keeping this matter unsolved can threaten our personal, social and national life."
+      Issue: The sentence is a bit long and could be broken up for clarity.
+      Correction: "Fake news on social media has become a social and national security issue, threatening our personal, social, and national life if left unsolved."
+  3. "Sometimes, even popular news agencies spread news on social media without proper crosschecking and verification and most of the time those news turn out to be false."
+      Issue: The sentence is wordy and could be more concise.
+      Correction: "Popular news agencies sometimes spread unverified news on social media, which often proves to be false."
+  
+  Improvement Feedback:
+  1. "Fake news on social media has become a social and national security issue"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as "disinformation" or "algorithmic bias", to elevate the language and make it more academic.
+  2. "Lack of strict rules and regulations facilitate this spread."
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific examples of how the lack of regulations contributes to the spread of fake news, such as the role of social media algorithms in amplifying false information.
+  3. "The people associated with spreading false news must be given exemplary punishment."
+      Target Area: Organization & Cohesion
+      Suggestion: Consider providing more context or evidence to support this claim, such as citing a specific example of a successful punishment or deterrent.
+

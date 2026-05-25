@@ -1,0 +1,104 @@
+paragraph_id: "P-49"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on Social media are the false informations, rumors and hoax that are spread intentionally in the social media like Facebook, X, Youtube etc to serve unethical 
+ purposes. Spread of fake news has become an alarming problem in modern world. At the time of critical situations, we often get puzzled and diverted from our main purpose 
+ by the effect of fake news from social media. With the flow of time, people in modern world has become much dependend on social media for news and updates. People are 
+ comfortable with small smartphones with social media to communicate and get updates rather getting news from immobile television. With change from the previous trend, the 
+ rate of increase in fake news has also accelerated. With access in the media, everyone has the opportunity to spread news, true or false. Sometimes, the rumors or hoax that 
+ they hear from anyone, they share it without cross-checking. People with simple minds believe their propaganda by the grace of their presentation. By believing, they react 
+ recklessly, and the evil purpose that was intended, is accomplished. By the effect of sharing misinformation and false news, people are distracted. Then, this mob can be 
+ easily used for personal or group agenda. Fake news on social media have numerous negative effects. If fake news is spread against a person or group of people, then their 
+ social dignity is diminished, and their life and assets can be at risk. Moreover, communal riots and religion's clashes may get ignited due to continuous fake news spreading 
+ in the social media. During wartime the government itself sometimes spread false news to build support in favour of it. Autocrats and fascist rulers use their propaganda 
+ machine to remain in power, to shut people's mouth, and to keep them blind from the real situation. This results in breaking down of unity in the nation, rise of communal 
+ disharmony and disbelieves in a country. It is essential to fight against this malpractice. First of all we should not believe anyone who shares a news in virtual world. We 
+ must cross-check the news and authencity of the news. Moreover, the media and journalists in a country must play a vital role to stop spreading of fake news. They should do 
+ journalism with professionalism and let people know the real situation. We must grow mass-awareness against this bad culture. Sharing any kind of unauthentic news should be 
+ strictly discouraged. The government should also take steps against who spread fake news and if there is a fake news identified, government should immediately take steps to 
+ withdraw it from the internet. Spreading of fake news is a heinous crime and it affects us all. It brings our unity, harmony, and determination as a nation at risk. People 
+ from all over the world should stand against this malpractice for their own sake.
+
+initial_score: 8.0
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission defines fake news and identifies general impacts such as communal riots and political manipulation. However, it lacks discussion of specific social media mechanisms like algorithms or echo chambers and fails to provide a specific, named real-world example as required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic progression from definition to effects to solutions, but the flow is clunky. It lacks a strong PEE (Point-Evidence-Explanation) structure and transitions between ideas are repetitive or weak.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard but relies on common words. The tone is occasionally too subjective and emotional (e.g., "heinous crime," "evil purpose," "simple minds") rather than objective and academic.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are several noticeable errors including the use of uncountable nouns as plural ("informations"), subject-verb agreement ("social media are"), and spelling ("dependend").
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on Social media are the false informations..."
+      Issue: "Information" is an uncountable noun and "social media" is typically treated as a singular collective subject in this context.
+      Correction: "Fake news on social media is the false information..."
+  2. "...people in modern world has become much dependend on social media..."
+      Issue: Subject-verb agreement (plural "people" needs "have") and spelling error.
+      Correction: "...people in the modern world have become much more dependent on social media..."
+  3. "...rather getting news from immobile television."
+      Issue: Missing the comparative conjunction "than."
+      Correction: "...rather than receiving news from stationary television sets."
+  4. "...rise of communal disharmony and disbelieves in a country."
+      Issue: Incorrect word form; "disbelieves" is a verb, but a noun is required here.
+      Correction: "...rise of communal disharmony and disbelief within a nation."
+  
+  Improvement Feedback:
+  1. "Fake news on social media have numerous negative effects."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a more sophisticated transition to link the causes of fake news to its consequences. For example: "The rapid dissemination of such unverified content leads to a cascade of detrimental societal effects."
+  2. "People with simple minds believe their propaganda..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace subjective and judgmental language with objective academic terms. Example: "Susceptible audiences may be influenced by propaganda due to its persuasive delivery and the absence of critical media literacy."
+  3. "With access in the media, everyone has the opportunity to spread news..."
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional tier, incorporate technical terminology regarding social media mechanisms. Example: "The low barrier to entry on digital platforms, combined with engagement-driven algorithms, allows misinformation to achieve virality far faster than verified journalism."
+
+
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well, discussing the concept of fake news on social media, its spread, and negative effects. However, it falls short of providing a sophisticated impact analysis and doesn't delve deeply into the specific mechanisms of social media (e.g., algorithms, virality) that facilitate the dissemination of fake news. 
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed. The topic sentence is not clearly defined, and transitions between ideas could be smoother. The submission jumps between discussing the spread of fake news, its effects, and potential solutions without a clear, cohesive structure. 
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms specific to the field (e.g., disinformation, algorithmic bias, echo chambers). It maintains a generally understandable tone but could benefit from more formal, objective language and the avoidance of conversational phrases.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, including tense inconsistencies, subject-verb agreement slips, and punctuation errors. These issues do not significantly impede the meaning but detract from the overall clarity and professionalism of the submission.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on Social media are the false informations, rumors and hoax"
+      Issue: Incorrect use of "are" with a singular subject and typos in "informations".
+      Correction: "Fake news on social media is comprised of false information, rumors, and hoaxes."
+  2. "At the time of critical situations, we often get puzzled and diverted from our main purpose by the effect of fake news from social media."
+      Issue: The sentence structure is somewhat awkward and unclear.
+      Correction: "During critical situations, fake news on social media can divert us from our main objectives."
+  3. "With the flow of time, people in modern world has become much dependend on social media"
+      Issue: Inconsistent verb tense and spelling error in "dependend".
+      Correction: "Over time, people in the modern world have become increasingly dependent on social media."
+  
+  Improvement Feedback:
+  1. "Fake news on social media have numerous negative effects."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific, detailed examples of these negative effects to deepen the analysis. For instance, "Fake news on social media can lead to the erosion of trust in institutions, the exacerbation of social conflicts, and the manipulation of public opinion, as seen in recent political campaigns where misinformation was spread through social media platforms."
+  2. "We must grow mass-awareness against this bad culture."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and precise language, such as "It is essential to cultivate widespread awareness and critical thinking skills to counteract the harmful effects of fake news." This revision elevates the tone and incorporates more academic vocabulary.
+  3. "The government should also take steps against who spread fake news"
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct grammatical errors to improve clarity. For example, "The government should also take steps against those who spread fake news." This adjustment ensures subject-verb agreement and proper use of pronouns.
+ 

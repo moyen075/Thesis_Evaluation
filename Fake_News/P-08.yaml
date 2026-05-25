@@ -1,0 +1,100 @@
+paragraph_id: "P-08"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media is like a cancer of our society which will kill the society slowly but surely by dividing people and spreading allegations about each other. 
+ Social media was first introduced as a blessing for mankind , It was desired to unite human all over the globe an a single platform. Information tranformation was easy. 
+ Any news can circulate all over the world in a very short span of time. But every thing has its negative side. Soon the negative side of social media started to publish. 
+ Most significance was the speard of false news. As news in social media transmit faster than real life, fake news started circulating  faster than ever. Some people started
+ to use this for their personal benefit. Any rival business company can propagate a false news against a big of famous company, making people unhappy about it. Any enemy of 
+ us can spread any bad rumour, and it is enough to destroy your social image. Some people started harrasing and blackmailing by others by  bad news. They want money or else
+ they will publish it to ruin your popularity. Some people take this to next level. They create a false image of or video clip or any audio clip using AI and spread it in 
+ social media to ruin any  public figure's career . Sometimes there are fake news about religion disrespect and creates so much choose among public. These type of bad people
+ were in past also. But now they use social media to spread this news faster and creating much more damage. However, social media is a blessing for connecting people. But 
+ using it to spread false news and information creates social chaos, mass disrespect and serious social havoc.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt and identifies the speed of social media spread. However, the analysis is slightly generic, missing specific technical mechanisms (algorithms, echo chambers) and a named real-world example required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic chronological structure (history to present issues), but the flow is clunky with repetitive phrasing and a topic sentence that relies on metaphor rather than an academic claim.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is appropriate for general communication but lacks field-specific terminology like "disinformation" or "algorithmic bias." The tone is also somewhat emotional/subjective ("cancer", "kill the society").
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling, pluralization, subject-verb agreement, and word choice throughout the paragraph that impede the professional quality of the writing.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Information tranformation"
+      Issue: Spelling error.
+      Correction: Information transformation.
+  2. "unite human all over the globe an a single platform"
+      Issue: Errors in pluralization (human) and preposition/article usage (an).
+      Correction: unite humans all over the globe on a single platform.
+  3. "Most significance was the speard of false news"
+      Issue: Incorrect word form and spelling.
+      Correction: Of most significance was the spread of false news.
+  4. "creates so much choose among public"
+      Issue: Incorrect word choice (likely intended "chaos").
+      Correction: creates so much chaos among the public.
+  
+  Improvement Feedback:
+  1. "Fake news on social media is like a cancer of our society"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace emotional similes with objective, technical definitions to suit a Social Science topic. Better alternative: "The proliferation of disinformation on social media platforms poses a systemic threat to social cohesion."
+  2. "As news in social media transmit faster than real life"
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional tier, mention the specific social media mechanisms that drive virality. Better alternative: "Driven by engagement-based algorithms, disinformation often achieves virality more rapidly than verified reporting."
+
+
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides some examples but does not delve into the mechanisms of social media (algorithms, virality) and their impact on the spread of fake news.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is not clearly defined. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses conversational language and lacks technical terms specific to the topic (disinformation, algorithmic bias, echo chambers). It also fails to maintain a formal, objective tone.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with syntax, punctuation, spelling, and capitalization that impede the meaning in some places.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media is like a cancer"
+      Issue: Informal and overly emotional language.
+      Correction: Consider a more formal and objective introduction to the topic.
+  2. "Social media was first introduced as a blessing for mankind"
+      Issue: Lack of specificity and overly general statement.
+      Correction: Provide more specific details about the introduction and benefits of social media.
+  3. "Any news can circulate all over the world in a very short span of time."
+      Issue: Grammar and punctuation errors.
+      Correction: Any news can circulate all over the world in a very short span of time.
+  4. "They create a false image of or video clip or any audio clip using AI"
+      Issue: Grammar and punctuation errors.
+      Correction: They create a false image, video clip, or audio clip using AI.
+  
+  Improvement Feedback:
+  1. "Fake news on social media is like a cancer"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and academic language to introduce the topic, such as "The proliferation of fake news on social media platforms poses a significant threat to societal cohesion."
+  2. "Social media was first introduced as a blessing for mankind"
+      Target Area: Content & Relevance
+      Suggestion: Provide a more nuanced discussion on the introduction and evolution of social media, highlighting both its benefits and drawbacks.
+  3. "Any rival business company can propagate a false news against a big of famous company"
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct grammatical errors and rephrase for clarity, such as "Any rival business can spread false news about a well-known company."
+  4. "Sometimes there are fake news about religion disrespect and creates so much choose among public."
+      Target Area: Organization & Cohesion
+      Suggestion: Improve sentence structure and clarity, and ensure that transitions between ideas are logical and well-connected, such as "Furthermore, fake news about religious disrespect can create significant public unrest."
+   

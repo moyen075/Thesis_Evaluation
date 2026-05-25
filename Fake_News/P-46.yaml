@@ -1,0 +1,84 @@
+paragraph_id: "P-46"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media refers to give the wrong information about any topic through social media to the mass people. In this modern world, most of the people are spending 
+ their times on social media such as facebook, twitter, instagram and so on. In our everyday life, most of the time, what is happening in our country or the others important 
+ news is known through these popular social media . But sometimes there are some group of people in our society, who are sharing these fake news through this media and most 
+ often the mass people are not concern about the news authentication. They can easily trust the hews and as a result it creates a misunderstanding among the mass people. Most 
+ often the fake news are published because of their personals benefits and facilities. Sometimes a group of people pays for publishing the fake news. It violates the digital 
+ laws of a country. They must be take down upon under punishment so that others are not to get courage to do this heinous act again. Above all, we should bear in mind that public 
+ awareness and government policies should be more strict to overcome this problem.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The student provides a basic definition of fake news and mentions the general impact on society. However, it lacks a discussion of specific social media mechanisms (like algorithms or echo chambers) and fails to provide a real-world example as required for a higher score.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic functional structure with a topic sentence and a conclusion. However, the logical flow is somewhat clunky, particularly in the transition between the definition of the problem and the proposed legal solutions.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and generally appropriate, but it lacks the academic precision and technical terminology (e.g., disinformation, confirmation bias) expected in a social science context. Phrasing like 'heinous act' is slightly too subjective.
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: There are several errors regarding verb forms ('refers to give'), adjective usage ('not concern'), and syntax ('take down upon under punishment'). While these errors do not completely block meaning, they are frequent enough to detract from the formal tone.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. 'refers to give the wrong information'
+      Issue: Incorrect verb form after the preposition 'to' in this context.
+      Correction: refers to giving incorrect information
+  2. 'mass people are not concern about the news authentication.'
+      Issue: Use of the base verb 'concern' instead of the past participle adjective 'concerned.'
+      Correction: the general public is not concerned about the authenticity of the news.
+  3. 'They must be take down upon under punishment'
+      Issue: Significant error in passive voice construction and syntax.
+      Correction: These individuals must be held accountable through legal penalties
+  
+  Improvement Feedback:
+  1. 'give the wrong information'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use technical terminology to elevate the academic register. For example, replace this phrase with 'the dissemination of disinformation.'
+  2. 'misunderstanding among the mass people.'
+      Target Area: Content & Relevance
+      Suggestion: To achieve a higher score in content, include a specific real-world example. For example: 'This phenomenon was clearly observed during the 2016 US Election, where the viral spread of fabricated stories influenced public perception and polarization.'
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides a basic understanding of the issue but does not delve into the complexities of algorithms, virality, or sophisticated impact analysis.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is not strongly defined. Transitions between ideas could be smoother.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard but lacks technical terms specific to the field of social media and disinformation. The tone is generally formal but could benefit from more objective language.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar, punctuation, and spelling that somewhat impede the meaning of the text. Improvements are needed in sentence structure and the use of complex sentences.
+  
+  Corrective Feedback:
+  1. "Fake news on social media refers to give the wrong information about any topic through social media to the mass people."
+      Issue: Incorrect verb usage and lack of specificity.
+      Correction: "Fake news on social media refers to the dissemination of incorrect information about any topic to the masses through social media platforms."
+  2. "In our everyday life, most of the time, what is happening in our country or the others important news is known through these popular social media ."
+      Issue: Grammatical errors and lack of clarity.
+      Correction: "Through social media, we often learn about current events and important news in our country and elsewhere."
+  3. "They must be take down upon under punishment so that others are not to get courage to do this heinous act again."
+      Issue: Incorrect grammar and phrasing.
+      Correction: "Those responsible should be held accountable and face punishment to deter others from committing similar acts."
+  
+  Improvement Feedback:
+  1. "Fake news on social media refers to the dissemination of incorrect information about any topic to the masses through social media platforms."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more technical terms such as "disinformation" and "algorithmic bias" to enhance the academic register of the text. For example, "Fake news, a form of disinformation, spreads through social media platforms due to algorithmic biases."
+  2. "In this modern world, most of the people are spending their times on social media such as facebook, twitter, instagram and so on."
+      Target Area: Organization & Cohesion
+      Suggestion: Instead of listing social media platforms, focus on the impact of their widespread use. For instance, "The pervasive use of social media in today's world has created an environment where information, true or false, can spread rapidly."
+  3. "Above all, we should bear in mind that public awareness and government policies should be more strict to overcome this problem."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or strategies for how public awareness can be increased and what stricter government policies might look like. This could involve discussing education campaigns or regulatory measures.
+ 

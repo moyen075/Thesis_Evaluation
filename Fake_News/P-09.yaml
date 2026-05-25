@@ -1,0 +1,97 @@
+paragraph_id: "P-09"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news in social media has become a burning issue throughout the world which is considered to be a threat to social and regional peace as it disturbs the harmony
+ of the society by creating mistrust, hatred, enmity towards each other. Now, we live in the digital age where almost everyone uses social media, Social media is a very
+ useful tool for communication. But it is being used as a platform to decieve people by spreading fake news. As the whole world is connected by the social media. Any news 
+ is spread very quickly, without any verification. As a result a lot of fake news can get spread widely and it is a now very common. Many people with bad intentions are
+ using social media as a tool to spread fake news. Even, sometimes people shame fake news without even being aware. Fake news creates mistrust as many people suffers after 
+ believing the news. So, it creates a division among people. Some people deliberately spread fake news which can start a clash between two particular communities. They do it
+ to realise their personal agenda. The effect of fake news spreading is so severe that people got killed. So, fake news in social media is a very big problem which needs to 
+ be address. The government along with the technology companies should try to verify the news being spread. More over, who we all should be careful about believing evenything 
+ from social media. Awareness should be spread about it. Then we will overcome this problem and will be able to live together peacefully.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The paragraph addresses the prompt and identifies consequences like mistrust and social unrest. However, it lacks a specific real-world example (e.g., a specific election or health crisis) and does not explain social media-specific mechanisms like algorithms or echo chambers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic structure but the logical flow is clunky. Several sentences start with repetitive conjunctions ("So," "As"), and there is a significant sentence fragment that disrupts the flow.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is appropriate and functional (e.g., "harmony," "enmity," "deliberately"). However, it lacks technical academic terms like "disinformation," "algorithmic bias," or "digital literacy."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors exceeding the "1-3 slips" limit, including spelling mistakes (decieve, evenything), subject-verb agreement (people suffers), sentence fragments, and incorrect verb forms (needs to be address).
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "...platform to decieve people..."
+      Issue: Spelling error.
+      Correction: ...platform to deceive people...
+  2. "As the whole world is connected by the social media. Any news is spread..."
+      Issue: Sentence fragment; the first clause is dependent and should not be a standalone sentence.
+      Correction: As the whole world is connected by social media, any news is spread...
+  3. "...many people suffers after believing..."
+      Issue: Subject-verb agreement error.
+      Correction: ...many people suffer after believing...
+  4. "...needs to be address."
+      Issue: Incorrect passive voice construction.
+      Correction: ...needs to be addressed.
+  5. "More over, who we all should be careful..."
+      Issue: Incorrect word choice and spacing.
+      Correction: Moreover, we all should be careful...
+  
+  Improvement Feedback:
+  1. "Many people with bad intentions are using social media as a tool to spread fake news."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise terminology to describe actors and actions. Revised: "Malicious actors utilize social media platforms to propagate disinformation for personal or political gain."
+  2. "The effect of fake news spreading is so severe that people got killed."
+      Target Area: Content & Relevance
+      Suggestion: Replace vague statements with a specific real-world example to reach the "Exceptional" tier. Revised: "The severity of disinformation is evident in incidents like the 2016 US election or the spread of COVID-19 misinformation, which led to public health crises and civil unrest."
+  3. "Any news is spread very quickly, without any verification."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate specific social media mechanisms. Revised: "The algorithmic nature of social media prioritizes engagement over accuracy, allowing unverified content to go viral within echo chambers."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides a general overview of the issue without delving into the complexities of algorithms, virality, or offering a sophisticated impact analysis with real-world examples.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The logical flow is somewhat disjointed, making it hard to follow the argument cohesively.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but fails to incorporate technical terms specific to the field, such as disinformation, algorithmic bias, or echo chambers. It maintains an informal tone, which is not suitable for an academic discussion.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with punctuation, spelling, and sentence structure. However, these errors do not completely impede the understanding of the text.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news in social media has become a burning issue throughout the world which is considered to be a threat to social and regional peace"
+      Issue: Lack of precise punctuation and overly wordy phrase.
+      Correction: "Fake news on social media has become a burning issue worldwide, considered a threat to social and regional peace."
+  2. "Now, we live in the digital age where almost everyone uses social media, Social media is a very useful tool for communication."
+      Issue: Incorrect use of comma and lack of cohesion between sentences.
+      Correction: "In the digital age, social media is a ubiquitous and useful tool for communication."
+  3. "Any news is spread very quickly, without any verification."
+      Issue: Simplistic sentence structure.
+      Correction: "News spreads rapidly without verification, often due to the lack of stringent fact-checking mechanisms."
+  
+  Improvement Feedback:
+  1. "Fake news in social media has become a burning issue throughout the world"
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or statistics to elevate the argument, such as "According to recent studies, the spread of fake news on social media has increased by 20% over the past year, posing a significant threat to global peace."
+  2. "Many people with bad intentions are using social media as a tool to spread fake news."
+      Target Area: Lexis & Academic Register
+      Suggestion: Incorporate technical terms to enhance the academic tone, such as "Malicious actors leverage social media platforms to disseminate disinformation, exacerbating social discord."
+  3. "The government along with the technology companies should try to verify the news being spread."
+      Target Area: Organization & Cohesion
+      Suggestion: Integrate this point more cohesively into the argument by preceding it with a transitional phrase, such as "To mitigate the spread of fake news, it is imperative that governments and technology companies collaborate to implement stringent verification processes for news dissemination."
+ 

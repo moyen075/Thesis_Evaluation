@@ -1,0 +1,105 @@
+paragraph_id: "P-26"
+
+paragraph: |
+ Fake news on Social media".
+
+ Social media is now becoming an Unfiltered source of information with no proper proof reading, leading it to become a major threat of fake news, while disturbing social 
+ workflow. People have unethical access of sharing anything and everything on social media, and they are taking advantage of it. A study in USA, shows around 33% news being 
+ circulated in Facebook & twitter in the south Asian countries are recognised as fake news by their government. This shows as how much risky it is to trust any piece of 
+ information via these virtual medias. The se The reasons of circulationg of fake news in very clear. It has political, moral & religious background. Many political parties 
+ and their supporters provide fake news to create terror, Social disturbance for their benifit or to threaten the apponent. Some people has a corrupted mind-set and are just 
+ fond of saying false things to their ammusement on to get audience attention through the social media. They get plenty of Views on their handles, they earen money from these 
+ tractinos. thus becoming more motivated to circulate fake news again. This unethical practice of self benefit is a big Obstacle for removing fake news preactice. There are 
+ also a huge source of fake news from religious leaders as well. People being too sencitive of their beleif, get easily triggered and get angrey easily in they get something 
+ bad about their religion. A gang uses this emotion to circulate fake news, and to create hatred towards other religion people. Because creating hatred among different 
+ religion is benifitiary for them for their political or any other source of betterment. They also do it for lack of knowledge of theire own domain, willing to create hatred 
+ among others. Nevertheless, these evil practice makes the society disturbed, troubled and more fragile. The remove these evil practice and to make people aware of the fake 
+ news, we must at first try to understand who are the main victims. Rural people with no enough knowledge about the Society, technology and politics easily gets trapped into 
+ this fake news Coop. Due to the lack of knowledge, they don't have the enough power to recheck the informations or to Crosscheck all the news they receive through social 
+ media. A single scroll leads to tons of new informations and its really tough to recognise which ones are true and which ones are fake due to lack of knowledge. Thus, we must
+ teach our people to become literate about current technology, society and politics. Specially a burning concern of us is Al, as it can create anything, to no matter its fake 
+ or real. Morover, Social awareness should be done showing them examples of fake news to make them aware of it. Government Should create a rumor scanner System for normal people
+ to check whether any information is true of false. If these steps are taken, it is possible to reduce fake news from social media and to get the full potential of cyber world.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt and attempts a real-world example (the study regarding South Asian countries). However, it remains generic and fails to explain specific social media mechanisms like algorithmic amplification or echo chambers, as required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: While there is a logical progression from causes to effects and solutions, the submission fails the "paragraph unity" requirement by splitting the text into multiple blocks. The transitions between ideas are somewhat abrupt.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and functional but lacks the technical precision (e.g., disinformation, echo chambers) expected for a social science topic. Some phrasing is slightly emotive ("evil practice", "corrupted mind-set").
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling (circulationg, apponent, ammusement, tractinos, preactice, benifitiary), subject-verb agreement (people has), and the use of uncountable nouns (informations).
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Some people has a corrupted mind-set"
+      Issue: Subject-verb agreement error.
+      Correction: Some people have a corrupted mindset.
+  2. "they earen money from these tractinos"
+      Issue: Multiple spelling errors.
+      Correction: they earn money from these transactions.
+  3. "a burning concern of us is Al"
+      Issue: Spelling/Typing error (using 'l' instead of 'I' for AI) and awkward phrasing.
+      Correction: a major concern for us is AI (Artificial Intelligence).
+  4. "to recheck the informations"
+      Issue: Use of an uncountable noun in plural form.
+      Correction: to recheck the information.
+  5. "circulationg of fake news in very clear"
+      Issue: Spelling error and incorrect preposition.
+      Correction: circulation of fake news is very clear.
+  
+  Improvement Feedback:
+  1. "A single scroll leads to tons of new informations"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise technical terminology to describe the user experience on social platforms. Suggestion: "The rapid consumption of content via infinite scrolling features exposes users to a high volume of unverified data."
+  2. "Fake news on Social media"
+      Target Area: Organization & Cohesion
+      Suggestion: Ensure the entire response is a single, cohesive paragraph as requested by the assignment type. Use a stronger topic sentence that encapsulates the threat of algorithms. Suggestion: "The proliferation of fake news on social media, driven by algorithmic bias and the lack of editorial oversight, poses a significant threat to social stability."
+  3. "A gang uses this emotion"
+      Target Area: Lexis & Academic Register
+      Suggestion: Avoid informal or overly dramatic labels like "gang" or "evil practice" in academic writing. Suggestion: "Malicious actors exploit these emotional vulnerabilities to disseminate disinformation and incite sectarian tension."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples and evidence, but it could be more sophisticated in its impact analysis and depth of argument.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a beginning, middle, and end, but the logical flow is sometimes clunky, and the topic sentence could be stronger.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology and sometimes uses informal language.
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: The submission has several errors in grammar, punctuation, and spelling that impede the meaning.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Social media is now becoming an Unfiltered source of information with no proper proof reading"
+      Issue: Lack of proper grammar and punctuation.
+      Correction: Social media is now becoming an unfiltered source of information, with no proper proofreading.
+  2. "A study in USA, shows around 33% news being circulated in Facebook & twitter in the south Asian countries are recognised as fake news by their government."
+      Issue: Grammar and punctuation errors.
+      Correction: A study in the USA shows that around 33% of news circulated on Facebook and Twitter in South Asian countries is recognized as fake news by their governments.
+  3. "The se The reasons of circulationg of fake news in very clear."
+      Issue: Typo and grammar error.
+      Correction: The reasons for the circulation of fake news are very clear.
+  
+  Improvement Feedback:
+  1. "People have unethical access of sharing anything and everything on social media, and they are taking advantage of it."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary, such as "unrestricted access" and "exploiting this privilege."
+  2. "A gang uses this emotion to circulate fake news, and to create hatred towards other religion people."
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases to connect ideas between sentences, such as "Furthermore" or "In addition."
+  3. "Thus, we must teach our people to become literate about current technology, society and politics."
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific examples and evidence to support this claim, such as citing studies or expert opinions on the importance of media literacy.
+ 

@@ -1,0 +1,90 @@
+paragraph_id: "P-35"
+
+paragraph: |
+ Fake News on Social Media
+
+ Spreading fake news on different incidents has become a very common phenomenon nowadays on social media. These news are contributing to increase havoc and anarchy. Different 
+ types of incidents are happening every now and then in our country. Along with other news outlets, social media has become a great source of news about those incidents. But 
+ this very great source is becoming a less relable one day by day. Many people don't verify the authencity of the information about an incident and share just immediately. 
+ This leads to the fast spread of fake news and thus creates havoc. Now, to ensure only real and authentic news is delivered we need to create relable portals on social media 
+ who will dedicatedly work on verifying and spreading authentic news. Besides, on personal level we can also try to verify by checking the dates, reverse searching the images 
+ or simply googling things. before sharing something. These measure will contribute in spreading authentic news and thus create peace. Sometimes, even political parties or 
+ certain groups spread fake news to get things done as their demand. These type of people must be brought under punishment by strengthening cyber act. Thus, the importance of 
+ ensuring authenic news flow is great,
+
+initial_score: 7.5
+
+gemini:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The paragraph addresses the prompt and offers practical solutions, but it remains generic. It lacks the "exceptional" requirements of a specific real-world example (e.g., a specific election or health crisis) and does not discuss social media mechanisms like algorithms.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph is functional with a clear topic sentence, but the transition from discussing the problem to suggesting solutions is abrupt. The logical flow is somewhat clunky, particularly near the end.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses standard vocabulary and maintains an objective tone. However, it fails to utilize technical terminology such as "disinformation," "echo chambers," or "algorithmic bias."
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: There are more than three errors, including recurring spelling mistakes ("relable," "authencity") and a subject-verb agreement error with the uncountable noun "news."
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "These news are"
+      Issue: The word "news" is an uncountable noun and should be paired with a singular verb.
+      Correction: "This news is"
+  2. "relable"
+      Issue: Spelling error.
+      Correction: "reliable"
+  3. "authencity"
+      Issue: Spelling error.
+      Correction: "authenticity"
+  4. "googling things. before sharing something."
+      Issue: Punctuation error; a period is used where the sentence should continue.
+      Correction: "googling things before sharing something."
+  
+  Improvement Feedback:
+  1. "Spreading fake news on different incidents has become a very common phenomenon nowadays on social media."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise, academic terminology to establish a professional tone. Example: "The proliferation of disinformation regarding current events has become a pervasive phenomenon on social media platforms."
+  2. "This leads to the fast spread of fake news and thus creates havoc."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate specific social media mechanisms to explain why the spread is fast. Example: "This facilitates the rapid viral dissemination of misinformation, often accelerated by engagement-driven algorithms that prioritize sensationalism over factual accuracy."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in argument and specific evidence. It touches on the importance of verifying news authenticity but does not provide a sophisticated impact analysis or real-world examples.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed. It lacks a clear topic sentence and seamless transitions between ideas.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology. It lacks a formal, objective tone in some areas.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and spelling errors (e.g., 'relable' instead of 'reliable', 'authencity' instead of 'authenticity').
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. 'Many people don't verify the authencity of the information about an incident and share just immediately.'
+      Issue: Spelling error ('authencity' instead of 'authenticity') and lack of clarity.
+      Correction: 'Many people do not verify the authenticity of the information about an incident before sharing it immediately.'
+  2. 'These measure will contribute in spreading authentic news and thus create peace.'
+      Issue: Subject-verb agreement error ('measure' should be 'measures') and awkward phrasing.
+      Correction: 'These measures will contribute to spreading authentic news, thus promoting peace.'
+  3. 'Sometimes, even political parties or certain groups spread fake news to get things done as their demand.'
+      Issue: Awkward phrasing and lack of clarity.
+      Correction: 'Sometimes, political parties or certain groups spread fake news to further their own agendas.'
+  
+  Improvement Feedback:
+  1. 'Spreading fake news on different incidents has become a very common phenomenon nowadays on social media.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms related to social media and fake news, such as 'disinformation' or 'algorithmic bias', to elevate the tone and specificity of the argument. For example, 'The dissemination of disinformation on social media has become a pervasive issue, often facilitated by algorithmic biases.'
+  2. 'But this very great source is becoming a less relable one day by day.'
+      Target Area: Lexis & Academic Register, Grammar & Mechanics
+      Suggestion: Replace 'relable' with 'reliable' and rephrase for better clarity and formality. For example, 'However, the reliability of this source is diminishing daily due to the unchecked spread of misinformation.'
+  3. 'Now, to ensure only real and authentic news is delivered we need to create relable portals on social media who will dedicatedly work on verifying and spreading authentic news.'
+      Target Area: Organization & Cohesion, Lexis & Academic Register
+      Suggestion: Break this into two sentences for better clarity and use more formal language. For example, 'To ensure the delivery of authentic news, it is essential to establish reliable portals on social media. These portals should be dedicated to verifying and disseminating accurate information, thereby promoting a well-informed public.'
+ 

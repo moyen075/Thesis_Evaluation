@@ -1,0 +1,102 @@
+paragraph_id: "P-27"
+
+paragraph: |
+ Fake News on Social Media
+
+ Social media is an online platform in which on can gain and share news but it is not free from corrupted news as fake news in social media is one of the biggest problem for 
+ misleading people. Fake news refers to news that are not true which were manipulated to mislead people. Social media is platform which was originally introduced to make people
+ connect more, share updates and news. But as information becomes more and more open to everyone, it becomes harder to separate the truth and the false news. As a result, both 
+ of them being shared at once, divides people for their own believes. Fake news, rumors circulate through all over social media making keeping many people in the dark from what 
+ is actually happening. there can be fake news about science, politics, technology, philosophy, literature and it has become a primary weapon to spread propaganda. Mostly for 
+ political gains or personal gains fake news are spread. And also many people share the news without even verifying the truth. Fake news on social media is way to abundant and 
+ for this reason, specially those who believe without cross checking are misled. Even news channels can spread fake news if it can gain any specific gain. Politically affected 
+ personals, parties, new channels controlled by the gov't often spread fake news to gain advantages, support of people. Fake news divide people in groups as some believe it and 
+ others who knows the truth doesn't which create a hostile environment between the two groups, erupting chaos. Often the organization or personal or political parties which 
+ spreads the fake news gains a advantage with it, yellow journalism, corrupted organization or parties or even individual spreads fake news all across social media. Social 
+ media is a platform where Firstly any one can share any types of news and, secondly lets individual individual share even it is fake and lastly the fastest way to reach as many 
+ people as possible in a short amount of time so it becomes the most reliable platform to spread fake news. To reduce this from happening, individuals should learn the proper 
+ information, news channels, reports should have freedom and must not be controlled by any means possible. By doing so the news spread can be more reliable. fake news a big issue 
+ for the rise of information age; by taking enough counter measures it can be reduced in a certain degree so that no one is kept in the dark from the truth.
+
+initial_score: 8.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies the core issues of fake news and its social/political consequences. However, it lacks the sophistication required for the highest tier, specifically missing a real-world example and a technical discussion of social media mechanisms like algorithmic bias or echo chambers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The logical flow is functional but repetitive. The submission is fragmented into separate blocks of text rather than a single, cohesive paragraph with a strong Point-Evidence-Explanation (PEE) structure.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and understandable, using some relevant terms like 'yellow journalism' and 'propaganda'. However, it relies on several informal phrases and lacks more advanced academic terminology.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains pervasive errors in subject-verb agreement, countability, word choice, and sentence structure. The repetition of 'weapon' and several fragments at the end significantly impede the academic quality.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "on can gain"
+      Issue: Incorrect subject pronoun/spelling error.
+      Correction: "one can gain"
+  2. "news that are not true"
+      Issue: 'News' is an uncountable noun and takes a singular verb.
+      Correction: "news that is not true"
+  3. "weapon weapon"
+      Issue: Repetitive word error likely caused by poor editing.
+      Correction: "weapon"
+  4. "way to abundant"
+      Issue: Misuse of the preposition 'to' instead of the adverb 'too'.
+      Correction: "way too abundant"
+  5. "others who knows the truth doesn't"
+      Issue: Subject-verb agreement; 'others' and 'who' refer to a plural subject, requiring plural verbs.
+      Correction: "others who know the truth do not"
+  
+  Improvement Feedback:
+  1. "Social media is an online platform in which on can gain and share news but it is not free from corrupted news..."
+      Target Area: Organization & Cohesion
+      Suggestion: Replace the generic opening with a formal topic sentence that establishes a clear argument. Example: "While social media platforms were designed to foster global connectivity, they have paradoxically become primary conduits for the rapid dissemination of fake news."
+  2. "Fake news refers to news that are not true which were manipulated to mislead people."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more precise terminology to elevate the academic register. Example: "Fake news constitutes a form of digital disinformation, often systematically engineered to manipulate public perception for ideological or financial gain."
+  3. "there can be fake news about science, politics, technology, philosophy, literature"
+      Target Area: Content & Relevance
+      Suggestion: Ground the argument with a specific real-world example to demonstrate depth of analysis. Example: "The impact of this phenomenon was clearly visible during the COVID-19 pandemic, where the spread of medical misinformation directly hindered public health efforts."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and real-world examples. It provides a generic overview of fake news on social media.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is weak. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology. It lacks a formal, objective stance in some areas.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar, punctuation, and spelling that do not significantly impede meaning but are noticeable.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Social media is an online platform in which on can gain and share news"
+      Issue: Incorrect use of "on" instead of "one" and lack of specificity about social media platforms.
+      Correction: "Social media is an online platform where one can gain and share news."
+  2. "Fake news refers to news that are not true which were manipulated to mislead people."
+      Issue: Incorrect subject-verb agreement and sentence structure.
+      Correction: "Fake news refers to news that is not true, which is manipulated to mislead people."
+  3. "there can be fake news about science, politics, technology, philosophy, literature and it has become a primary weapon"
+      Issue: Lack of punctuation and incorrect use of "and" at the end of the list.
+      Correction: "There can be fake news about science, politics, technology, philosophy, and literature; it has become a primary weapon."
+  
+  Improvement Feedback:
+  1. "Fake news on social media is one of the biggest problem for misleading people."
+      Target Area: Content & Relevance
+      Suggestion: Provide a more specific example of how fake news on social media has misled people, such as citing a real-world instance of misinformation spreading quickly on a platform.
+  2. "Social media is platform which was originally introduced to make people connect more, share updates and news."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical terms, such as "social networking sites" instead of "social media" and "facilitate communication" instead of "make people connect more."
+  3. "To reduce this from happening, individuals should learn the proper information, news channels, reports should have freedom and must not be controlled by any means possible."
+      Target Area: Organization & Cohesion
+      Suggestion: Break this long sentence into shorter, clearer sentences, and provide more detail on what "proper information" entails and how news channels can maintain their freedom.
+ 

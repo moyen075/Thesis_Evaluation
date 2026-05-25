@@ -1,0 +1,99 @@
+paragraph_id: "P-04"
+
+paragraph: |
+ Fake News on Social Media
+ 
+ Social Media is a form of media that anyone can access, comment, analyze from anywhere. Every body can have his social media account and access to anywhere. Not everybody 
+ has a fact checking ability always, as a result, any news can be spread through the Social media no matter it's true or false. Many social media pages or groups tend to 
+ create fake, eye-catching news for reach. People not knowing the truth share and comment on the news out of curiosity. For instance, A fake news of criminal may be spread. 
+ As a result, fears and fake awareness may be increased. Public tension may uprise as well. Again, a personal fake news of somebody is circulated, this may bring terrible 
+ toll on him. His personal life may be destroyed, fake news about government may increase public tension and mistrust. If social media fake news are exposed, then any real 
+ concerning issue may seem not trustable to many. Real issues may not get proper attention and also people may not believe real, authentic media at all. As a result, there 
+ would be no meaning of media. In order to stop fake news on social media laws and regulations must be strict. There must be laws about the fake news publishers. Any publisher 
+ without verifying, if publish a news, he must face consequences. Also, people should know how to verify any news. Everyone should Sketchy about news on social media and 
+ fact-check everything. To summarize, social media fake news is a real threat to public peace and prosperity. We should handle social media wisely. People should give a second 
+ thought before believing everything and social media must be handled with strict law.
+
+initial_score: 8.0
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+  	 Reason: The student addresses the prompt by explaining why fake news spreads and its consequences. However, the analysis is somewhat generic, and the 'real-world example' provided is a hypothetical scenario rather than a specific, named event (e.g., Pizzagate or COVID-19 misinformation).
+  2. Organization & Cohesion: 1.0 / 2.0
+  	 Reason: The paragraph is functional with a beginning, middle, and end, but the topic sentence is weak as it focuses on social media in general rather than fake news. The logical flow feels clunky due to repetitive sentence structures.
+  3. Lexis & Academic Register: 1.5 / 2.5
+  	 Reason: Vocabulary is standard and appropriate for general communication but lacks technical terminology such as 'disinformation,' 'echo chambers,' or 'algorithmic bias.' Some phrasing is slightly informal ('Sketchy,' 'it's scary' tone).
+  4. Grammar & Mechanics: 1.5 / 2.5
+  	 Reason: There are several errors, particularly with the use of the uncountable noun 'news' (e.g., 'a fake news,' 'news are'), capitalization, and word class. However, these do not significantly impede the reader's understanding.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "Every body can have his social media account"
+  	Issue: 'Everybody' should be one word; 'his' is non-inclusive.
+  	Correction: "Everybody can have their own social media account."
+  2. "no matter it's true or false"
+  	Issue: Incorrect phrasing for a concessive clause.
+  	Correction: "regardless of whether it is true or false."
+  3. "A fake news of criminal may be Spread."
+  	Issue: 'News' is uncountable and cannot take an indefinite article; 'Spread' should not be capitalized.
+  	Correction: "Fake news regarding a criminal may be spread."
+  4. "If social media fake news are exposed"
+  	Issue: Subject-verb agreement error with an uncountable noun.
+  	Correction: "If fake news on social media is exposed"
+  5. "Everyone should Sketchy about news"
+  	Issue: Misuse of an adjective as a verb and incorrect preposition.
+  	Correction: "Everyone should be skeptical of news"
+  
+  Improvement Feedback:
+  1. "Many social media pages or groups tend to create fake, eye-catching news for reach."
+  	Target Area: Lexis & Academic Register
+  	Suggestion: Use technical social science terms to describe the phenomenon. Alternative: 'Numerous digital entities disseminate sensationalist disinformation to exploit algorithmic reach and maximize user engagement.'
+  2. "For instance, A fake news of criminal may be Spread."
+  	Target Area: Content & Relevance
+  	Suggestion: Replace this hypothetical example with a specific historical or current event to reach the 'Exceptional' tier. Alternative: 'For example, the proliferation of misinformation during the 2016 US Election demonstrated how digital rumors can destabilize political trust.'
+  3. "His personal life may be destroyed"
+  	Target Area: Lexis & Academic Register
+  	Suggestion: Use more formal, objective language rather than emotive verbs. Alternative: 'Such disinformation can result in severe reputational damage and long-term psychological consequences for the individual involved.'
+
+
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt and provides some relevant examples of the impact of fake news on social media, but it lacks depth in its analysis and does not fully explore the specific mechanisms of social media that contribute to the spread of fake news.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence could be stronger. Transitions between ideas are not always seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary used is standard but lacks technical terms specific to the field of social media and fake news, such as disinformation, algorithmic bias, and echo chambers. The tone is generally formal but could be more objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar, punctuation, and spelling that do not significantly impede the meaning but are noticeable.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Social Media is a form of media that anyone can access, comment, analyze from anywhere."
+      Issue: The sentence is somewhat informal and lacks specificity.
+      Correction: Consider rephrasing to "Social media platforms provide universal access, enabling users to engage, comment, and analyze content from any location."
+  2. "Not everybody has a fact checking ability always, as a result, any news can be spread through the Social media no matter it's true or false."
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: Rephrase to "Not everyone possesses the ability to fact-check at all times, resulting in the potential spread of both true and false news through social media."
+  3. "People not knowing the truth share and comment on the news out of curiosity."
+      Issue: The sentence is somewhat simplistic and lacks depth.
+      Correction: Consider expanding the idea to "Due to curiosity and the lack of immediate fact-checking capabilities, individuals often share and comment on news without verifying its accuracy, further perpetuating the cycle of misinformation."
+  
+  Improvement Feedback:
+  1. "Fake News on Social Media"
+      Target Area: Content & Relevance
+      Suggestion: To elevate the content, consider delving deeper into the psychological and technological aspects that make social media prone to the spread of fake news, such as the role of algorithms and the impact of echo chambers.
+  2. "In order to stop fake news on social media laws and regulations must be strict."
+      Target Area: Lexis & Academic Register
+      Suggestion: To improve the academic register, use more formal and technical vocabulary, such as "Implementing stringent regulations and laws is crucial to mitigate the dissemination of fake news on social media platforms."
+  3. "We should handle social media wisely."
+      Target Area: Organization & Cohesion
+      Suggestion: To strengthen the conclusion, consider summarizing the main points and reiterating the importance of addressing fake news on social media, providing a call to action that is more specific and actionable, such as "Therefore, it is imperative that we adopt a critical approach to social media consumption, support fact-checking initiatives, and advocate for stricter regulations to combat the spread of fake news."

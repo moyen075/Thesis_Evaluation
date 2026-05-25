@@ -1,0 +1,95 @@
+paragraph_id: "P-50"
+
+paragraph: |
+ Fake News on Social Media
+
+ In the early twenty-first century, social media has become may be the primary source of information, specifically for "News" and putting fake news can influence hatred, 
+ chaos, agitation as well as hiding evil things showing something to be peaceful. The birth of social media has replaced the conventional television or newspaper based News. 
+ It is much easier to know about what's happening in the country or maybe the world by just scrolling your homepage of any social media. Even, the state leaders and famous 
+ celebrities just posts up any updates rather calling a formal press conference.. This, in fact creates a dependence on Social Media that is thinking it to be some holy grail 
+ of original and unbiased news. But you have to hold up for a second and reflect light on the other side of the moon too. As easier it is to pop up unbiased news in your homepage, 
+ the more easier it is for some random page to come up with a fake news. Social media has no screening process, you can write anything you want, no one is holding your hand. 
+ This is what: makes it much more vulnerable to fake news. And what it may cause you may ask, fake news or rumour can cause serious problem in a society, country or even in an 
+ inter continental region. It can rage war, protest, mass agitation, hatred and may cause communal violence and sparking riots. For example, the recent riot sparked in London 
+ was just because of a rumour posted on social media. It can also be a weapon for the tyrants. Spreading fake news of the some incidents that goes against the tyranny is a common 
+ practice. It helps to suppress opposing voices. For example, the July uprising was being tried to suppress spreading false statement from the government. And the state of Israel 
+ continuously hide the genocide using false news on social media. The disaster fake news bring to a society is unimaginable that is why preventive measures should be taken to stop 
+ rumours from spreading. Thus, fake news is something that is a serious issue for a society or a country which may disrupt harmony that is why we must remain rational in choosing 
+ what news to trust in.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student identifies the transition from traditional media to social media and mentions specific impacts like communal violence with examples (London riots). However, the response misses specific social media mechanisms like algorithms, virality, or echo chambers, treating the platform more as a simple message board.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic structure, but the logical flow is hampered by clunky transitions (e.g., "reflect light on the other side of the moon") and a very weak, grammatically flawed topic sentence.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard but inconsistent. While terms like "communal violence" are appropriate, the writing frequently lapses into informal phrasing ("holding your hand," "pop up," "you may ask") and uses the second person ("you"), which is inappropriate for academic writing.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors throughout the text, including subject-verb agreement ("celebrities... posts"), awkward verb phrases ("has become may be"), incorrect punctuation (misplaced colon in "what: makes"), and flawed comparative structures ("As easier it is").
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "social media has become may be the primary source"
+      Issue: Incorrect verb phrase construction.
+      Correction: "social media has perhaps become the primary source"
+  2. "state leaders and famous celebrities just posts up any updates rather calling"
+      Issue: Subject-verb agreement error and missing preposition.
+      Correction: "state leaders and famous celebrities just post updates rather than calling"
+  3. "what: makes it much more vulnerable"
+      Issue: Incorrect use of a colon to separate a subject and its predicate.
+      Correction: "what makes it much more vulnerable"
+  4. "the July uprising was being tried to suppress spreading false statement"
+      Issue: Passive voice misuse and noun-number agreement error.
+      Correction: "the government attempted to suppress the July uprising by spreading false statements"
+  
+  Improvement Feedback:
+  1. "Social media has no screening process, you can write anything you want, no one is holding your hand."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace informal idioms with technical terminology to describe the lack of gatekeeping. Alternative: "Social media platforms lack the rigorous editorial oversight found in traditional media, allowing unverified information to proliferate without institutional filtering."
+  2. "But you have to hold up for a second and reflect light on the other side of the moon too."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a formal transitional phrase instead of a metaphorical idiom to introduce a counterpoint or the negative aspects. Alternative: "However, this accessibility is coupled with significant risks regarding the veracity of the information shared."
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the topic of fake news on social media, discussing its influence, the lack of screening processes, and potential consequences such as societal unrest and manipulation by tyrannical regimes. However, it misses providing a sophisticated impact analysis and specific examples that deeply explore the mechanisms of social media (e.g., algorithms, virality) in spreading fake news.  
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a discernible beginning, middle, and end but suffers from a somewhat disjointed logical flow. Transitions between ideas are not seamless, and the topic sentence, while present, could be stronger and more focused. The text jumps between discussing the ease of spreading fake news, its consequences, and the need for preventive measures without a cohesive argumentative structure.  
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The submission utilizes standard vocabulary, making it understandable. However, it lacks the incorporation of technical terms specific to the field (e.g., disinformation, algorithmic bias, echo chambers), which would elevate the discussion to a more academic level. The tone is generally formal but could benefit from a more objective stance and precise word choice to avoid phrases that sound conversational or slightly informal.  
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, including punctuation errors, missing articles, and some inconsistencies in sentence structure. These issues do not severely impede the understanding of the text but do detract from its overall professionalism and clarity. For example, missing commas, incorrect use of phrases ("may be the primary source of information"), and run-on sentences contribute to the score.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "In the early twenty-first century, social media has become may be the primary source of information"
+      Issue: Incorrect and unclear phrase structure.
+      Correction: "In the early twenty-first century, social media has become a primary source of information."
+  2. "It is much easier to know about what's happening in the country or maybe the world by just scrolling your homepage of any social media."
+      Issue: Informal language ("what's", "maybe") and structure.
+      Correction: "It is much easier to stay informed about local and global events by scrolling through the homepage of any social media platform."
+  3. "The state leaders and famous celebrities just posts up any updates rather calling a formal press conference.."
+      Issue: Grammar and punctuation errors.
+      Correction: "State leaders and famous celebrities often post updates instead of calling a formal press conference."
+  
+  Improvement Feedback:
+  1. "The birth of social media has replaced the conventional television or newspaper based News."
+      Target Area: Lexis & Academic Register
+      Suggestion: Enhance the sentence with more precise language, such as "The advent of social media has led to a significant decline in traditional news consumption, with many individuals now relying on social media platforms as their primary news source." This revision incorporates more formal and specific vocabulary.
+  2. "fake news or rumour can cause serious problem in a society, country or even in an inter continental region."
+      Target Area: Content & Relevance
+      Suggestion: Provide more detailed and specific examples of how fake news can cause problems, such as "Fake news can lead to widespread panic, economic instability, and social unrest, as witnessed in recent events where misinformation spread through social media platforms led to communal violence and riots." This addition deepens the analysis and provides real-world context.
+  3. "The disaster fake news bring to a society is unimaginable that is why preventive measures should be taken to stop rumours from spreading."
+      Target Area: Grammar & Mechanics
+      Suggestion: Refine the sentence for clarity and grammatical correctness, such as "The potential harm caused by fake news to a society is substantial, which is why implementing preventive measures to curb the spread of rumors is essential." This revision improves sentence structure and word choice.
+ 

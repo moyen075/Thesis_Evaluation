@@ -1,0 +1,105 @@
+paragraph_id: "P-40"
+
+paragraph: |
+ Fake News on Social Media
+
+ Spreading fake news on social media is a crime which violates the harmony and peace of a country. In the era of modern civilization, newspaper is often ignored because of 
+ the availability of news online. Reading news on social media is getting quite popular among the teenagers. In fact, people of all ages are getting used to these sort of 
+ news. Of course, this saves a lot of time and money, however, every news on social media is not authentic. Some people spread fake news on their social media for various 
+ reasons. Firstly, some illiterate people want to disturb the harmony among others, So they share fake news to panic them. Secondly, some people, mostly teenagers, spread
+ fake news just for their fun. Thirdly, some may spread false news to scam others and do harm to them. In addition, political propaganda and rumours are very common nowadays. 
+ In fact, some news are misinterpreted just to Indirect people in the wrong way. As a result, there are many consequences of it. Some people lose everything after falling a 
+ victim to false news or scam. Also, the harmony and peace among the people and society are greatly disrupted. People begin to disbelieve others. It creates trust issures.
+ National secuirity becomes vulnerable. Therefore, fake news do not just hampers personal life, they also put, the country at high risk in terms of secuirity and unity.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0 
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission identifies the actors and consequences of fake news but lacks a specific real-world example (e.g., a specific election or health crisis) and does not explain social media mechanisms like algorithms or virality as required by the higher rubric tiers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic structure but the logical progression is mechanical. The use of 'Firstly, Secondly, Thirdly' creates a clunky list-like flow rather than a cohesive academic argument.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses standard vocabulary that is understandable but lacks technical precision. The tone is occasionally subjective (e.g., 'illiterate people', 'just for their fun') rather than formal and objective.
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: The text contains multiple errors, including spelling mistakes ('issures', 'secuirity'), subject-verb agreement issues ('news are', 'news do not... hampers'), and incorrect word choice ('Indirect').
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "newspaper is often ignored"
+      Issue: Missing article for a singular countable noun used generically.
+      Correction: "the newspaper is often ignored"
+  2. "harmony among others, So they share"
+      Issue: Incorrect capitalization of the coordinating conjunction 'so' mid-sentence.
+      Correction: "harmony among others, so they share"
+  3. "these sort of news"
+      Issue: Number disagreement between the demonstrative adjective 'these' and the singular noun 'sort'.
+      Correction: "this sort of news" or "these sorts of news"
+  4. "some news are misinterpreted"
+      Issue: 'News' is an uncountable noun and should be followed by a singular verb.
+      Correction: "some news is misinterpreted"
+  5. "just to Indirect people"
+      Issue: Use of an adjective/preposition as a verb.
+      Correction: "just to mislead people"
+  6. "trust issures"
+      Issue: Spelling error.
+      Correction: "trust issues"
+  7. "National secuirity"
+      Issue: Spelling error.
+      Correction: "National security"
+  8. "fake news do not just hampers"
+      Issue: Error in subject-verb agreement and auxiliary verb usage.
+      Correction: "fake news does not just hamper"
+  
+  Improvement Feedback:
+  1. "Some people spread fake news on their social media for various reasons."
+      Target Area: Content & Relevance
+      Suggestion: To improve depth, explain the role of social media platforms. Suggestion: "The proliferation of fake news is accelerated by social media algorithms that prioritize high-engagement content, regardless of its veracity."
+  2. "Firstly, some illiterate people want to disturb the harmony among others"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and precise terminology like 'disinformation' and 'malicious actors' to maintain an objective stance. Suggestion: "Firstly, some malicious actors disseminate disinformation to incite social discord or disrupt civil harmony."
+  3. "As a result, there are many consequences of it."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a more sophisticated transition to connect the definition of fake news to its impacts. Suggestion: "Beyond individual deception, the widespread dissemination of false narratives has profound implications for societal stability and national security."
+
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media, but it lacks depth in its argument and does not provide sophisticated impact analysis or real-world examples specific to social media mechanisms like algorithms or virality.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence could be stronger. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms specific to the topic, such as disinformation, algorithmic bias, or echo chambers, and does not maintain a consistently formal tone.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, including subject-verb agreement and punctuation, but they do not significantly impede the meaning.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Spreading fake news on social media is a crime which violates the harmony and peace of a country."
+      Issue: The sentence is somewhat informal and lacks specificity.
+      Correction: "The dissemination of fake news on social media constitutes a violation of national harmony and peace."
+  2. "In fact, people of all ages are getting used to these sort of news."
+      Issue: The phrase "these sort of news" is informal.
+      Correction: "In fact, people of all ages are becoming accustomed to this type of news."
+  3. "National secuirity becomes vulnerable."
+      Issue: There is a spelling error.
+      Correction: "National security becomes vulnerable."
+  
+  Improvement Feedback:
+  1. "Some people spread fake news on their social media for various reasons."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific, detailed examples of reasons why people spread fake news, such as financial gain, political influence, or social attention, to enhance the depth of the argument.
+  2. "Reading news on social media is getting quite popular among the teenagers."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary, such as "There is a growing propensity among teenagers to consume news via social media platforms," to elevate the academic tone.
+  3. "It creates trust issures."
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct the spelling error to "trust issues" and consider rephrasing for clarity, such as "This leads to the erosion of trust within communities."

@@ -1,0 +1,98 @@
+paragraph_id: "P-20"
+
+paragraph: |
+ Fake News On Social Media
+
+ Circulation of fake news on social media, a compelling recent phenomenon, works as the primary reason behind various alarming situations and impacts each and everyone badly 
+ on a global basis. In recent times, social media has become a part and parcel in the daily life. However, as there remains no controlling authority to regulate these medias, 
+ the amount of fake/news has increased exponentially in these spaces that eventually Can dictate the individual and collective behaviours of the concerned population. Being 
+ an open to all platform, any social media can be used to spread false news and fake propaganda to the mass people. Due to the absence of authentic sources and fact checkers, 
+ many people believe these news and so become affected by those. For example, in context of Bangladesh, the recent propaganda Involving "RAW" from India can be mentioned. These 
+ news can be the causes of many domino effects that affect an individual, a society; a nation, and finally the whole world. The fake news Can make a person believe something 
+ that is totally atrocious. These can lead to mob violence, unnecessary coalitions and can affect any good thing currently blessing the society. As an example, social media 
+ propaganda was actually the tool of the fascist regime to continue its reign of terror. Hence, these fake news circulation in the social space must be observed and regulated 
+ by the concerned authorities. To sum it all up, the event of fake news circulation and publication must be stopped at all costs due to the adverse effects it holds for the 
+ nation as well as the globe.
+
+initial_score: 8.5
+
+gemini:
+ score: 7.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+     Reason: The submission provides a sophisticated analysis of the socio-political impacts of fake news, including a specific real-world example (Bangladesh/RAW). However, it fails to explicitly address social-media-specific mechanisms like algorithmic bias or virality mentioned in the top-tier rubric criteria.
+  2. Organization & Cohesion: 2.0 / 2.0
+     Reason: The paragraph effectively utilizes the Point-Evidence-Explanation (PEE) structure. It features a clear topic sentence, logical development of ideas, and strong transitional phrases such as "For example" and "To sum it all up."
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The tone is formal and objective, but the vocabulary remains largely standard. It lacks the specific technical terminology (e.g., echo chambers, disinformation, algorithmic bias) required for a higher score and uses the non-standard term "medias."
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: There are more than three mechanical errors, including multiple instances of mid-sentence capitalization ("Can", "Involving") and issues with noun countability and pluralization ("these news", "medias").
+  
+  Overall Score: 7.0 / 10
+  
+  Corrective Feedback:
+  1. "eventually Can dictate"
+      Issue: Improper capitalization of a modal verb in the middle of a sentence.
+      Correction: "...that eventually can dictate..."
+  2. "these medias"
+      Issue: Non-standard pluralization; "media" is generally used as the plural of "medium," and "medias" is not used in academic English.
+      Correction: "...regulate these media platforms..."
+  3. "many people believe these news"
+      Issue: Noun countability error; "news" is uncountable and should not be used with the plural demonstrative "these."
+      Correction: "...many people believe this news..." or "...believe these stories..."
+  4. "propaganda Involving 'RAW'"
+      Issue: Improper capitalization of a participle mid-sentence.
+      Correction: "...propaganda involving 'RAW'..."
+  
+  Improvement Feedback:
+  1. "as there remains no controlling authority to regulate these medias"
+      Target Area: Lexis & Academic Register
+      Suggestion: Incorporate field-specific terminology regarding digital governance to elevate the academic tone.
+      Alternative: "...due to the lack of centralized regulatory oversight and the inherent algorithmic bias of these platforms..."
+  2. "social media has become a part and parcel in the daily life"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace common idioms with more precise, academic descriptions of social integration.
+      Alternative: "...social media has become an integral component of contemporary information ecosystems."
+  3. "the recent propaganda Involving 'RAW' from India can be mentioned"
+      Target Area: Content & Relevance
+      Suggestion: Connect the real-world example more directly to how social media specifically enabled its spread (virality).
+      Alternative: "For example, in Bangladesh, disinformation regarding 'RAW' achieved rapid virality due to the lack of platform-led fact-checking."
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides a relevant example from Bangladesh, but it may be slightly generic and misses the 'social media' specific mechanisms such as algorithms and virality.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat 'clunky' and the topic sentence is weak. Transitions between ideas could be improved for better cohesion.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology. It lacks technical terms such as 'disinformation' or 'algorithmic bias'.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure issues, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. 'A Ans. to Ques. No.-1(6)'
+      Issue: Informal and irrelevant phrase at the beginning of the submission.
+      Correction: Remove this phrase for a formal start.
+  2. 'Circulation of fake news on social media, a compelling recent phenomenon, works as the primary reason behind various alarming situations and impacts each and everyone badly on a global basis.'
+      Issue: Long sentence with multiple clauses that could be broken up for clarity.
+      Correction: Consider breaking this into two sentences for better readability.
+  3. 'Due to the absence of authentic sources and fact checkers, many people believe these news and so become affected by those.'
+      Issue: Grammar error with 'these news' which should be 'this news' or 'such news'.
+      Correction: Change 'these news' to 'such news' for grammatical accuracy.
+  
+  Improvement Feedback:
+  1. 'In recent times, social media has become a part and parcel in the daily life.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary, such as 'social media has become increasingly integrated into daily life' to elevate the academic tone.
+  2. 'For example, in context of Bangladesh, the recent propaganda Involving "RAW" from India can be mentioned.'
+      Target Area: Content & Relevance
+      Suggestion: Provide more depth to the example by explaining how it relates to the impact of fake news on social media, and consider using more specific details about the propaganda and its effects.
+  3. 'The fake news Can make a person believe something that is totally atrocious.'
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct the capitalization error with 'Can' which should be 'can', and consider rephrasing for more formal tone, such as 'Fake news can lead individuals to believe in entirely false information.
+ 

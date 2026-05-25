@@ -1,0 +1,102 @@
+paragraph_id: "P-47"
+
+paragraph: |
+ Fake News on Social Media
+
+ Social Media is one of the most popular media in our time. By using the popularity of Social Media platform many fake news are often to seen everyday. This are very negative
+ for our mind. This creates a very negative impact on our population. Social Media usually referes to platform like facebook. instagram, twitter, whatsapp etc by which we 
+ communicate easily with our friends, with our families and throught the world. It is very useful in our communication. We use it regular basis for our communication. It is 
+ also used for publising different types of news. we see many news throught our country and within the world through facebook, youtube, instagram etc. People of all ages uses 
+ social media platform. As a result. It is very common and popular media in our time. By using the popularity, sometimes we see many fake news into this platform. Different 
+ people or organization broadcasts this type of news without checking the reality of the news. Many of them do this work only for views, popularity and money. They publish the 
+ news without checking the truth. As a result, problems like fighting, creting unstabality among the population. Mainly, the people of our country or the people who uses facebook 
+ or social media platform they believe the all news published in the social network. But when the news is fake, it creates unstability among the population. It creates many other 
+ problems within the country. That creates a very negative impact into our population. Sometimes, many fight or big movement occurs as a result of this kind of fake news. The 
+ effect of this is distructive. Everyone should aware of it. Many individuals shares news without checking the truth. So, in this matter, this individuals must be on punishment 
+ or warning. Any organization which publishes wrong or fake news must be on sevarel punishment, We should have create more awareness about this factors by arranging many programs, 
+ seminars, TV show, podcast etc and broadcast the punishment of publishing fake news. Beside this, we have also self awareness in this matter. Every person, every organization 
+ must be aware on this topic. We should have to be more serious when we publish any kind of news. We check the all information before publishing any kind of news. By doing all 
+ these things, the problem of publishing fake news on social media is decreased and there is no unstability among the genarel people.
+
+initial_score: 7.5
+
+gemini:
+ score: 4.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The paragraph addresses the topic and identifies basic impacts (instability, financial motives). However, it lacks a specific, real-world example (e.g., a specific political event or health crisis) and does not explain social media-specific mechanisms like algorithms or echo chambers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The structure is functional with an introduction, body, and conclusion, but it is highly repetitive. The flow is clunky, with the same ideas regarding "negative impacts" and "instability" being restated multiple times without progression.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is basic and repetitive (e.g., using "very negative" and "popular" frequently). It lacks academic terminology like "disinformation," "monetization," or "algorithmic bias" and maintains an informal tone.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: Pervasive errors in subject-verb agreement, pluralization, and punctuation occur throughout. These errors, such as "many fake news are" and "individuals shares," significantly impede the academic quality of the writing.
+  
+  Overall Score: 4.0 / 10
+  
+  Corrective Feedback:
+  1. "By using the popularity of Social Media platform many fake news are often to seen everyday."
+      Issue: Improper verb structure and incorrect use of "news" as a plural noun.
+      Correction: "Due to the popularity of social media platforms, fake news is often seen every day."
+  2. "This are very negative for our mind."
+      Issue: Subject-verb agreement and vague word choice.
+      Correction: "This phenomenon has a detrimental effect on the public psyche."
+  3. "facebook. instagram, twitter, whatsapp etc"
+      Issue: Improper capitalization of proper nouns and incorrect punctuation.
+      Correction: "Facebook, Instagram, Twitter, and WhatsApp."
+  4. "Many individuals shares news without checking the truth."
+      Issue: Subject-verb agreement error.
+      Correction: "Many individuals share news without verifying the facts."
+  5. "this individuals must be on punishment"
+      Issue: Incorrect prepositional phrase and demonstrative adjective.
+      Correction: "these individuals should face penalties."
+  
+  Improvement Feedback:
+  1. "This creates a very negative impact on our population."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace vague adjectives with formal, technical descriptions. Example: "This dissemination of misinformation undermines social cohesion and erodes public trust in democratic institutions."
+  2. "Social Media is one of the most popular media in our time."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a more focused topic sentence that links the platform to the specific issue. Example: "While social media platforms have revolutionized global communication, their architectural focus on virality has facilitated the rapid spread of fake news."
+  3. "Many of them do this work only for views, popularity and money."
+      Target Area: Content & Relevance
+      Suggestion: Elaborate on the "social media context" by mentioning how engagement is monetized. Example: "Malicious actors often exploit platform algorithms by creating sensationalized disinformation to maximize ad revenue through increased user engagement."
+
+llama:
+ score: 4.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.0 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth of argument and specific evidence. It provides a vague overview of the issue without delving into the mechanisms of social media or offering a sophisticated impact analysis.
+  2. Organization & Cohesion: 0.5 / 2.0
+     Reason: The paragraph lacks a clear topic sentence and seamless transitions between ideas. The structure is disorganized, with ideas scattered throughout the text.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission relies heavily on conversational language and lacks technical terminology related to the topic. The tone is informal, and the text could benefit from more precise and academic vocabulary.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The text exhibits some minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and incorrect sentence structure. However, these errors do not significantly impede the meaning of the text.
+  
+  Overall Score: 4.0 / 10
+  
+  Corrective Feedback:
+  1. "Social Media is one of the most popular media in our time."
+      Issue: The sentence lacks specificity and clarity.
+      Correction: Consider rephrasing to "Social media has become a dominant form of communication in contemporary society."
+  2. "This are very negative for our mind."
+      Issue: The sentence contains a grammatical error.
+      Correction: Change to "This has a very negative impact on our minds."
+  3. "People of all ages uses social media platform."
+      Issue: The sentence contains a subject-verb agreement error.
+      Correction: Change to "People of all ages use social media platforms."
+  
+  Improvement Feedback:
+  1. "Fake news are often to seen everyday."
+      Target Area: Lexis & Academic Register
+      Suggestion: Consider using more precise terminology, such as "disinformation" or "misinformation," to elevate the academic tone of the text. For example, "Disinformation is frequently encountered on social media platforms."
+  2. "It creates a very negative impact on our population."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific evidence or examples to support the claim, such as citing a study or a real-world instance of the impact of fake news on a population. This would enhance the depth of argument and make the text more engaging.
+  3. "We should have create more awareness about this factors by arranging many programs, seminars, TV show, podcast etc."
+      Target Area: Organization & Cohesion
+      Suggestion: Consider reorganizing the text to have a clearer topic sentence and more logical transitions between ideas. For example, the discussion of awareness programs could be introduced earlier in the text, with more explicit connections to the preceding ideas.
+ 

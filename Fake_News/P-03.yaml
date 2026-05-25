@@ -1,0 +1,115 @@
+paragraph_id: "P-03"
+
+paragraph: |
+  Fake News on Social Media
+  
+  Social media, in modern times, serves more as a tool for dissemination of fake news  as opposed to true and verified information. 
+  Initially, social media served as a way for people to connect over the web. It served as a great tool for people to share their 
+  ideas freely to an unbounded number of it. This gave people power to express their opinions, judgments and ensured their total 
+  right to speech. This seemingly amazing tool, however, has been exploited by people who have found loopholes in it and feel no 
+  morral quandry toward exploiting it. The lack of verification is what made social media such as amazing media / for transmitting 
+  information from the minds of everyone with a smartphone and an internet connection. This had enabled people to share and post 
+  whatever they like, leading to fast dissemination of information. This very attribute often helps spread news and information in 
+  the blink  of an idea, but it also enables morally bankrupt individuals to spread misinformation for their a selfish benefit. News 
+  like some religious leader caring a child's eyes spread like wildfire, and the algorithm in incapable of weeding out lies. 
+  Propagandists often spread news of their political party accomplishing huge things, and the whole space goes into a frenzy over it, 
+  yet no one verifies them. Even if they do, their attempt at clearing things up often fails because eye-catching lies often out-compete 
+  boring truths at reaching people. Political parties use this very principle, a loophole, so to speak, to spread blatant lies about 
+  their opponents. Once the lies reach millions of people, there is no coming back, etc. These perpetrators are often not getting caught 
+  either, due to poor authentication on these social media sites. News channels are the worst culprits of this. They often exaggerate 
+  the Reality, use poor research methodologies, and mix the truth with the lies in hopes of sensationalizing it enough to get views. Social 
+  media sites, too, fuel these actions by recommending posts and videos of more sensational to nature to people. This has lead people, and 
+  society in general, to exist in a constant state of distrust. Nothing posted on social media is trusted by many anymore people due to the 
+  history of misinformation spreading that these sites have facilitated! This leads them to doubt genuinely true news, as well. The whole 
+  society suffers as a result of this. Many people lose their money and assets, and become victim of fraud. It has become incumbent for 
+  modern governments to address them in order to make a society built on trust and truth, where nothing of important is said after embellishing.
+
+initial_score: 8
+
+gemini:
+ score: 7.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+      Reason: The analysis accurately identifies social media mechanisms such as algorithms and virality. While a real-world scenario is mentioned (political propaganda and religious rumors), the examples lack the specificity of a cited event needed for the highest tier.
+  2. Organization & Cohesion: 1.5 / 2.0
+      Reason: The paragraph is functional and follows a logical sequence, but the introductory sentences about the history of social media feel clunky and tangential to the main argument regarding fake news.
+  3. Lexis & Academic Register: 2.0 / 2.5
+      Reason: The student uses technical terms like "dissemination" and "algorithm" effectively. However, the tone is occasionally informal or uses clichés like "blink of an eye."
+  4. Grammar & Mechanics: 1.0 / 2.5
+      Reason: The text contains over seven distinct errors, including typos, spelling mistakes, and incorrect verb forms, which significantly exceed the threshold for "Minor Issues."
+  
+  Overall Score: 7.0 / 10
+  
+  Corrective Feedback:
+  1. "unbounded number of it"
+      Issue: Pronoun-antecedent agreement error.
+      Correction: "unbounded number of users"
+  2. "morral quandry"
+      Issue: Spelling errors.
+      Correction: "moral quandary"
+  3. "social media such as amazing media / for"
+      Issue: Typo and redundant phrasing with incorrect symbol usage.
+      Correction: "social media such an effective medium for"
+  4. "blink of an idea"
+      Issue: Malapropism; incorrect use of a common idiom.
+      Correction: "blink of an eye"
+  5. "algorithm in incapable"
+      Issue: Typo; preposition used instead of a verb.
+      Correction: "algorithm is incapable"
+  6. "This has lead people"
+      Issue: Incorrect past participle form.
+      Correction: "This has led people"
+  7. "nothing of important"
+      Issue: Adjective used where a noun is required.
+      Correction: "nothing of importance"
+  
+  Improvement Feedback:
+  1. "This seemingly amazing tool, however, has been exploited..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Academic writing should avoid subjective and emotional adjectives like "amazing." Suggestion: "Despite its capacity for global connectivity, the infrastructure of social media has been exploited..."
+  2. "News like some religious leader caring a child's eyes spread like wildfire"
+      Target Area: Content & Relevance
+      Suggestion: To achieve an exceptional score, use a specific, high-profile case study. Suggestion: "For instance, the viral spread of health misinformation during the COVID-19 pandemic demonstrated how quickly unverified claims can impact public safety."
+  3. "Nothing posted on social media is trusted by many anymore people due to..."
+      Target Area: Organization & Cohesion
+      Suggestion: This sentence is wordy and lacks precision. Suggestion: "Consequently, the prevalence of misinformation has fostered a pervasive culture of skepticism toward digital news sources."
+
+
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+      Reason: The submission addresses the prompt well and provides some specific examples of fake news on social media, such as the spread of misinformation by political parties and news channels. However, it could be more sophisticated in its impact analysis and provide more nuanced real-world examples.
+  2. Organization & Cohesion: 1.5 / 2.0
+      Reason: The submission has a clear beginning, middle, and end, but the logical flow is sometimes disrupted by tangential ideas or abrupt transitions. The topic sentence is somewhat weak, and the paragraph could benefit from more seamless transitions between ideas.
+  3. Lexis & Academic Register: 1.0 / 2.5
+      Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology. The tone is generally formal, but there are moments of informality and subjectivity.
+  4. Grammar & Mechanics: 1.5 / 2.5
+      Reason: The submission has some minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and awkward sentence structures. However, these errors do not significantly impede the meaning of the text.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "This had enabled people to share and post whatever they like, leading to fast dissemination of information."
+      Issue: The sentence is a bit simplistic and lacks clarity.
+      Correction: Consider rephrasing to "This has enabled users to share and post content freely, resulting in rapid information dissemination."
+  2. "News like some religious leader caring a child's eyes spread like wildfire, and the algorithm in incapable of weeding out lies."
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: Consider rephrasing to "For instance, false reports of a religious leader performing a miracle can spread quickly, and the algorithm is often unable to distinguish between fact and fiction."
+  3. "Even if they do, their attempt at clearing things up often fails because eye-catching lies often out-compete boring truths at reaching people."
+      Issue: The sentence is a bit wordy and could be more concise.
+      Correction: Consider rephrasing to "However, even when corrections are made, they often fail to reach people because sensational lies can be more attention-grabbing than factual truths."
+  
+  Improvement Feedback:
+  1. "Social media, in modern times, serves more as a tool for dissemination of fake news as opposed to true and verified information."
+      Target Area: Lexis & Academic Register
+      Suggestion: Consider using more technical terms, such as "disinformation" or "misinformation," to add precision and academic tone to the sentence. For example, "Social media has become a primary conduit for the dissemination of disinformation, often prioritizing sensational content over verified information."
+  2. "The lack of verification is what made social media such as amazing media / for transmitting information from the minds of everyone with a smartphone and an internet connection."
+      Target Area: Organization & Cohesion
+      Suggestion: Consider breaking up the sentence into two clearer ideas, using transitional phrases to connect them. For example, "The lack of verification on social media has created an environment where anyone with a smartphone and internet connection can share information. This has led to the rapid dissemination of both true and false information, highlighting the need for more effective content moderation."
+  3. "This leads them to doubt genuinely true news, as well."
+      Target Area: Content & Relevance
+      Suggestion: Consider providing more specific examples or evidence to support this claim, such as citing studies on the impact of fake news on public trust in media. For example, "As a result, many individuals have become increasingly skeptical of all news, including credible sources, which can have significant consequences for public discourse and democratic institutions."

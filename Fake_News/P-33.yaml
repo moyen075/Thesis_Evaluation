@@ -1,0 +1,96 @@
+paragraph_id: "P-33"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news, circulating on social media is continuously depriving the users from their information rights and has become threat for our national and regional security. Almost 
+ everyone of this modern world has social media access. As there is no control on social media, informations are not always verified. As social media, has a lot of users, any 
+ type of information circulates there very fast. The deficiency of authorized control, fact checking organizations are important reasons of this problem. People also are not 
+ conscious what they are consuming, beliveing in social media. People share any kind of sensitive news without verifying. That's why fake news circulates more faster. In our 
+ country, lots of people are illiterate and they don't even know to the verify a news, The result of fake news is very harmful. As by social media, fake news circulates very 
+ faster, it can create a chaos at any place without giving enough time to resist for the administration. In recent days, Bangladesh experienced many mob violences due to fake 
+ news. This fake news can create unnecessary and unwanted violence. Its a treat to our national security. Fake news about hindu-muslim conflict has very harmful impact on the
+ security of Bangladesh. It creates religious chaos and destroys harmony. As it is on social media, people from other countries can see the news and therefore we experienced 
+ clash on social media which is very bad to the friendship between two country. Fake news can be encounted by taking proper action. Tracing fake news sites, having fact check 
+ authority, creating concern among mass peoples are good options. Therefore we can say, fake news on social media is should be controlled to have a stable and violence free 
+ society and country. It should be done with serious concern.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt and includes specific real-world examples, such as mob violence and religious conflicts in Bangladesh. However, the response misses specific social media mechanisms like algorithmic bias or echo chambers, and the definition of fake news is somewhat generic.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a functional beginning, middle, and end, but the logical flow is clunky. The use of two separate text blocks disrupts the unity of a single-paragraph assignment, and the transitions (e.g., "The result of fake news is very harmful") are basic.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard but lacks the technical precision required for a high score. It avoids slang but relies on common adjectives like "very bad" or "very harmful" rather than academic or field-specific terminology like "disinformation" or "amplification."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive grammatical errors that impede readability. These include errors with uncountable nouns ("informations," "violences"), double comparatives ("more faster"), syntax issues ("is should be"), and spelling/word choice errors ("treat" instead of "threat").
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "informations are not always verified"
+      Issue: 'Information' is an uncountable noun and should not be pluralized.
+      Correction: information is not always verified
+  2. "circulates more faster"
+      Issue: Double comparative error; 'faster' already expresses the comparison.
+      Correction: circulates much faster
+  3. "Its a treat to our national security"
+      Issue: Spelling/word choice error ('treat' vs 'threat') and missing apostrophe for the contraction 'It is'.
+      Correction: It is a threat to our national security
+  4. "they don't even know to the verify a news"
+      Issue: Incorrect syntax and improper use of the article 'a' with the uncountable noun 'news'.
+      Correction: they do not even know how to verify the news
+  5. "is should be controlled"
+      Issue: Redundant or incorrect auxiliary verb construction.
+      Correction: should be controlled
+  
+  Improvement Feedback:
+  1. "any type of information circulates there very fast"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise terminology to describe social media dynamics. Better alternative: 'Social media platforms facilitate the rapid, viral proliferation of unverified content through algorithmic amplification.'
+  2. "The result of fake news is very harmful."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a more sophisticated transitional sentence to link the causes of fake news to its consequences. Better alternative: 'The repercussions of unverified information are severe, often manifesting as tangible threats to societal stability.'
+  3. "people from other countries can see the news"
+      Target Area: Content & Relevance
+      Suggestion: Elevate the analysis by mentioning the globalized nature of digital media. Better alternative: 'Because digital platforms transcend national borders, localized disinformation can quickly escalate into international diplomatic friction.'
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some relevant examples, such as the impact of fake news on national security and the experience of Bangladesh with mob violence. However, it lacks a sophisticated impact analysis and does not delve deeply into the social media context, such as algorithms and virality.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence could be stronger. The transitions between ideas are not always seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology. It lacks technical terms such as disinformation, algorithmic bias, and echo chambers, and the tone is not consistently formal.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are several minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and incorrect sentence structure. However, these issues do not significantly impede the meaning of the text.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "Almost everyone of this modern world has social media access."
+      Issue: The sentence is worded awkwardly and lacks clarity.
+      Correction: "In today's modern world, nearly everyone has access to social media."
+  2. "The deficiency of authorized control, fact checking organizations are important reasons of this problem."
+      Issue: The sentence is grammatically incorrect and lacks clarity.
+      Correction: "The lack of authorized control and fact-checking organizations are significant contributors to this problem."
+  3. "People also are not conscious what they are consuming, beliveing in social media."
+      Issue: The sentence contains a spelling error and is worded awkwardly.
+      Correction: "People are also unaware of what they are consuming and often believe what they see on social media."
+  
+  Improvement Feedback:
+  1. "Fake news, circulating on social media is continuously depriving the users from their information rights and has become threat for our national and regional security."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as "disinformation" and "algorithmic bias," to elevate the language and tone. For example, "The dissemination of fake news on social media platforms has led to a significant erosion of users' right to accurate information, posing a substantial threat to national and regional security due to the amplification of disinformation through algorithmic bias."
+  2. "In our country, lots of people are illiterate and they don't even know to the verify a news,"
+      Target Area: Grammar & Mechanics
+      Suggestion: Improve the sentence structure and grammar to make it clearer and more concise. For example, "In our country, many people lack literacy and are unaware of how to verify news, which exacerbates the problem of fake news dissemination."
+ 

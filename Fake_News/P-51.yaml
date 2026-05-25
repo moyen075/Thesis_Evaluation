@@ -1,0 +1,97 @@
+paragraph_id: "P-51"
+
+paragraph: |
+ Fake News on Social Media
+
+ The reasons behind fake news on social media are too many and the bad effects of this on general public are not even imaginable. Several things are acting behind fake news. 
+ Some greedy businessmen tries to make false news so that they can sell their product at high price and make unreal profit. Some of them do so to make illigal hunting, 
+ poaching easier. Some try to make people frightened to keep them far away from the truth by fake news. There are also some politicians, smagglers and other bad people who 
+ create fake news to mislead the people and create chaous and rule over them. For fake news they choose social media because it is very easy to reach to a large number of 
+ people through social media within a very short time and thus their wish become successful so fast. The effects of fake news on social media are misearable. Because of fake 
+ news, chaous is created very easily and quickly at any place, a lot of valuable wealth, resources , institution etc get damaged because of so called mob justice or mob 
+ violence, many a men get killed during the period without any reason, many family suffer a lot because of these fake news . Sometimes, these fake news spreaded on Social 
+ media leads to greater violence that become a threat for the sovereignty of the country also, it can create cold war situation inside the country and leads to a greater lose 
+ that cannot be recovered. Finally it can be said that the reasons and effects of fake news on social media are too many that cannot be described in words, it can just feel.
+
+initial_score: 
+
+gemini:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The response identifies several motivations (economic and political) and generic impacts. However, it lacks a specific real-world example and fails to address specific social media mechanisms like algorithms or echo chambers, as required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a functional structure, but the logical flow is clunky. The transitions are basic, and the concluding sentence is weak and overly subjective.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: While some terms like "sovereignty" are used, the register is often informal or emotional ("too many," "bad people," "can just feel"). It lacks the technical social science terminology (e.g., disinformation, algorithmic bias) mentioned in the rubric.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling (illigal, smagglers, chaous, misearable, lose), subject-verb agreement (businessmen tries), and verb forms (spreaded) that impede the professional quality of the writing.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Some greedy businessmen tries"
+      Issue: Subject-verb agreement; the plural subject "businessmen" requires the verb "try."
+      Correction: Some greedy businessmen try
+  2. "illigal hunting, poaching easier."
+      Issue: Spelling error and punctuation; "illegal" is misspelled, and the sentence structure is fragmented.
+      Correction: illegal hunting and poaching easier.
+  3. "create chaous"
+      Issue: Spelling error.
+      Correction: create chaos
+  4. "many a men get killed"
+      Issue: Grammatical error in the idiom "many a"; it must be followed by a singular noun.
+      Correction: many a man is killed (or "many men are killed")
+  5. "these fake news spreaded"
+      Issue: Verb conjugation; the past participle of the irregular verb "spread" is "spread."
+      Correction: this fake news spread
+  
+  Improvement Feedback:
+  1. "The reasons behind fake news on social media are too many and the bad effects of this on general public are not even imaginable."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace hyperbolic and vague language with precise academic phrasing. Better alternative: "The proliferation of disinformation on social media platforms is driven by diverse socio-political motives and results in significant, measurable consequences for public discourse."
+  2. "For fake news they choose social media because it is very easy to reach to a large number of people..."
+      Target Area: Content & Relevance
+      Suggestion: To elevate the analysis, incorporate social-science-specific mechanisms such as algorithmic amplification. Better alternative: "Social media is an ideal medium for misinformation because its algorithmic structures prioritize high-engagement content, facilitating rapid virality."
+  3. "Finally it can be said that the reasons and effects of fake news on social media are too many that cannot be described in words, it can just feel."
+      Target Area: Organization & Cohesion
+      Suggestion: The conclusion should summarize the argument objectively rather than relying on emotional subjectivity. Better alternative: "In conclusion, the multifaceted nature of digital misinformation presents a substantial threat to social stability, requiring both regulatory oversight and increased user media literacy."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the topic of fake news on social media, discussing various motivations behind its creation (e.g., financial gain, misleading the public) and its consequences (e.g., chaos, violence, damage to resources). However, it lacks a sophisticated impact analysis and real-world examples that specifically explore the mechanisms of social media in spreading fake news.  
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a discernible beginning, middle, and end, but the logical flow is somewhat disjointed. The topic sentence is not clearly defined, and transitions between ideas are not seamless. The submission jumps between discussing the reasons for fake news, its effects, and the consequences without a cohesive argumentative structure.  
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses relatively simple vocabulary and lacks technical terms specific to the field (e.g., disinformation, algorithmic bias, echo chambers). The tone is generally informal, with phrases that sound conversational or emotional (e.g., "The reasons behind fake news on social media are too many and the bad effects of this on general public are not even imaginable", "it can just feel").  
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: There are noticeable issues with grammar and mechanics, including incorrect sentence structures, missing articles, and punctuation errors. These issues impede the clarity of the text and detract from its overall professionalism. For example, "Some greedy businessmen tries to make false news" should be "Some greedy businessmen try to make false news", and "a lot of valuable wealth, resources , institution etc get damaged" is better phrased as "a significant amount of valuable wealth, resources, and institutions are damaged".
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "The reasons behind fake news on social media are too many and the bad effects of this on general public are not even imaginable."
+      Issue: Informal and vague statement.
+      Correction: "There are numerous factors contributing to the spread of fake news on social media, resulting in severe consequences for the general public."
+  2. "Some greedy businessmen tries to make false news so that they can sell their product at high price and make unreal profit."
+      Issue: Subject-verb agreement error.
+      Correction: "Some greedy businessmen try to make false news so that they can sell their products at a high price and make an unreal profit."
+  3. "it can just feel."
+      Issue: Informal and vague conclusion.
+      Correction: "The impact of fake news on social media can be deeply felt, emphasizing the need for critical evaluation and regulatory measures."
+  
+  Improvement Feedback:
+  1. "Several things are acting behind fake news."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and formal language, such as "There are various factors driving the creation and dissemination of fake news." This revision incorporates more academic vocabulary and avoids vague phrases.
+  2. "The effects of fake news on social media are misearable."
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific and detailed examples of the effects of fake news, such as "The consequences of fake news on social media include the spread of misinformation, increased polarization, and real-world harm, as evidenced by recent studies and events." This addition deepens the analysis and provides concrete evidence.
+  3. "Sometimes, these fake news spreaded on Social media leads to greater violence that become a threat for the sovereignty of the country also"
+      Target Area: Grammar & Mechanics
+      Suggestion: Refine the sentence for clarity and grammatical correctness, such as "Occasionally, fake news spread through social media can lead to escalated violence, posing a threat to national sovereignty." This revision improves sentence structure and word choice.
+ 

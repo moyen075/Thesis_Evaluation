@@ -1,0 +1,103 @@
+paragraph_id: "P-30"
+
+paragraph: | 
+ Fake News on Social Media
+
+ Fake or inappropriate news are spread on social media which changes the mass people's view on any issue from the positive to negative side and creates unnecessary violence 
+ both online and offline which may sometimes led to dreadful actions causing harm to people. Nowadays, Social media is very easy to access. Anyone from any part of the world 
+ can post or comment whatever he/she wants. Though, social media used to serve communication purposes primarily, it has now become a platform that is a part of everyone's 
+ daily life. People share everything from their life and events here. Though, it is a very useful tool for making communication very easier, very cheaper, many people use it 
+ for meeting their personal bad intentions. Whenever there is a national issue or any international issue, social media gets filled with many news that are false and have no 
+ source from where they are collected. These are called fake news. These news are spread intentionally to create chaos in the society. The fake news go viral faster on the 
+ social media and as a result, the publishers can earn more money than publishing the true news. Sometimes, one political party spreads fake news about their rival parties to 
+ get dominance over them. Fake news often leads to unnecessary violence in the society, country or even in the world, Political parties are seen often colliding with each 
+ other both verbally and often by unnecessary meetings and rallies which cause great sufferings to the normal people. Sometimes, fake news becomes so great in numbers that 
+ people can hardly able to know about the real news about any topic. People of different views often get in trouble stuck among the fake news every where. In order They also 
+ hamper childrens very badly. Childrens, because of having soft minds and fresh brain, believe everything they see in front of their eyes. In fact, a generation can be lead 
+ to the wrong path by fake news. The government, law enforcing agencies, social media and internet service providers should take necessary against the people who spread social 
+ media. In this way, we can make social media usable for everyone, make a useful tool for communication as expected.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies common motivations for fake news (political gain, profit) and addresses its impact on society and children. However, it lacks a sophisticated analysis of social media-specific mechanisms like algorithms or echo chambers and fails to provide a concrete, real-world example.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a functional beginning, middle, and end, but the logical flow is clunky. It lacks a strong 'Point-Evidence-Explanation' (PEE) structure, and the transition to the impact on children feels disjointed.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and understandable but relies on common words. It misses technical terminology (e.g., disinformation, algorithmic bias) and uses some informal/subjective phrasing like 'bad intentions' and 'soft minds.'
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive grammatical errors, including subject-verb agreement ('news are,' 'news go'), incorrect pluralization ('childrens'), and incomplete phrasing ('take necessary against'), which detract from the academic quality.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake or inappropriate news are spread"
+      Issue: 'News' is an uncountable noun and requires a singular verb.
+      Correction: "Fake or inappropriate news is spread"
+  2. "which may sometimes led to"
+      Issue: The modal verb 'may' should be followed by the base form of the verb.
+      Correction: "which may sometimes lead to"
+  3. "can hardly able to know"
+      Issue: This is a redundant construction combining 'can' and 'able to.'
+      Correction: "are hardly able to know" or "can hardly know"
+  4. "childrens"
+      Issue: 'Children' is the irregular plural form of 'child'; adding 's' is incorrect.
+      Correction: "children"
+  5. "take necessary against the people"
+      Issue: The adjective 'necessary' is missing a noun to modify as the object of the verb.
+      Correction: "take necessary action against the people"
+  
+  Improvement Feedback:
+  1. "Nowadays, Social media is very easy to access."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and precise academic terminology to describe the platform's reach. Alternative: "The digital ubiquity and accessibility of social media platforms have significantly lowered the barriers for information dissemination."
+  2. "The fake news go viral faster on the social media"
+      Target Area: Content & Relevance
+      Suggestion: Incorporate the specific mechanisms mentioned in the rubric, such as algorithms. Alternative: "Sensationalist disinformation often achieves rapid virality because social media algorithms prioritize user engagement over factual accuracy."
+  3. "one political party spreads fake news about their rival parties"
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific real-world example to elevate the impact analysis. Alternative: "This is evident in events like the 2016 US Presidential Election, where coordinated disinformation campaigns were utilized to polarize voters and influence the democratic process."
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some relevant examples of fake news on social media, but it lacks a sophisticated impact analysis and depth of argument.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is not clearly defined.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The submission uses standard vocabulary, but it relies on common words rather than academic or field-specific terminology, and it lacks a formal, objective tone in some places.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are some minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure errors, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake or inappropriate news are spread on social media"
+      Issue: Subject-verb agreement error
+      Correction: "Fake or inappropriate news is spread on social media"
+  2. "People share everything from their life and events here"
+      Issue: Lack of clarity and specificity
+      Correction: "People share various aspects of their personal and public lives on social media"
+  3. "The fake news go viral faster on the social media"
+      Issue: Grammar error
+      Correction: "Fake news goes viral faster on social media"
+  4. "In order They also hamper childrens very badly"
+      Issue: Grammar and punctuation errors
+      Correction: "Additionally, fake news also harms children very badly"
+  
+  Improvement Feedback:
+  1. "Fake news often leads to unnecessary violence in the society, country or even in the world"
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific example of how fake news has led to violence, such as a real-world event or study, to elevate the argument and make it more convincing.
+  2. "The government, law enforcing agencies, social media and internet service providers should take necessary against the people who spread social media"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical terminology, such as "regulatory measures" or "countermeasures," to describe the actions that should be taken against those who spread fake news.
+  3. "Childrens, because of having soft minds and fresh brain, believe everything they see in front of their eyes"
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases or sentences to connect this idea to the previous one, such as "Moreover, the vulnerability of children to fake news is particularly concerning,"

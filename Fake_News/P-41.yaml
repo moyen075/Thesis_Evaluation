@@ -1,0 +1,103 @@
+paragraph_id: "P-41"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news, referring to fabricated, false, half-false or made-up news or information, spreads so fast in social media that it has become a mentionable threat to social 
+ stability and peace. Fake newas has always been a concern, but in recent times, owing to social media it has reached a new dimension. Years before, people used to get 
+ their respective news from electronic and mainly print media. At that time, there was fake news too. However, there were regulatory bodies which could control and rectify 
+ false news. However, in case of social media, there is no such monitoring or rectifying. Anyone can post or upload anything he/she wants. More importantly, others don't 
+ verify the news and still they believe it. Even, people spread unverified news without any responsibility. All these can lead to a bad-to-worse situation. Fake news can 
+ cause unstability in society. In many countries, it is reported that false news is circulated to marginalize and corner the unprevelieged part of society especially 
+ religious minority and women. Sometimes, fake news causes political unrest as fake news is often circulated against political parties. So, fake news divides the society 
+ into pieces. Moreover, fake news causes panic among mass people. In Bangladesh, a woman was killed in Dhaka by general people accusing her being a child killer who collects 
+ children's skull for Padma Bridge. So, fake news is a threat to a peaceful society. By any means, this should be faced and navigated. First of all, government should monitor 
+ social media like Facebook, Twitter through independent agencies. Government must not intervene in the process as it can result in further chaos. Secondly, government ministries 
+ and social influencers should act a great role in facing the challange of fake news. Thirdly, mass people should be aware of the impact of fake news on social media. They should 
+ verify any information before sharing with others. If Last but not least, mainstream electronic and print media must play a great role in debunking false news and spreading the 
+ truth. By taking these measures, we can free our society from the evil grasp of fake news on social media and maintain peace and stability in society.
+
+initial_score: 8.0
+
+gemini:
+ score: 7.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+     Reason: The student provides a clear definition and a highly specific real-world example (the Padma Bridge incident in Bangladesh). However, it falls short of the top tier as it fails to discuss technical social media mechanisms like algorithms or echo chambers mentioned in the rubric.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a logical progression (Definition-Impact-Example-Solution), but it is slightly over-extended for a single paragraph, and the transition to the solutions list feels functional rather than seamless.
+  3. Lexis & Academic Register: 2.0 / 2.5
+     Reason: The vocabulary is generally strong (e.g., 'marginalize', 'debunking'), but the register is occasionally lowered by emotive language ('evil grasp') and the absence of technical terms like 'disinformation'.
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: The text contains more than five errors, including spelling mistakes ('newas', 'unprevelieged', 'challange'), word form issues ('unstability'), and typos ('If Last but not least'), which exceeds the 'minor issues' threshold.
+  
+  Overall Score: 7.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake newas"
+      Issue: Spelling error.
+      Correction: Fake news
+  2. "fake news causes unstability"
+      Issue: Incorrect noun form.
+      Correction: fake news causes instability
+  3. "unprevelieged part of society"
+      Issue: Spelling error.
+      Correction: unprivileged part of society
+  4. "accusing her being a child killer"
+      Issue: Missing preposition 'of' in the structure 'accusing someone of [something]'.
+      Correction: accusing her of being a child killer
+  5. "facing the challange"
+      Issue: Spelling error.
+      Correction: facing the challenge
+  6. "If Last but not least"
+      Issue: Typographical error or leftover fragment.
+      Correction: Last but not least
+  
+  Improvement Feedback:
+  1. "mass people should be aware"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal terminology for the public to maintain an academic register. Suggestion: Replace "mass people" with "the general public" or "the citizenry."
+  2. "By taking these measures, we can free our society from the evil grasp of fake news"
+      Target Area: Lexis & Academic Register
+      Suggestion: Avoid overly emotional metaphors to maintain an objective academic stance. Suggestion: "Implementing these strategies will mitigate the influence of misinformation and promote social stability."
+
+
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples, such as the incident in Bangladesh, but it could be more sophisticated in its impact analysis and depth of argument.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a clear beginning, middle, and end, but the logical flow is sometimes disrupted, and the topic sentence could be stronger.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology, and it lacks a formal, objective stance in some places.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas or singular/plural slips, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake newas has always been a concern"
+      Issue: Typo in the word "news"
+      Correction: "Fake news has always been a concern"
+  2. "In many countries, it is reported that false news is circulated to marginalize and corner the unprevelieged part of society"
+      Issue: Typo in the word "underprivileged"
+      Correction: "In many countries, it is reported that false news is circulated to marginalize and corner the underprivileged part of society"
+  3. "So, fake news divides the society into pieces."
+      Issue: Lack of formal tone
+      Correction: "Thus, fake news contributes to social division."
+  
+  Improvement Feedback:
+  1. "Fake news, referring to fabricated, false, half-false or made-up news or information"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as "disinformation" or "misinformation," to define fake news and provide a more nuanced explanation.
+  2. "In Bangladesh, a woman was killed in Dhaka by general people accusing her being a child killer"
+      Target Area: Content & Relevance
+      Suggestion: Provide more context and analysis of the incident, such as the role of social media in spreading the false information and the consequences of the event, to strengthen the argument.
+  3. "By taking these measures, we can free our society from the evil grasp of fake news on social media"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and objective language, such as "Implementing these strategies can help mitigate the impact of fake news on social media," to conclude the essay.
+ 

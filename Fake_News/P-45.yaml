@@ -1,0 +1,97 @@
+paragraph_id: "P-45"
+
+paragraph: |
+ Fake News on Social Media
+
+ Spreading fake News on social media has a great impact on the human mind and sometimes it controls the human mind and lead to a law and order detoriation. Fake news means it 
+ is not true, half true and exaggerated report on a situation. In today's world, one of the communication media which is mostly used in the world that is Social Media e.g 
+ Facebook, Twitter, Instagram, Linked in etc. In those media, thousands of millions of news are being spread from the each and every corner of world. But among them, a number 
+ of news are fake and exaggerated. It is quite tough to justify whether it is true or not and every person is not concerned about it. The news which is most popular it is always 
+ true, it is a stereotype of a majority percent of people. A number of unverified, unauthentic news is being popular to the social media user many time they starts to believe 
+ it. The impact of fake news that is being published in different social media is very concerning in now-a-days. The false news is always biased and these are published to serve
+ an agenda which can lead the people to worst situation. Sometimes, the false news or exaggerated news can control our thought and our intellect. Which can divert us and these 
+ can fuels the people to a deterioration, violence and social injustice. Sometimes, unverified news can control our decisions. As all the social media are logic-controlled and 
+ pre-programmed, sometimes algorithm can be customized in such way that the people take them as truth. The false news is very destructive in many times. There is some pre-cautionary 
+ steps that should be taken in such way that the false news becomes filtered out from the newsfeed. First of all, we, the users should be very critical and we should try to know 
+ the exact fact and should judge it and always keep trust in authentic source. The social media authority also can establish some filtering algorithim that false news became 
+ filtered out and report them if it is false or exaggerated news. However, False news become destructive and dangerous for us sometimes. All should be very concerned about the 
+ issue and should be very it critical to accept an unauthentic and unverified news.
+
+initial_score: 7.5 
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies the nature of fake news and the role of algorithms, but it fails to provide a specific real-world example (e.g., the 2016 US election or COVID-19 misinformation) required for an exceptional score.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic structure, but the logical flow is clunky and circular, with several sentences repeating the same idea about news being exaggerated or controlling the mind.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: While the student uses technical terms like "algorithm" and "unverified," the vocabulary is often repetitive and lacks sophisticated field-specific terms such as "disinformation" or "echo chambers."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in subject-verb agreement, noun countability, and spelling throughout the text that significantly hinder readability.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1 "detoriation"
+      Issue: Spelling error.
+      Correction: deterioration
+  2 "thousands of millions of news are being spread"
+      Issue: "News" is an uncountable noun and should not be used in a plural sense or with a plural verb.
+      Correction: millions of pieces of news are being disseminated
+  3 "many time they starts"
+      Issue: Error in pluralization of "time" and a subject-verb agreement error with the verb "starts."
+      Correction: many times they start
+  4 "these can fuels the people"
+      Issue: Incorrect verb form following the modal verb "can."
+      Correction: these can fuel the people
+  
+  Improvement Feedback:
+  1 "The impact of fake news that is being published in different social media is very concerning in now-a-days."
+      Target Area: Content & Relevance
+      Suggestion: To reach the highest rubric tier, include a specific real-world example to ground the argument. Suggestion: "This impact was acutely observed during the COVID-19 pandemic, where the viral spread of medical disinformation directly undermined public health initiatives."
+  2 "In today's world, one of the communication media which is mostly used in the world that is Social Media..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Elevate the register by using more precise, academic language and reducing wordiness. Better alternative: "Social media platforms have emerged as the ubiquitous primary conduits for global information exchange in the digital age."
+
+
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and real-world examples. It provides a general overview of fake news on social media and its consequences but does not delve deeper into the mechanisms of social media that facilitate the spread of fake news.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The submission has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is weak. The ideas are not seamlessly connected, and the transitions between sentences are not smooth.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology. The tone is generally formal but could be more objective and avoid phrases like 'it is quite tough' or 'sometimes'.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: The submission has minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and incorrect sentence structures. However, these errors do not significantly impede the meaning of the text.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. 'Spreading fake News on social media has a great impact on the human mind and sometimes it controls the human mind and lead to a law and order detoriation.'
+      Issue: Incorrect sentence structure and spelling error ('detoriation' instead of 'deterioration').
+      Correction: 'The spread of fake news on social media has a significant impact on the human mind, sometimes controlling it and leading to a deterioration in law and order.'
+  2. 'The news which is most popular it is always true, it is a stereotype of a majority percent of people.'
+      Issue: Grammatical error and unclear sentence structure.
+      Correction: 'Many people assume that the most popular news is always true, a stereotype held by a majority of the population.'
+  3. 'The false news is always biased and these are published to serve an agenda which can lead the people to worst situation.'
+      Issue: Grammatical error and incorrect word choice ('worst situation' instead of 'worse situations').
+      Correction: 'False news is always biased and is published to serve an agenda that can lead people to worse situations.'
+  
+  Improvement Feedback:
+  1. 'Fake news means it is not true, half true and exaggerated report on a situation.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms, such as 'disinformation' or 'misinformation', to define fake news. For example, 'Fake news refers to disinformation or misinformation that is intentionally spread to deceive people.'
+  2. 'The impact of fake news that is being published in different social media is very concerning in now-a-days.'
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific examples and real-world cases to illustrate the impact of fake news on social media. For instance, 'The spread of fake news on social media has been linked to increased polarization, social unrest, and even violence, as seen in recent cases such as [provide a real-world example].'
+  3. 'The social media authority also can establish some filtering algorithim that false news became filtered out and report them if it is false or exaggerated news.'
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases and sentences to connect ideas more smoothly. For example, 'Moreover, social media authorities can implement filtering algorithms to detect and remove false news, thereby reducing the spread of misinformation.'
+ 

@@ -1,0 +1,92 @@
+paragraph_id: "P-15"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on Social media is one of the most alarming concerns today. This leads to social unrest, political anarchy and personal on industrial losses. As the young generation 
+ is spending a lot of time in the social media, it is easy to mislead them with a false information where cross checking is rather difficult. Many can create the fake news for 
+ their own profit completely ignoring the consequenses. Many industries can create fake news to destroy their rivals and gain more profit. Political parties also create fake 
+ news to create chaos among other parties or the public. Many people blindly trust the men's they see in the social media and is harmed in many ways. This creates social unnest 
+ and unnecessary movements. Fake sensitive news of an individual can completely destroy that person. However, certain problems can be avoided by spreading fake news. We Can see 
+ the example of August 2024, when the police were inactive and some extreamists were damaging and lasting Hindu temples and houses. Then someone posted a fake news of responsible 
+ youths protecting the temples and house.  The news went viral and thousands of people Come forward to protect the minority. But fake news ultimately causes great harm and it should 
+ be controlled and reduced by any means necessary.
+initial_score: 7.5 
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt and includes a specific real-world example (August 2024). However, the definition lacks the sophistication required for the top tier, missing specific social media mechanisms like algorithmic bias or echo chambers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The submission consists of three separate paragraphs rather than a single unified paragraph as assigned. The logical flow is functional but clunky, with a somewhat disconnected conclusion.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The register is standard and appropriate but lacks technical academic terminology (e.g., disinformation). Some phrasing is slightly subjective or informal ("alarming concerns," "completely destroy").
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling (consequenses, unnest, extreamists), word choice (the men's, lasting), and capitalization (Social media, Come) that impede professional quality.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "personal on industrial losses"
+      Issue: Incorrect preposition or conjunction usage.
+      Correction: "personal and industrial losses"
+  2. "a false information"
+      Issue: "Information" is an uncountable noun and should not be used with an indefinite article.
+      Correction: "false information"
+  3. "consequenses"
+      Issue: Spelling error.
+      Correction: "consequences"
+  4. "the men's they see"
+      Issue: Significant word choice error; likely intended to mean "news" or "memes."
+      Correction: "the news they see"
+  5. "extreamists were damaging and lasting Hindu temples"
+      Issue: Spelling error and incorrect word choice (likely intended to mean "looting").
+      Correction: "extremists were damaging and looting Hindu temples"
+  
+  Improvement Feedback:
+  1. "Fake news on Social media is one of the most alarming concerns today."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical language to establish an objective tone. Better alternative: "The spread of disinformation on social media platforms has emerged as a significant threat to contemporary social and political stability."
+  2. "As the young generation is spending a lot of time in the social media..."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate specific social media mechanisms to provide a more sophisticated analysis. Better alternative: "Because younger demographics heavily engage with algorithmic feeds, they are more susceptible to viral misinformation that spreads rapidly through echo chambers."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and specific evidence. It provides some real-world examples but does not delve deeply into the social media context, such as algorithms and virality.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence could be stronger. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard but lacks technical terms specific to the field, such as disinformation, algorithmic bias, and echo chambers. The tone is not consistently formal and objective.
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: There are noticeable issues with syntax, punctuation, and spelling that impede the meaning, such as missing commas, incorrect verb tenses, and capitalization errors.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "This leads to social unrest, political anarchy and personal on industrial losses."
+      Issue: Lack of proper punctuation and unclear phrase structure.
+      Correction: "This leads to social unrest, political anarchy, and personal and industrial losses."
+  2. "Many people blindly trust the men's they see in the social media and is harmed in many ways."
+      Issue: Incorrect use of possessive form and subject-verb agreement.
+      Correction: "Many people blindly trust what they see on social media and are harmed in many ways."
+  3. "We Can see the example of August 2024, when the police were inactive and some extreamists were damaging and lasting Hindu temples and houses."
+      Issue: Capitalization error, spelling mistake, and unclear phrase structure.
+      Correction: "We can see the example from August 2024, when the police were inactive and some extremists were damaging and looting Hindu temples and houses."
+  
+  Improvement Feedback:
+  1. "Fake news on Social media is one of the most alarming concerns today."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms, such as "The dissemination of disinformation on social media platforms has become a pressing concern in contemporary society."
+  2. "Many can create the fake news for their own profit completely ignoring the consequenses."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or evidence of how fake news is created for profit, and discuss the consequences in more depth, such as "The creation of fake news for financial gain can have severe consequences, including the manipulation of public opinion and the erosion of trust in institutions."
+  3. "Fake news ultimately causes great harm and it should be controlled and reduced by any means necessary."
+      Target Area: Organization & Cohesion
+      Suggestion: Use more cohesive language and transitional phrases to connect ideas, such as "In conclusion, the detrimental effects of fake news necessitate its control and reduction through any necessary means, highlighting the importance of media literacy and critical thinking in mitigating its impact."
+ 

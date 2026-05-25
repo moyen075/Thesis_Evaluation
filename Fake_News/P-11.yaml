@@ -1,0 +1,100 @@
+paragraph_id: "P-11"
+
+paragraph: |
+ Fake News on Social Media
+
+ Recently, in the uprising of social media user, the amount of fake news increased and so on it's destructive impact in our socity, since, 2004, the social media and 
+ internet blew up. And after 2015, the 4G era. • and internet for all with smartphone exponentially increased the user. Now, most of people of the world use social media, 
+ and it is very hard to find anyone how is hot fimillier with these. It was primarily invented for communication, As the communication is easier, any news can spread to all
+ in seconds. But here is a thing though, anyone can post, write, spread false news naming after any renowned newspaper. Now, as the user increased exponentially, the amount 
+ of false news also increased exponentially. The main reason for it because people can be annonymous or under false identity spread anything but for this law of action is 
+ hard to Implement. Without the proper application of law, people had no fear to be caught and do whatever they want. Another main reason is 'Yellow journalism', which broke 
+ the trust of the consumer and people started taking sources from social media rather than actual sources. Now, it comes the impact of false news. Recently, many mob culture 
+ is introduced due to the social media. Many have lost their social status even faced death. for the mob. due to the social media. In 2014, an international terroism and mob 
+ broke out because of false news in social media. Upcoming generation is more dangerous, with the help of artificial Intelligence, any false video evidence can be created for 
+ false news. so, now it is an emergence now to force law on spreading false news. The government had taken 'Digital act' law but though haring the criminal escapes. There 
+ should be collaboration between social media and government because he  have the Ip adress and data to catch the criminals It can help to reduce the false news spreading. 
+ As well as, we should be aware too . We have to follow the news having trusted source and published directly from them, there is also some cyber rumor verrifier which reports 
+ the false news. With all of this, we can along with every ones help solve this as far as we can.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt by discussing the rise of social media and the impact of anonymity and 'yellow journalism.' However, the analysis misses specific social media mechanisms like algorithms or virality, and the real-world example provided is somewhat vague.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The submission is fragmented into multiple short paragraphs rather than a single unified paragraph. The logical flow is functional but clunky, with weak transitions and informal connecting phrases.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and includes some relevant terms like 'yellow journalism,' but it is undermined by conversational fillers and a lack of technical precision (e.g., 'disinformation' or 'echo chambers').
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling, subject-verb agreement, and syntax throughout the text, which significantly impede the professional quality and readability.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "how is hot fimillier"
+      Issue: Incorrect relative pronoun, negative particle, and spelling.
+      Correction: "who is not familiar"
+  2. "annonymous"
+      Issue: Spelling error.
+      Correction: "anonymous"
+  3. "he have the Ip adress"
+      Issue: Subject-verb agreement and spelling errors.
+      Correction: "they have the IP address"
+  4. "haring the criminal escapes"
+      Issue: Severe syntax error and incorrect word choice that obscures meaning.
+      Correction: "allowing criminals to escape"
+  
+  Improvement Feedback:
+  1. "But here is a thing though"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace conversational fillers with formal academic transitions to maintain an objective tone. Alternative: "However, a significant challenge arises because any individual can disseminate false information..."
+  2. "the social media and internet blew up"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use precise academic verbs instead of informal idioms. Alternative: "social media and the internet experienced a period of rapid global expansion."
+  3. "It can help to reduce the false news spreading."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate specific mechanisms of social media mentioned in the rubric, such as algorithms. Alternative: "Collaboration between platforms and governments could help mitigate the spread of fake news by addressing the algorithmic bias that prioritizes sensationalist content."
+
+
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission attempts to address the topic of fake news on social media but lacks depth in its argument and specific evidence. It touches on the increase of fake news with the rise of social media and mentions the issue of anonymity and 'Yellow journalism,' but the analysis is not sophisticated, and real-world examples, while present, are not thoroughly explored.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The flow of the argument is somewhat disjointed, jumping between the causes of fake news, its impact, and potential solutions without a smooth logical progression.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses very informal language, lacks technical terms specific to the field (such as disinformation, algorithmic bias, and echo chambers), and fails to maintain a formal, objective tone. The use of conversational language and slang detracts from the academic quality of the argument.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar, mechanics, and spelling throughout the submission. Errors include missing commas, incorrect verb tenses, and spelling mistakes, which, while not making the text impossible to understand, do impede the reading process.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Recently, in the uprising of social media user, the amount of fake news increased"
+      Issue: Lack of clarity and grammatical errors.
+      Correction: "Recently, with the rise of social media, there has been an increase in fake news."
+  2. "since, 2004, the social media and internet blew up."
+      Issue: Incorrect use of comma and lack of clarity.
+      Correction: "Since 2004, social media and the internet have experienced rapid growth."
+  3. "Now, most of people of the world use social media, and it is very hard to find anyone how is hot fimillier with these."
+      Issue: Grammatical errors and informal language.
+      Correction: "Now, most people in the world use social media, making it hard to find someone who is not familiar with it."
+  
+  Improvement Feedback:
+  1. "It was primarily invented for communication, As the communication is easier, any news can spread to all in seconds."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary. For example, "Social media was initially designed to facilitate communication. However, the ease of communication enables news to disseminate rapidly to a wide audience."
+  2. "The main reason for it because people can be annonymous or under false identity spread anything"
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct grammatical errors and use more precise language. For example, "A primary reason for this is that people can remain anonymous or use false identities to spread information."
+  3. "Without the proper application of law, people had no fear to be caught and do whatever they want."
+      Target Area: Content & Relevance
+      Suggestion: Provide more depth to the argument by explaining how the lack of legal consequences exacerbates the problem of fake news. For example, "The absence of stringent legal repercussions emboldens individuals to disseminate false information without fear of accountability, thereby contributing to the proliferation of fake news."
+ 

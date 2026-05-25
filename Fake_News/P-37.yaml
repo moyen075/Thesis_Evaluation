@@ -1,0 +1,102 @@
+paragraph_id: "P-37"
+
+paragraph: |
+ Fake news on Social Media
+
+ Social media has turned itself a necessary evil to us and it's main reason may be-the increasing number of spreading fake news and propaganda. We have made ourselves too 
+ much dependent on social media. It is very reasonable. As the technology advances we are advancing. The benefits we get from social media is literally uncountable. In every 
+ sphere of our life, it is attached. We can get news, as quickly as possible through it. But the problem is that-are these news remain authentic & trustworthy or not. And now 
+ a days this question is getting stronger and alarming for us. News that represents any situation throughout the world, now stands against a burning question whether it is 
+ true or fake. By taking the advantages of our daily life dependency on media, some culprits, yellow journalists, paid morally degraded workers, fake social activists and so 
+ on, they are spreading fake news just only for their own interest. This causes a total unrest throughout any-where of the world. It has a massive impact on any situation. 
+ Normally, we can see in some big events like- Elections etc, are heavily impacted by fake news. It creates a total cauous. People believing these news, they start to act. 
+ But when they realize, this is a fake news, they become upset and even they face loss in some cases. Fake news spread on social media creates political unrest. For that, it 
+ hampers a nation's economy, education, health etc every sector. Due to the advancement of AI technology, now fake news can be created more easily and it seems actually just 
+ like the real one. So, it has an adverse effect in every sector. To solve this problem we, all walks of people have to come forward. At first we have create public awareness 
+ spread knowledge in people so that they don't believe anything without checking authenticity. Government should come forward in this case. Law enforcements and other 
+ representative should enforce law and strict rules and regulations. Those who spread fake news should be punished according to the law strictly. Public sites and government 
+ portal should be monitored by the corresponding authorities to prevent and spread fake news. By taking these steps, we will be able to reduce, the loss due to spreading fake 
+ news and will also save ourselves from the poisonous claw of this henious crime.
+
+initial_score: 8.0 
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The paragraph addresses the general impact of fake news and mentions AI, but it treats the issue like general rumors or a crime by individuals. It misses specific social media mechanisms like algorithmic bias, echo chambers, or virality required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The structure is functional but logical flow is often clunky. There are repetitive transitions, and the paragraph lacks a seamless Point-Evidence-Explanation (PEE) progression, often jumping between benefits and problems without smooth integration.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard but relies heavily on emotional and cliché phrasing (e.g., "poisonous claw," "henious crime") rather than objective, technical terminology like "disinformation" or "digital literacy."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains pervasive errors including spelling ("cauous," "henious"), subject-verb agreement ("are these news remain"), and significant punctuation issues/sentence fragments that impede flow.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "it's main reason may be"
+      Issue: Incorrect use of the contraction for "it is" instead of the possessive pronoun.
+      Correction: its main reason may be
+  2. "are these news remain authentic"
+      Issue: Grammatical error combining an auxiliary verb with a base verb incorrectly; "news" is also uncountable.
+      Correction: does this news remain authentic
+  3. "It creates a total cauous."
+      Issue: Significant spelling error.
+      Correction: It creates total chaos.
+  4. "this henious crime"
+      Issue: Spelling error.
+      Correction: this heinous crime
+  5. "prevent and spread"
+      Issue: Contextual error; the phrasing suggests the authorities should help spread fake news.
+      Correction: prevent the spread of
+  
+  Improvement Feedback:
+  1. "some culprits, yellow journalists, paid morally degraded workers"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace emotional labels with objective, field-specific terminology. Suggestion: "Malicious actors and state-sponsored entities often orchestrate disinformation campaigns to exploit platform vulnerabilities."
+  2. "Normally, we can see in some big events like- Elections etc"
+      Target Area: Content & Relevance
+      Suggestion: Move from generic examples to a specific impact analysis with a real-world case. Suggestion: "The impact of virality is evident in events like the 2016 US Election, where fabricated stories reached millions of users via algorithmic amplification."
+  3. "At first we have create public awareness"
+      Target Area: Grammar & Mechanics
+      Suggestion: Ensure proper infinitive verb structures and complex sentence transitions. Suggestion: "Initially, society must prioritize the promotion of media literacy to ensure users can verify the authenticity of information."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and real-world examples specific to social media mechanisms.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed and lacks seamless transitions between ideas.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology, and lacks a formal, objective tone.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure errors.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Social media has turned itself a necessary evil to us and it's main reason may be-the increasing number of spreading fake news and propaganda."
+      Issue: Incorrect use of apostrophe and lack of clarity in sentence structure.
+      Correction: Social media has become a necessary evil due to the increasing spread of fake news and propaganda.
+  2. "We have made ourselves too much dependent on social media."
+      Issue: Incorrect phrase usage and sentence structure.
+      Correction: We have become overly dependent on social media.
+  3. "The benefits we get from social media is literally uncountable."
+      Issue: Subject-verb agreement error.
+      Correction: The benefits we get from social media are literally countless.
+  
+  Improvement Feedback:
+  1. "It has a massive impact on any situation."
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific example of how fake news on social media has impacted a real-world situation, such as an election or social movement.
+  2. "Due to the advancement of AI technology, now fake news can be created more easily and it seems actually just like the real one."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as "algorithmic bias" or "deepfakes," to describe the impact of AI technology on fake news creation and dissemination.
+  3. "To solve this problem we, all walks of people have to come forward."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a more formal and cohesive transition to connect the solution to the problem, such as "To address this issue, a collective effort is necessary, involving individuals from all walks of life."
+ 

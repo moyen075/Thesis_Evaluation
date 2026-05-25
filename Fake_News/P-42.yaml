@@ -1,0 +1,95 @@
+paragraph_id: "P-42"
+
+paragraph: |
+ Fake News on Social Media
+
+ Social media is a platform, where anyone can post or share any information or incidence without judging its authenticity. So spreading false news is easy through social 
+ media platforms, misguiding a whole community. The biased mentality of people on particular community, belief often may do it intentionally to artificially create a riot 
+ among diffrent community or tribes. In fact, recent inter religion battle took place in Bangladesh due to a Social media spreaded post. Unfortunately social media owners 
+ doesn't care about its effect but also they focus on reach and confine user in screan more time to generate additional revenue. Additionally fake news are charming and user 
+ attractive they can grab more people to social media. As a result it happens. The concsequences of fake news on social media is uncountable. Any misconception and false 
+ information is harmful. Most of the fake news are biased againts a particular community. As a result it may generate hatred, jealousy, anger among people and even it may 
+ lead to murder of innocent individual. When the situation goes out of the control sometimes social riots take place as major issue. Fake news in social media thus damage 
+ social peace. To stop it, public awareness may play a vital role. Each individual must need to judge the authenticity of any biased news before giving a trust on it. 
+ Government ant NGO'S must run campaign on fake news. Overall, to sum up on integrated approach both from Individual and the Institutions against any biased news so that 
+ social damages like murder, riots may be prevented.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+     Reason: The student effectively addresses the prompt by defining fake news and providing a specific real-world example (the unrest in Bangladesh). It also mentions the role of platform monetization, though the analysis lacks the sophistication needed for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic logical sequence, but the transitions are weak (e.g., "As a result it happens") and the concluding section is a sentence fragment, which disrupts the overall flow.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and functional but lacks technical terminology like "disinformation," "algorithmic bias," or "echo chambers." Some word choices, such as "charming," are non-academic in this context.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains pervasive errors in subject-verb agreement, verb tense/conjugation, spelling, and sentence structure that significantly hinder the academic quality of the writing.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Social media spreaded post"
+      Issue: Incorrect past tense/participle of the irregular verb "spread."
+      Correction: "social media-disseminated post" or "post spread via social media."
+  2. "social media owners doesn't care"
+      Issue: Subject-verb agreement; "owners" is plural.
+      Correction: "social media owners do not care."
+  3. "confine user in screan"
+      Issue: Spelling error and incorrect preposition.
+      Correction: "confine users to their screens."
+  4. "Government ant NGO'S"
+      Issue: Spelling error and incorrect use of an apostrophe for a plural noun.
+      Correction: "Governments and NGOs."
+  5. "Overall, to sum up on integrated approach..."
+      Issue: This is a sentence fragment; it contains a subject but no main verb to complete the thought.
+      Correction: "Overall, an integrated approach involving both individuals and institutions is required to prevent social damages."
+  
+  Improvement Feedback:
+  1. "fake news are charming and user attractive"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace informal descriptors with academic terminology. Suggestion: "Furthermore, fake news is often sensationalized and designed to be clickbait, which increases user engagement."
+  2. "As a result it happens."
+      Target Area: Organization & Cohesion
+      Suggestion: This is a very weak transition. Replace it with a phrase that links the incentive (revenue) to the outcome (the spread of news). Suggestion: "This profit-driven model incentivizes the rapid circulation of unverified content."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and real-world examples specific to social media mechanisms.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and transitions between ideas could be smoother.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard but lacks technical terms specific to the field, and the tone is not consistently formal.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar, punctuation, and spelling that do not significantly impede meaning but are noticeable.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "So spreading false news is easy through social media platforms, misguiding a whole community."
+      Issue: Lack of precise language and grammatical errors.
+      Correction: "Thus, spreading false news is easily facilitated by social media platforms, potentially misleading entire communities."
+  2. "The biased mentality of people on particular community, belief often may do it intentionally to artificially create a riot among diffrent community or tribes."
+      Issue: Grammatical errors and lack of clarity.
+      Correction: "The biased mentality of individuals within specific communities or beliefs may lead them to intentionally spread false information, aiming to artificially create conflict among different communities or tribes."
+  3. "Unfortunately social media owners doesn't care about its effect but also they focus on reach and confine user in screan more time to generate additional revenue."
+      Issue: Grammatical errors and informal language.
+      Correction: "Unfortunately, social media owners seem to be indifferent to these effects, as their primary focus is on increasing user engagement and screen time to generate additional revenue."
+  
+  Improvement Feedback:
+  1. "Fake News on Social Media"
+      Target Area: Content & Relevance
+      Suggestion: Provide a more nuanced definition of fake news within the context of social media, including how algorithms and virality contribute to its spread.
+  2. "Any misconception and false information is harmful."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more precise and technical vocabulary, such as "disinformation" and "misinformation," to elevate the discussion and maintain a formal tone.
+  3. "To stop it, public awareness may play a vital role."
+      Target Area: Organization & Cohesion
+      Suggestion: Integrate this point more smoothly into the paragraph by using transitional phrases and providing specific examples of how public awareness campaigns can be effective in combating fake news on social media.
+ 

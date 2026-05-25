@@ -1,0 +1,89 @@
+paragraph_id: "P-24"
+
+paragraph: |
+ "Fake news on Social Media"
+
+ Fake news on Social Media working as a propaganda spreading machine are mostly spread by a selfish group of people resulting in irrational behaviour, or poor judgement and 
+ social unrest inside a society. Most often a group of people tried to deviate the public attention from one matter to another then they start spreading fake news. and social 
+ media being the most popular and unauthorized source of information, this selfish people use social media as a weapon to fire their fake news. It is rarely possible to fact 
+ check the news from social media and due to people's poor judgement quality they consume the news. Sometimes fake news create agony against other community that is fueled by 
+ the fake news. Thus we see communal violence that brings social unrest and affects the lives and livelihood of the common people. Two groups collide with each other and another 
+ third selfish group takes the benefit out of it. Thus we can see the importance of fact checking while reading a news. Social media is mostly full of this fake news, we should 
+ learn to filter out those news. To sum up, fake news are spread by a selfish group of people for their own selfish and heartless benefits, creating irrational behaviour in the 
+ rational beings.
+
+initial_score: 7.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies the negative societal impacts of fake news but fails to provide a concrete real-world example or detail technical social media mechanisms such as algorithms as required for the highest score tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a recognizable beginning and end, but the flow is clunky due to heavy repetition of phrases and a syntactically fractured topic sentence.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: While the student uses terms like 'propaganda' and 'social unrest,' the tone is often subjective and emotional (e.g., 'selfish,' 'heartless'), and it lacks specific technical terminology like 'disinformation' or 'echo chambers.'
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The writing contains pervasive grammatical errors, including subject-verb agreement ('news are'), demonstrative errors ('this... people'), and punctuation issues that significantly hinder readability.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on Social Media working as a propaganda spreading machine are mostly spread"
+      Issue: Incorrect subject-verb agreement and poor sentence structure.
+      Correction: "Fake news on social media, which functions as a propaganda-spreading machine, is mostly spread..."
+  2. "and social media being the most popular... this selfish people use"
+      Issue: Sentence fragment and incorrect demonstrative adjective (using singular 'this' for plural 'people').
+      Correction: "Because social media is a popular but unregulated source, these selfish groups use..."
+  3. "fake news create agony"
+      Issue: Subject-verb agreement (news is an uncountable noun requiring a singular verb).
+      Correction: "...fake news creates agony..."
+  4. "fake news, we should learn to filter"
+      Issue: Comma splice in a run-on sentence.
+      Correction: "...fake news; consequently, we should learn to filter..."
+  
+  Improvement Feedback:
+  1. "selfish group of people"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more academic terminology to describe the perpetrators. Instead of the repetitive and emotional 'selfish group,' use terms like 'malicious actors' or 'purveyors of disinformation.'
+  2. "Fake news on Social Media working as a propaganda spreading machine"
+      Target Area: Content & Relevance
+      Suggestion: To achieve an exceptional score, integrate a specific real-world instance, such as the spread of health misinformation during the COVID-19 pandemic, and mention how 'algorithmic bias' or 'viral mechanisms' facilitate this spread.
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in argument and specific evidence. It provides some examples of the consequences of fake news but does not delve into the mechanisms of social media that facilitate its spread, such as algorithms or virality.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The flow of the argument is somewhat disjointed.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The language used is informal and lacks technical terminology related to social media or the spread of misinformation. The tone is not consistently formal or objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar, punctuation, and spelling that impede the clarity of the message. Examples include missing articles, incorrect verb tenses, and run-on sentences.
+  
+  Overall Score: 4.5 / 10 
+
+  Corrective Feedback:
+  1. "Fake news on Social Media working as a propaganda spreading machine"
+      Issue: Lack of clarity and informal language.
+      Correction: Consider rephrasing to "The dissemination of fake news on social media acts as a tool for propaganda."
+  2. "are mostly spread by a selfish group of people"
+      Issue: Overly simplistic and subjective language.
+      Correction: Rephrase to "are often disseminated by individuals or groups with specific agendas."
+  3. "and social media being the most popular and unauthorized source of information"
+      Issue: Grammar and clarity.
+      Correction: Rephrase to "and social media, being a widely used but unregulated source of information,"
+  
+  Improvement Feedback:
+  1. "Fake news on Social Media"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms related to the topic, such as "disinformation" or "misinformation," to elevate the academic register of the submission.
+  2. "resulting in irrational behaviour, or poor judgement and social unrest"
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or studies that demonstrate the impact of fake news on social behavior and societal stability to strengthen the argument.
+  3. "Thus we see communal violence that brings social unrest"
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases or sentences to connect ideas more smoothly and enhance the paragraph's cohesion, such as "Furthermore, the spread of fake news can lead to communal violence, resulting in social unrest."

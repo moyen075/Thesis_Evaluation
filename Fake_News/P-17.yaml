@@ -1,0 +1,97 @@
+paragraph_id: "P-17"
+
+paragraph: |
+ Fake News on Social Media
+
+ In modern era, social media is the most important key to explore the current situation of the country and  world. But it also expanded the term fake news. Before social 
+ media fake news could not affect that much like it does now. Fake news spreaded through newspaper and radio stations previously. Nowadays, it is spreaded nationwide and
+ worldwide in lightening speed. The social media is of various kinds at present. Internet based and broadcast based media are working as social media. We, the people get 
+ our news from these medias. But often these medias publish fake news and biased news just to get publicity. Social media journalists, all are not honest and truthful to 
+ their work. They want to get to the center of the publicity by hot and ground breaking news. So, they take the easy path of fake news. They publish false news with a lot 
+ of confidence. This also happens when journalists publish news without seeking the actual truth. When one media publishes some other medias follow the trend and that is 
+ how the fake news spreads all over. Because of fake news many lives are destroyed. Because people often judge by the news published on social media. Some fake news sometimes 
+ get published just to stop the trend of another news. These kind of news serve political agenda. For stopping fake news spreading, We all need to come forward. During the 
+ recent July movement we all saw how fake news effects on public mind and the movement was largely effected. Now govt. should take as fast as possible whenever a fake news 
+ is published in any social media. The authority should be more strict and more sharp for stopping the run of fake news on social media.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the topic and provides a relevant real-world example (the July movement). However, it fails to discuss specific social media mechanisms like algorithms or echo chambers, which are required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic functional structure, but the logical flow is clunky and repetitive. It lacks a clear Point-Evidence-Explanation (PEE) progression and seamless transitions.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and appropriate for the topic, but it relies on common words rather than the technical terminology (e.g., disinformation, algorithmic bias) expected for an exceptional score.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The writing contains pervasive errors, including incorrect irregular verb forms ("spreaded"), pluralization errors ("medias"), spelling mistakes ("lightening"), and incomplete sentence structures.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "In modern era"
+      Issue: Missing the definite article before a specific time-period noun phrase.
+      Correction: "In the modern era"
+  2. "Fake news spreaded"
+      Issue: Incorrect conjugation of the irregular verb 'spread,' which remains 'spread' in the past tense.
+      Correction: "Fake news spread"
+  3. "lightening speed"
+      Issue: Spelling error; 'lightening' means making something lighter, while 'lightning' refers to speed or weather.
+      Correction: "lightning speed"
+  4. "from these medias"
+      Issue: 'Media' is the plural form of 'medium' and does not take an 's'.
+      Correction: "from these media outlets"
+  5. "how fake news effects on public mind"
+      Issue: Confuses the noun 'effect' with the verb 'affect' and uses an unnecessary preposition.
+      Correction: "how fake news affects the public mind"
+  
+  Improvement Feedback:
+  1. "They want to get to the center of the publicity by hot and ground breaking news."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise academic register to describe the motivations for spreading fake news. Better alternative: "Digital content creators often prioritize sensationalism to achieve rapid virality, often at the expense of factual accuracy."
+  2. "Now govt. should take as fast as possible whenever a fake news is published in any social media."
+      Target Area: Organization & Cohesion
+      Suggestion: Strengthen the concluding thought by using full words and a clearer call to action. Better alternative: "Consequently, it is imperative for the government to implement robust regulatory frameworks to identify and mitigate the spread of disinformation on digital platforms."
+
+
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks depth in its argument and specific evidence. It touches on the spread of fake news through social media and its consequences but does not provide a sophisticated impact analysis or real-world examples beyond a general mention of the July movement.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is weak. Transitions between ideas are not seamless, making the argument feel a bit scattered.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard but lacks technical terms specific to the field of social media and fake news, such as disinformation, algorithmic bias, or echo chambers. The tone is generally formal but could benefit from more objective language.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, including missing articles, incorrect verb tenses, and punctuation errors, but they do not significantly impede the meaning of the text.
+  
+  Overall Score: 5.5 / 10
+
+  Corrective Feedback:
+  1. "In modern era, social media is the most important key to explore the current situation of the country and  world."
+      Issue: Lack of specificity and incorrect phrase usage.
+      Correction: "In the modern era, social media serves as a crucial tool for exploring current global and national situations."
+  2. "Fake news spreaded through newspaper and radio stations previously."
+      Issue: Incorrect verb form.
+      Correction: "Fake news spread through newspapers and radio stations previously."
+  3. "We, the people get our news from these medias."
+      Issue: Incorrect pronoun and noun usage.
+      Correction: "We, the people, get our news from these media."
+  
+  Improvement Feedback:
+  1. "Before social media fake news could not affect that much like it does now."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise language, such as "The advent of social media has significantly amplified the impact of fake news, unlike in the pre-social media era."
+  2. "Social media journalists, all are not honest and truthful to their work."
+      Target Area: Organization & Cohesion
+      Suggestion: Rephrase for clarity and flow, such as "Not all social media journalists maintain honesty and truthfulness in their work, which can lead to the dissemination of fake news."
+  3. "Because of fake news many lives are destroyed."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or statistics to support this claim, making the argument more compelling and evidence-based.
+ 

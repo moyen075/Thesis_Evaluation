@@ -1,0 +1,99 @@
+paragraph_id: "P-07"
+
+paragraph: |
+ Fake News on Social Media
+
+ Social media nowadays is flooded with fake news which distracts its users from authenticity and digs the grave fore truth which should've come to light. Fake news are seen 
+ here and there while scrolling through any some of social media page same of which are so well prepared that people fall for it easily until the truth is brought infront  
+ of everyone. With the rise of social media, the amount of fake news has skyrocketed and gone through the roof. It is mainly caused by some selfish and dishonest person who 
+ try to gain the most out of it by. spreading it at a mass scale for their interest. Soometimes celebrity lives are ruined because of it, Companies face huge fall in stock 
+ prices due to fake rumours and some take the advantage out of it within the period till everything's cleared up. Through social media platforms are trying hard to not letting 
+ it spread using their algorithm, it's not sufficient enough as of today. As people have access to this medias within their wrists, it's getting so out of control that a little 
+ misinterpretation of something letting it can cause severe consequences. Those who are new to this virtual world fall for this traps so easily that they're the main target of 
+ those selfish people who spread fake news just because they would take advantage of the artificially created situation. We should all be aware of what is authentic and what 
+ is most likely to be fake before judging anything or believing in whatever we see on social media. We have to keep in mind that social media is just for a virtual world made 
+ for entertaining us and if we're not paying for it we are the product. So, we should not believe everything we see on social media. We should be critical and judge using the 
+ facts.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt and mentions social media mechanisms like algorithms. However, the impact analysis is generic and lacks a specific, named real-world example required for the top tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic structure, but the logical flow is clunky. It lacks a clear Point-Evidence-Explanation (PEE) structure, and transitions between ideas are weak.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: While the student uses the term "algorithm," the register is often informal, relying on idioms (e.g., "gone through the roof") and subjective descriptions (e.g., "selfish and dishonest") rather than academic terminology.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors throughout the text, including subject-verb agreement (news are), spelling (fore, infront), and syntax issues (Through instead of Though) that hinder readability.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news are seen"
+      Issue: Subject-verb agreement. "News" is an uncountable noun and takes a singular verb.
+      Correction: Fake news is seen
+  2. "digs the grave fore truth"
+      Issue: Spelling error.
+      Correction: digs the grave for truth
+  3. "infront of everyone"
+      Issue: Spelling error (compound word).
+      Correction: in front of everyone
+  4. "Through social media platforms are trying hard"
+      Issue: Incorrect word choice/conjunction. The author likely intended to show contrast.
+      Correction: Although social media platforms are trying hard
+  5. "this medias"
+      Issue: Number agreement. "This" is singular, while "media" is plural (or used collectively).
+      Correction: these media platforms
+  
+  Improvement Feedback:
+  1. "skyrocketed and gone through the roof"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace informal idioms with formal, precise language to improve the academic tone. Alternative: "has increased exponentially and reached unprecedented levels."
+  2. "some selfish and dishonest person"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more objective and professional terminology. Alternative: "malicious actors and entities seeking to manipulate public opinion for personal gain."
+  3. "Companies face huge fall in stock prices"
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional level, provide a specific real-world example. Alternative: "For example, a fraudulent tweet regarding an explosion at the Pentagon in 2023 caused a temporary but significant decline in the S&P 500."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It touches on the consequences and attempts to provide examples but remains somewhat generic and surface-level.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The flow is somewhat clunky, making it hard to follow the logical progression of the argument.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard and understandable but relies heavily on common words rather than academic or field-specific terminology. The tone is mostly formal but could benefit from more precise and technical terms related to social media and fake news.
+  4. Organization & Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, including missing commas, singular/plural slips, and some syntax errors that do not significantly impede the meaning but detract from the overall clarity.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Social media nowadays is flooded with fake news which distracts its users from authenticity and digs the grave fore truth which should've come to light."
+      Issue: The sentence contains grammatical errors and awkward phrasing.
+      Correction: Social media is currently flooded with fake news, distracting users from authentic information and potentially burying the truth that should be revealed.
+  2. "Fake news are seen here and there while scrolling through any some of social media page same of which are so well prepared that people fall for it easily until the truth is brought infront  of everyone."
+      Issue: The sentence has multiple grammatical errors and lacks clarity.
+      Correction: Fake news can be seen while scrolling through social media pages, some of which are so well-prepared that people easily fall for them until the truth is revealed to everyone.
+  3. "With the rise of social media, the amount of fake news has skyrocketed and gone through the roof."
+      Issue: The sentence uses a cliché and lacks specificity.
+      Correction: The proliferation of social media has led to a significant increase in fake news, with the number of cases rising dramatically.
+  
+  Improvement Feedback:
+  1. "Social media nowadays is flooded with fake news"
+      Target Area: Content & Relevance
+      Suggestion: To elevate this, consider providing specific examples or statistics about the prevalence of fake news on social media platforms, such as "According to recent studies, social media platforms have seen a 50% increase in fake news stories over the past year."
+  2. "We should all be aware of what is authentic and what is most likely to be fake before judging anything or believing in whatever we see on social media."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise language, such as "It is essential to develop critical media literacy skills to discern between authentic and potentially fake information on social media."
+  3. "We have to keep in mind that social media is just for a virtual world made for entertaining us and if we're not paying for it we are the product."
+      Target Area: Organization & Cohesion
+      Suggestion: This sentence, while insightful, feels somewhat disconnected from the rest of the paragraph. Consider integrating it more smoothly into the argument, perhaps by using it as a concluding thought or by expanding on how this reality exacerbates the fake news problem.
+ 

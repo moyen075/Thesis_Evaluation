@@ -1,0 +1,94 @@
+paragraph_id: "P-13"
+
+paragraph: |
+ Fake News on Social Media
+
+ Spreading 'Fack News'. in social media nowaday become a common problem in our world. Fack news divert the socity from the actual event. As a result we see some conflect. In 
+ recent time the Social media become much easier to access. As a result a group of people, try to expand propaganda through Social media like facebook, youtube and other platform. 
+ Some innocent people share these news without varifieng them. As a result the news become viral. The concerning part about the false news is that by this a group of people try 
+ to blackmail girls . So we must concious about the matter • and try to stop speading fake news. The government can play a vital role in this case. By imposing strong policy it 
+ Can be Stoped.
+
+
+initial_score: 6.0
+
+gemini:
+ score: 4.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.0 / 3.0
+     Reason: The content is surface-level and fails to address the specific mechanisms of social media (e.g., algorithms or echo chambers). It lacks a sophisticated impact analysis and does not provide a specific real-world example.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a functional beginning, middle, and end, but the logical flow is clunky and transitions like "As a result" are used repetitively.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses standard vocabulary but fails to incorporate technical Social Science terminology such as "disinformation" or "algorithmic bias."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling, punctuation, and capitalization throughout the text that make it difficult to read.
+  
+  Overall Score: 4.0 / 10
+  
+  Corrective Feedback:
+  1. "'Fack News'."
+      Issue: Misspelling and improper punctuation within a sentence.
+      Correction: "fake news"
+  2. "nowaday become"
+      Issue: Grammatical error in adverb usage and verb tense.
+      Correction: "nowadays has become"
+  3. "divert the socity"
+      Issue: Subject-verb agreement and spelling error.
+      Correction: "diverts society"
+  4. "without varifieng them"
+      Issue: Spelling error.
+      Correction: "without verifying them"
+  5. "must concious"
+      Issue: Missing auxiliary verb and spelling error.
+      Correction: "must be conscious"
+  6. "Can be Stoped"
+      Issue: Incorrect capitalization and spelling error.
+      Correction: "can be stopped"
+  
+  Improvement Feedback:
+  1. "The concerning part about the false news is that by this a group of people try to blackmail girls ."
+      Target Area: Content & Relevance
+      Suggestion: Replace this narrow observation with a broader, more academic impact analysis involving a real-world event. Suggestion: "A significant consequence of disinformation is the manipulation of public opinion, as observed during the 2016 US election where social media was used to polarize voters."
+  2. "As a result a group of people, try to expand propaganda"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use precise technical terms to reach the higher rubric tier. Suggestion: "Consequently, malicious actors leverage algorithmic bias to disseminate disinformation across digital platforms."
+
+llama:
+ score: 4.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.0 / 3.0
+     Reason: The submission vaguely addresses the topic of fake news on social media but lacks depth of argument and specific evidence. It mentions that fake news diverts society from actual events and leads to conflict, but it does not provide a sophisticated impact analysis or real-world examples.
+  2. Organization & Cohesion: 0.5 / 2.0
+     Reason: The paragraph lacks a clear topic sentence and seamless transitions between ideas. The flow of the argument is disorganized, making it difficult to follow.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses conversational language and lacks technical terminology related to social media and fake news. It also contains overly informal phrasing.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission contains several errors in spelling, punctuation, and grammar, but they do not completely impede the meaning of the text.
+  
+  Overall Score: 4.0 / 10
+  
+  Corrective Feedback:
+  1. 'Spreading 'Fack News'. in social media nowaday become a common problem in our world.'
+      Issue: Spelling error and lack of proper sentence structure.
+      Correction: 'Spreading fake news on social media has become a common problem in our world.'
+  2. 'Fack news divert the socity from the actual event.'
+      Issue: Spelling error and lack of clarity.
+      Correction: 'Fake news diverts society from actual events.'
+  3. 'As a result we see some conflect.'
+      Issue: Spelling error and lack of clarity.
+      Correction: 'As a result, we see some conflict.'
+  
+  Improvement Feedback:
+  1. 'Fake News on Social Media'
+      Target Area: Content & Relevance
+      Suggestion: Provide a clear definition of fake news within the social media context and offer specific examples of its impact.
+  2. 'a group of people, try to expand propaganda through Social media'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use technical terms such as 'disinformation' and 'algorithmic bias' to describe the spread of fake news on social media.
+  3. 'The government can play a vital role in this case.'
+      Target Area: Organization & Cohesion
+      Suggestion: Develop this idea further by explaining how the government can play a vital role in stopping the spread of fake news, and provide evidence to support this claim.
+ 

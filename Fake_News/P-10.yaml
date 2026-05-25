@@ -1,0 +1,94 @@
+paragraph_id: "P-10"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake means news that doesnot have any genuine sources and most of the case old news or news of other country that. are spread in critical time. It is a big problem in 
+ Bangladesh. Some people beleive that whatever they see in the internet and social media, all of them are right and they act accordingly. Spreading fake news on social 
+ media is the root cause of all major problems in todays: Bangladesh. Moreover one party for their profit spread frequent fake news to shift the country's concentration 
+ in a particular site so that they can earn the whole nation remain busy in that Issue, spreading fake news is many profiable for the content creators as most of the 
+ people are illiterate in this country, when they see an attractive. thumbnail they cannot but watch the vedio. Fake news is very efficient in creating unrest among 
+ different group of people from different religious belief. For example, in June there was a news highlighting that the muslims are destroying temple of the hindus  but 
+ in reality it was the government who was destroying because the temple was in government property. Sometimes there are some fake news a addressing scarcity of different 
+ goods in the country resulting  increase in price level of that good, Fake news is very dangerous for any person. The creator of the vedio or news must attach evidance 
+ and proper source before spreading the news. The fake news creator must be given proper punishment and government should form a bound to look after these fake news. And 
+ make people understand that they don't need to trust whatever they see in the social media.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt and includes a specific real-world example from Bangladesh. However, it lacks a sophisticated analysis of social media-specific mechanisms such as algorithms, virality, or echo chambers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The structure is functional but clunky. The submission fails to maintain a single paragraph format, and the transitions between the definition, examples, and recommendations are abrupt.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard but relies on common words. It lacks academic or field-specific terminology and contains several spelling errors (e.g., 'vedio') that detract from the formal tone.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors in spelling, punctuation, and syntax, including run-on sentences and improper capitalization, which significantly impede the reading flow.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "doesnot have any genuine sources"
+      Issue: Spelling and spacing error.
+      Correction: does not have any genuine sources
+  2. "todays: Bangladesh"
+      Issue: Incorrect use of punctuation and missing possessive apostrophe.
+      Correction: today's Bangladesh
+  3. "watch the vedio"
+      Issue: Recurring spelling error.
+      Correction: watch the video
+  4. "attach evidance"
+      Issue: Spelling error.
+      Correction: attach evidence
+  
+  Improvement Feedback:
+  1. "Fake means news that doesnot have any genuine sources..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise, technical terminology to define the subject. Instead of "Fake means news," try: "Fake news, or disinformation, is characterized by the dissemination of unverified information intended to mislead the public."
+  2. "Spreading fake news on social media is the root cause..."
+      Target Area: Content & Relevance
+      Suggestion: Elevate the analysis by mentioning social media mechanisms. For example: "The rapid spread of disinformation is facilitated by social media algorithms that prioritize engagement and emotional triggers over factual accuracy."
+
+
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides some examples but does not delve deeply into the mechanisms of social media that facilitate the spread of fake news.
+  
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The flow of the argument is somewhat disjointed.
+  
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses very informal language, lacks technical terminology related to social media and fake news, and does not maintain a formal tone.
+  
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar, spelling, punctuation, and capitalization that impede the clarity of the message.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake means news that doesnot have any genuine sources"
+      Issue: Lack of proper grammar and spelling.
+      Correction: "Fake news refers to information that lacks genuine sources."
+  2. "It is a big problem in Bangladesh."
+      Issue: The sentence is too generic and lacks connection to the preceding sentence.
+      Correction: "This issue is particularly problematic in Bangladesh, where the dissemination of fake news can lead to significant social unrest."
+  3. "Spreading fake news on social media is the root cause of all major problems in todays: Bangladesh."
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: "The spread of fake news on social media is a primary contributor to many of the major problems facing Bangladesh today."
+  
+  Improvement Feedback:
+  1. "Fake news is very efficient in creating unrest among different group of people from different religious belief."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more formal and technical vocabulary, such as "Fake news can exacerbate intergroup tensions and conflicts by exploiting religious beliefs."
+  2. "The creator of the vedio or news must attach evidance and proper source before spreading the news."
+      Target Area: Grammar & Mechanics
+      Suggestion: Improve the sentence structure and spelling to enhance clarity, e.g., "News creators should provide evidence and cite proper sources before disseminating information."
+ 

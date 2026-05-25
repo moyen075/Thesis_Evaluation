@@ -1,0 +1,96 @@
+paragraph_id: "P-23"
+
+paragraph: |
+ Fake News on social media
+
+ In this world of social media, the occurrence of fake news is increasing day by day which is done in the intention of getting views and attract people's emotion. In this 
+ modern era, almost every people one is using social media. As a result, a news uploaded in social media gets more attention than a newspaper: Also, as through social media, 
+ people can earn money by getting more views, people are trying to attract other's emotion to let it be viral. when a sensitive news is posted which may contain religious 
+ value, or political incident, people get emotional without even checking whether the news is true or not. For this treason, to get more views to earn money people some people 
+ are publishing fake news on social media. most often, this fake news are related to sensitive topics, as a result people donot verify and start protesting on such fake news. 
+ Such fake news are often responsible for creating unrest in the society, dividing people into many groups. As people get emotional, they fail to think logically and without 
+ verifying they share those fake news on their newsfeed, people connected with them see those news and they also share and it goes on as a loop. The news gets viral and gets 
+ millions of views, breaking the society's peace, meanwhile those people who publish such fake news get their targets fulfilled. This type of fake news encourages other dishonest 
+ people to publish such news. As a result, the occurrence of fake news in social media is increasing at an alarming rate. As a result, people is Losing their trust in the news. 
+ strict steps against this fake news can be decreased this rate. Also, general people should remain careful and before posting any news, should verify the source. By remaining 
+ careful we can get out of the harm of the increasing fake news in social media.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the prompt by explaining the profit motive and emotional triggers behind fake news. However, the analysis remains generic, missing specific social media mechanisms like algorithms or echo chambers, and fails to provide a real-world example.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a functional structure but is notably clunky. The phrase "As a result" is overused, and the argument becomes repetitive rather than progressing logically through the Point-Evidence-Explanation (PEE) model.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and understandable but lacks technical precision. It misses opportunities to use field-specific terms such as "disinformation," "algorithmic bias," or "confirmation bias."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: Errors are pervasive throughout the text. These include subject-verb agreement issues ("people is"), incorrect word choice ("treason"), misuse of punctuation (colons), and spelling/spacing errors ("donot").
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "almost every people one is using social media"
+      Issue: Redundant subject and incorrect quantifier usage.
+      Correction: almost everyone is using social media.
+  2. "newspaper: Also,"
+      Issue: Incorrect use of a colon to separate independent sentences.
+      Correction: newspaper. Also,
+  3. "For this treason"
+      Issue: Malapropism; "treason" is a crime against the state, not a synonym for "reason."
+      Correction: For this reason.
+  4. "this fake news are related"
+      Issue: Subject-verb agreement; "news" is an uncountable noun requiring a singular verb.
+      Correction: this fake news is related.
+  5. "people is Losing"
+      Issue: Subject-verb agreement and improper capitalization of a verb.
+      Correction: people are losing.
+  
+  Improvement Feedback:
+  1. "getting views and attract people's emotion"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal, academic phrasing to describe the phenomenon. Alternative: "designed to monetize sensationalism by exploiting the emotional triggers of the audience."
+  2. "most often, this fake news are related to sensitive topics"
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional tier, replace generalities with a specific real-world example. Alternative: "This phenomenon was notably observed during the COVID-19 pandemic, where health-related disinformation led to widespread public skepticism of medical advice."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and real-world examples. It provides a general overview of the issue of fake news on social media and its consequences.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is weak. Transitions between ideas could be improved.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology. It lacks a formal, objective tone in some areas.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure errors.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "In this world of social media, the occurrence of fake news is increasing day by day which is done in the intention of getting views and attract people's emotion."
+      Issue: Run-on sentence and incorrect phrase "in the intention of getting views and attract people's emotion."
+      Correction: "The occurrence of fake news on social media is increasing daily, driven by the intention of attracting views and emotions."
+  2. "As a result, a news uploaded in social media gets more attention than a newspaper:"
+      Issue: Incorrect punctuation and sentence structure.
+      Correction: "As a result, news uploaded to social media receives more attention than newspapers."
+  3. "people are trying to attract other's emotion to let it be viral."
+      Issue: Incorrect phrase "other's emotion" and sentence structure.
+      Correction: "People are trying to evoke emotions in others to make the news go viral."
+  
+  Improvement Feedback:
+  1. "In this modern era, almost every people one is using social media."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and precise language, such as "In the current digital age, the vast majority of individuals utilize social media."
+  2. "For this treason, to get more views to earn money people some people are publishing fake news on social media."
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific examples and evidence to support the claim, such as "A notable example of this is the proliferation of fake news during election seasons, where individuals seek to sway public opinion and generate revenue through advertisements."
+  3. "Such fake news are often responsible for creating unrest in the society, dividing people into many groups."
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases to connect ideas and improve the logical flow, such as "Furthermore, the dissemination of fake news can have far-reaching consequences, including the creation of social unrest and the division of people into polarized groups."
+ 

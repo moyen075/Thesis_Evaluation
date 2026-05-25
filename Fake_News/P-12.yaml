@@ -1,0 +1,102 @@
+paragraph_id: "P-12"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media is a  very concerning issue nowadays, as it impact our socio-economical life very badly. Social media has become part and parcel of our daily life. 
+ It has already side-lined the mainstream media and has become the main source of information. So, any unverified news can create chaos in our society. In
+ social media, there are a lot of user but, there are limited number of fact checking organisation, fact check these news, Anybody can share a news any where, any moment. 
+ The other persons can watch this and he could thought as it was the real-authentic news. So, one person can be easily buffled by watch a same incident from different point 
+ of view or perspective. At present, the uses of artificial intellegences has worsen this situation mare rapidly. These type of situation has decreased the online safety of 
+ the user. The misuse of social media is not happenning, from not only the people's side, but also the goverment and it's security agencies are also using social media to 
+ propagate the false news that they could use it from their own good. So, our daily life is in a grave threat due to this fake news. At recent world, there are many company 
+ who operate fake propaganda outlet in the social media to demean their opponent. In our country, we have seen so many things like public property. vandalized, public disgrace
+ of children and woman due to the false news of social media. Our religious harmony and sentiment was attacked due to the fake news and propaganda. we fall victim to this type 
+ of situation so many time. So, to improve this situation, we must increase our personal ability to identify the news aunthenticity. We should not belive all of this we watch in 
+ the social media. Govt should introduce strict policy to tackle this situation. Artificial Intellegence should be use to identify and fart checked the news that are spreading 
+ in the social media. After all if the people of our country, should stand together, to improve and tackle the danger of fake news on social media.
+
+initial_score: 8.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student addresses the topic and provides examples of societal impact (vandalism, religious disharmony). However, the analysis lacks sophistication regarding social media specific mechanisms like algorithmic bias or virality, and the real-world example is generalized rather than specific.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic logical sequence (definition, impact, solution), but the flow is clunky and frequently interrupted by incorrect punctuation that breaks the unity of the sentences.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is functional and includes some relevant terms like 'propaganda' and 'artificial intelligence,' but it lacks the precision of academic terms such as 'disinformation' or 'echo chambers' and uses some subjective phrasing.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The writing contains pervasive grammatical errors, spelling mistakes (e.g., 'intellegences', 'buffled', 'belive'), and erratic punctuation within sentences that significantly hinder readability.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "impact our socio-economical. life"
+      Issue: Misplaced punctuation and incorrect adjective form.
+      Correction: impact our socio-economic life.
+  2. "there are a lot of user but,"
+      Issue: Subject-verb agreement (plurality) and punctuation.
+      Correction: there are many users, but...
+  3. "he could thought as it was"
+      Issue: Incorrect modal verb tense and word choice.
+      Correction: they might think it is real.
+  4. "artificial intellegences"
+      Issue: Spelling error.
+      Correction: artificial intelligence.
+  5. "identify and fart checked"
+      Issue: Major spelling/typographical error.
+      Correction: identify and fact-check.
+  
+  Improvement Feedback:
+  1. "fake propaganda outlet"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise academic terminology to maintain a formal tone. Suggestion: 'In the modern era, various entities operate coordinated disinformation networks to marginalize their political opponents.'
+  2. "So, any unverified. news can create chaos in our society."
+      Target Area: Organization & Cohesion
+      Suggestion: Improve the transition and logical flow by removing internal punctuation and linking the idea to social media mechanisms. Suggestion: 'Consequently, the absence of editorial oversight on social media platforms allows unverified news to circulate rapidly, potentially inciting social unrest.'
+  3. "In our country, we have seen so many things like public property. vandalized..."
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific, named real-world example to demonstrate depth of argument. Suggestion: 'In certain regions, for instance, the 2012 Ramu violence serves as a stark reminder of how misinformation on social media can lead to the destruction of public property and the breakdown of religious disharmony.'
+
+
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+      Reason: The submission addresses the prompt well but lacks a sophisticated impact analysis and real-world examples specific to social media mechanisms.
+  2. Organization & Cohesion: 1.0 / 2.0
+      Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed and lacks seamless transitions between ideas.
+  3. Lexis & Academic Register: 1.0 / 2.5
+      Reason: The submission uses standard vocabulary but relies heavily on common words rather than academic or field-specific terminology, and lacks a formal, objective tone.
+  4. Grammar & Mechanics: 1.5 / 2.5
+      Reason: There are noticeable errors in punctuation, spelling, and sentence structure that impede the meaning of the paragraph.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media is a  very concerning issue nowadays, as it impact our socio-economical."
+      Issue: Lack of subject-verb agreement and incorrect punctuation.
+      Correction: "Fake news on social media is a very concerning issue nowadays, as it impacts our socio-economic life."
+  2. "So, one person. can be easily buffled by watch a same incident from different point of view or perspective."
+      Issue: Incorrect word choice and punctuation.
+      Correction: "So, one person can be easily baffled by watching the same incident from different points of view or perspectives."
+  3. "The other persons can watch this and he could thought as it was the real-authentic news."
+      Issue: Incorrect pronoun usage and word choice.
+      Correction: "Others can watch this and think it is authentic news."
+  
+  Improvement Feedback:
+  1. "Fake news on social media is a  very concerning issue nowadays"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms, such as "disinformation" or "algorithmic bias", to elevate the language and tone.
+  2. "Social media has become part and parcel of our daily life."
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases or sentences to connect ideas and improve the flow of the paragraph, such as "Moreover, social media has become an integral part of our daily lives."
+  3. "Our daily life is in a grave threat due to this fake news."
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific and detailed examples of how fake news affects daily life, such as "For instance, fake news can lead to the spread of misinformation, which can have serious consequences for public health and safety."
+ 

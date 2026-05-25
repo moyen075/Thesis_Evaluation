@@ -1,0 +1,100 @@
+paragraph_id: "P-39"
+
+paragraph: |
+ Fake News on Social Media
+
+ Today's world is highly dependent on Internet and electronic devices. Social media play a significant role in case of recreation and spending leisure time. But, social media 
+ also develops a risk of spreading fake news on different topic which can alter the whole narrative of a story. It is very easy to spread fake news. Someone posts a picture, 
+ screenshoot or writes a status and other people shares it without any verification. In this way, a rumour is spreaded. Sometimes, social media is used to build narrative or 
+ manufactured consents against or in favour of something by spreading false news. For example, social media played an important pole in the Arab spring. After the July uprising 
+ in Bangladesh. Indian media constantly spread fake news on torturing of minority community in Bangladesh. In fact, only small number of minority was attacked and that was due 
+ to their involvement and connection to the massacre of students. Some Indian tweeter account constantly spread false news, sometimes AI generated photograph to manufactured 
+ consent in their favour. A political group spread misinformation against their rival using social media to dehumanize them, to lower their reputation. This kind of fake news 
+ create chaous in the society. The victims of fake news faces social problem. Fake news make the wrongdoer the victims and the victims wrongdoer and after the public perception. 
+ people should be aware and should double check every content before posting or sharing. public awareness is the key to combat fake news and people should not spread such news.
+
+initial_score: 7.5
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+     Reason: The paragraph provides a clear definition and uses specific real-world examples, such as the Arab Spring and the July uprising in Bangladesh. However, it misses the "exceptional" mark by failing to explain the technological mechanisms (like algorithmic bias or echo chambers) that drive virality on social media.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph follows a logical progression from definition to example to solution. However, the transition into the specific Bangladesh example is slightly abrupt, and the concluding sentences lose their structural integrity, feeling somewhat repetitive.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses strong academic terms like "manufactured consent" and "dehumanize." However, the register is undermined by several informal spellings ("tweeter," "screenshoot") and a failure to use field-specific terms like "disinformation."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The writing contains pervasive errors in spelling ("chaous," "pole"), subject-verb agreement ("people shares," "victims faces"), and verb forms ("spreaded"), which significantly hinder the professional quality of the academic paragraph.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "in case of recreation"
+      Issue: Word choice is awkward and imprecise.
+      Correction: for the purpose of recreation
+  2. "other people shares it"
+      Issue: Subject-verb agreement; "people" is plural.
+      Correction: other people share it
+  3. "a rumour is spreaded"
+      Issue: Incorrect past participle of the irregular verb "spread."
+      Correction: a rumor is spread
+  4. "played an important pole"
+      Issue: Spelling/word choice error.
+      Correction: played an important role
+  5. "Indian tweeter account"
+      Issue: Spelling error and noun-adjective agreement.
+      Correction: Indian Twitter accounts
+  6. "create chaous"
+      Issue: Spelling error.
+      Correction: create chaos
+  7. "after the public perception."
+      Issue: Word choice/typo; likely intended to mean "alter."
+      Correction: alter public perception.
+  
+  Improvement Feedback:
+  1. "Today's world is highly dependent on Internet and electronic devices."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal, academic terminology and include required articles. Better alternative: "Contemporary society is increasingly reliant on the Internet and digital infrastructure."
+  2. "Someone posts a picture, screenshoot or writes a status..."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate the specific mechanisms of social media mentioned in the rubric (algorithms/virality) to provide a more sophisticated analysis. Better alternative: "Users often disseminate screenshots or status updates that are then amplified by algorithms, which prioritize high-engagement content over factual accuracy."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples, such as the Arab spring and the July uprising in Bangladesh, but it may be slightly generic and misses the 'social media' specific mechanisms in some parts.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat 'clunky' and the topic sentence is weak. Transitions between ideas could be smoother.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology. It lacks technical terms like 'disinformation', 'algorithmic bias', and 'echo chambers'.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: There are some minor issues with grammar and mechanics, such as missing articles, incorrect verb tenses, and punctuation errors, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. 'It is very easy to spread fake news.'
+      Issue: The sentence is too simplistic and lacks depth.
+      Correction: Consider rephrasing to 'The dissemination of fake news is facilitated by the ease of content sharing on social media platforms.'
+  2. 'Someone posts a picture, screenshoot or writes a status and other people shares it without any verification.'
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: 'An individual can post a picture, screenshot, or write a status, which is then shared by others without verification.'
+  3. 'In fact, only small number of minority was attacked and that was due to their involvement and connection to the massacre of students.'
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: 'In fact, only a small number of minorities were attacked, and this was due to their alleged involvement and connection to the student massacre.'
+  
+  Improvement Feedback:
+  1. 'Today's world is highly dependent on Internet and electronic devices.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Consider using more formal and technical terms, such as 'The contemporary world is characterized by a high level of reliance on digital technologies and social media platforms.'
+  2. 'Social media play a significant role in case of recreation and spending leisure time.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Rephrase to 'Social media platforms serve as a primary medium for recreational activities and leisure time expenditure.'
+  3. 'Fake news create chaous in the society.'
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct the spelling error to 'Fake news creates chaos in society.' and consider using more precise language to describe the impact of fake news.
+ 

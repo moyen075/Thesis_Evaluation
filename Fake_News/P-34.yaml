@@ -1,0 +1,101 @@
+paragraph_id: "P-34"
+
+paragraph: |
+ Fake News on Social Media
+
+ Spread of fake news on social media is one of the burning questions in today's world must be addressed by finding the key factors and considering its impacts. A particular 
+ group of people spread fake news for their particular purpose and the society is facing its drawbacks, Social media algorithms boost the content that engage people to online 
+ for a longer time. without judging if they are true or fake. Most of the fake news are designed to spark fear, anxiety, surprise, division amound people and thus people 
+ interact with these platforms for a longer time. So these kind of contents are boosted by the social media algorithms. Also there's a tendency among people to spread fake and 
+ false news faster and deeper. Also sometimes AI genenated news are so realistic that it's nearly impossible to distinguish from the truth. A particular ideologist is using 
+ these tools and implementing their purpose by spreading false news. Nowadays people spend much time in scrolling social media and don't judge the sources of information. For 
+ a large number of people social media is the key source of information. So these fake news are polarizing people in extreme ideologies, creating unrest and divisions. These 
+ fake news are sometimes so intense that they lead to clash among people and sometimes notivate to murder the people of opposite views. These news accelerate tension among 
+ people and sometimes lead to cardiac arrest. It's like an pandemic in today's world often regarded as infodemic. Addressing this issue is much difficult as it requires much 
+ supervision of the authority. But the users can be aware while consuming any information and justify the source. Finally it's not a matter of emotion but a matter of necessity 
+ to find the mobilizing factors of spread of fake news and address to save the world from the cruel claws of this phenomenon.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student effectively addresses social media mechanisms such as algorithms and mentions impacts like polarization, but fails to include a specific real-world example as required for the highest score.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph structure is functional (intro, body, conclusion), but transitions are repetitive (e.g., multiple uses of "Also") and some logical links are weakened by punctuation errors.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student correctly utilizes some technical terms like "algorithms" and "infodemic," but the register is undermined by informal clichés such as "burning questions" and emotive metaphors like "cruel claws."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The submission contains pervasive errors in spelling, subject-verb agreement, and sentence structure which impede clarity.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "world must be addressed"
+      Issue: Missing relative pronoun to link the clauses.
+      Correction: "world that must be addressed"
+  2. "Most of the fake news are"
+      Issue: Subject-verb agreement; "news" is an uncountable noun and requires a singular verb.
+      Correction: "Most fake news is"
+  3. "amound people"
+      Issue: Spelling error.
+      Correction: "among people"
+  4. "AI genenated"
+      Issue: Spelling error.
+      Correction: "AI generated"
+  5. "an pandemic"
+      Issue: Incorrect indefinite article used before a consonant sound.
+      Correction: "a pandemic"
+  
+  Improvement Feedback:
+  1. "burning questions"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace the cliché with a more formal academic phrase. Suggestion: "The spread of fake news is a critical concern in the digital age."
+  2. [The text lacks a specific real-world example]
+      Target Area: Content & Relevance
+      Suggestion: To provide a sophisticated impact analysis, cite a specific event. Suggestion: "For instance, the spread of misinformation during the COVID-19 pandemic highlighted how digital rumors can lead to public health crises."
+  3. "cruel claws of this phenomenon"
+      Target Area: Lexis & Academic Register
+      Suggestion: Avoid overly emotional or metaphorical language in social science writing. Suggestion: "...address the mobilizing factors to mitigate the detrimental societal consequences of this phenomenon."
+
+
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples of how fake news spreads on social media, such as the role of algorithms and the design of fake news to spark fear and anxiety. However, the analysis could be more sophisticated and in-depth, and the submission could benefit from more nuanced and detailed examples.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a clear beginning, middle, and end, but the logical flow is sometimes disjointed and the topic sentence could be stronger. The transitions between ideas could be smoother, and the submission could benefit from more cohesive linking between paragraphs.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The submission uses standard vocabulary and is generally understandable, but it relies on common words rather than academic or field-specific terminology. The tone is mostly formal, but there are moments where the language becomes conversational or emotional.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure errors. However, these issues do not significantly impede the meaning of the text.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "Social media algorithms boost the content that engage people to online for a longer time."
+      Issue: The sentence is missing a comma after "content" and the phrase "to online" is unclear.
+      Correction: "Social media algorithms boost the content that engages people online for a longer time."
+  2. "without judging if they are true or fake."
+      Issue: The sentence is a fragment and lacks a main verb.
+      Correction: "without judging whether they are true or fake."
+  3. "A particular ideologist is using these tools and implementing their purpose by spreading false news."
+      Issue: The term "ideologist" is not commonly used in this context, and the sentence could be rephrased for clarity.
+      Correction: "Certain individuals or groups are using these tools to spread false news and further their agendas."
+  
+  Improvement Feedback:
+  1. "Spread of fake news on social media is one of the burning questions in today's world must be addressed by finding the key factors and considering its impacts."
+      Target Area: Content & Relevance
+      Suggestion: Consider adding more specific and detailed examples of the impacts of fake news, such as the spread of misinformation during elections or the amplification of hate speech. This could help to elevate the analysis and provide a more nuanced understanding of the issue.
+  2. "Most of the fake news are designed to spark fear, anxiety, surprise, division amound people."
+      Target Area: Lexis & Academic Register
+      Suggestion: Consider using more technical terms, such as "emotional manipulation" or "psychological manipulation," to describe the ways in which fake news is designed to elicit emotional responses from readers. This could help to add more depth and sophistication to the analysis.
+  3. "These fake news are polarizing people in extreme ideologies, creating unrest and divisions."
+      Target Area: Organization & Cohesion
+      Suggestion: Consider adding more transitional phrases or sentences to link this idea to the previous discussion of social media algorithms and the spread of fake news. This could help to create a more cohesive and logical flow of ideas.
+ 

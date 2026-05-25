@@ -1,0 +1,96 @@
+paragraph_id: "P-16"
+
+paragraph: |
+ Fake News: on Social Media
+
+ Spreading false news or modifying news for personal interest on social media like facebook, youtube on any other social media is a very common thing nowadays. For gaining 
+ personal interest some group of people do this shamelessly. In the contrast of Bangladesh speading fake news becomes a very common. Our polytical parties spread fake news 
+ to convince their voters, making them agains their rival political parties, to divert them from a certain topic. Sometimes the celebrities spread to fake news to remain in 
+ the lime light. It happens more than usually because of the availiability of the social media. Everyone with a social accound and a camera become a journalist. They even 
+ spread a news without cross-checking. Spreading fake news damages a lot in ours society. Sometimes it causes an anwanted mob which causes a great damag for someone's family. 
+ It helps growing hatred towards certain group of people. It makes the country unstable. Nowadays we generally believe anything we see on social media. We spred these falke 
+ news by sharing without any verification. To prevent this both the journalist and the social media users have to be careful. We shouldn't share everything we saw in social 
+ media without verifying. The digital ICT act should be made strict so that no one dare to spread false information. Sometimes spreading false information cost someone's Life 
+ on everything. We all should be more conscious using social media.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission is competent as it identifies specific real-world consequences, such as political manipulation and social instability in Bangladesh. However, it fails to achieve an exceptional score because it does not discuss social media-specific mechanisms like algorithms, virality, or echo chambers, treating the platform more as a simple bulletin board.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The organization is functional, with a clear beginning and end. However, the logic is slightly clunky, and the student failed to follow the single-paragraph format, breaking the text into three distinct sections which disrupts the unity of a "paragraph" assignment.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The language is appropriate and understandable but lacks the academic precision required for a social science topic. The use of subjective and emotional language like "shamelessly" and the lack of technical terms like "disinformation" or "algorithmic bias" keeps it at the standard level.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains pervasive spelling and mechanical errors (e.g., "polytical," "speading," "accound," "falke") and syntax issues (e.g., "spread to fake news") that occur throughout the submission, significantly detracting from its readability and professionalism.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "In the contrast of Bangladesh speading fake news becomes a very common."
+      Issue: Incorrect prepositional phrase and spelling error.
+      Correction: "In the context of Bangladesh, spreading fake news has become very common."
+  2. "making them agains their rival political parties"
+      Issue: Spelling error and missing prepositional clarity.
+      Correction: "turning them against their rival political parties"
+  3. "Everyone with a social accound and a camera become a journalist."
+      Issue: Spelling error and subject-verb agreement.
+      Correction: "Everyone with a social account and a camera becomes a journalist."
+  4. "We spred these falke news by sharing without any verification."
+      Issue: Multiple spelling errors and noun countability (news is uncountable).
+      Correction: "We spread this fake news by sharing it without any verification."
+  5. "The digital ICT act should be made strict so that no one dare to spread"
+      Issue: Subject-verb agreement.
+      Correction: "The Digital ICT Act should be made stricter so that no one dares to spread"
+  
+  Improvement Feedback:
+  1. "For gaining personal interest some group of people do this shamelessly."
+      Target Area: Lexis & Academic Register
+      Suggestion: Maintain an objective, formal tone by removing emotional adverbs. Better alternative: "Certain groups manipulate information to advance their own agendas and personal interests."
+  2. "It happens more than usually because of the availiability of the social media."
+      Target Area: Content & Relevance
+      Suggestion: To improve depth, explain *why* social media accelerates this beyond just "availability." Better alternative: "The spread of misinformation is facilitated by the rapid virality inherent in social media platforms, where user engagement is prioritized over factual accuracy."
+  3. "To prevent this both the journalist and the social media users have to be careful."
+      Target Area: Organization & Cohesion
+      Suggestion: Use more sophisticated transition words to link the problem to the solution. Better alternative: "To mitigate these risks, it is essential for both professional journalists and social media consumers to practice rigorous fact-checking."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth and specific evidence. It provides some examples of how fake news is spread, but the analysis is not sophisticated and does not delve into the social media context, such as algorithms and virality.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is weak. The transitions between ideas are not seamless, making the text feel a bit fragmented.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary used is standard but lacks technical terms specific to the field, such as disinformation, algorithmic bias, or echo chambers. The tone is generally formal but could be more objective and less conversational.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable errors in grammar, punctuation, and spelling that do not severely impede understanding but are frequent enough to detract from the overall quality of the submission.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Spreading false news or modifying news for personal interest on social media like facebook, youtube on any other social media is a very common thing nowadays."
+      Issue: Lack of proper punctuation and incorrect use of prepositions.
+      Correction: "Spreading false news or modifying news for personal interest on social media, such as Facebook and YouTube, is a very common thing nowadays."
+  2. "For gaining personal interest some group of people do this shamelessly."
+      Issue: Grammar and clarity.
+      Correction: "Some groups of people do this shamelessly to gain personal interest."
+  3. "In the contrast of Bangladesh speading fake news becomes a very common."
+      Issue: Grammar, spelling, and clarity.
+      Correction: "In contrast, spreading fake news has become very common in Bangladesh."
+  
+  Improvement Feedback:
+  1. "Our polytical parties spread fake news to convince their voters, making them agains their rival political parties, to divert them from a certain topic."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical vocabulary, such as "political disinformation" and "algorithmic manipulation," to elevate the discussion. For example, "Political parties disseminate disinformation to sway voters, leveraging algorithmic biases to divert attention from critical issues."
+  2. "Sometimes the celebrities spread to fake news to remain in the lime light."
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific example of a celebrity spreading fake news and analyze the impact on their audience and the broader societal context. This would add depth to the argument and make it more engaging.
+  3. "We generally believe anything we see on social media."
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases to connect this idea to the preceding discussion on the spread of fake news. For instance, "Moreover, the tendency to believe anything seen on social media exacerbates the problem, as users often share information without verifying its accuracy, thus perpetuating the cycle of disinformation."

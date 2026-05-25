@@ -1,0 +1,96 @@
+paragraph_id: "P-18"
+
+paragraph: |
+ Fake News on Social Media
+
+ Social media is now a core platform of getting news. However we need to be sure whether it is true or not. Fake news circulating on the social media has various adverse 
+ effects on our society as well as in our daily life. First of all, it blocks us from getting the real news. In the modern era, we really can't belive everything we see, 
+ we need to verify every news before believing it. It causes problem getting the real news. Secondly, it causes fighting among the people of the Society. When we get any 
+ false news, we may accuse someone falsely and it can be a reason of fighting. Moreover, a fake news can make a person's life hell. It is quite easy now to make a viral 
+ Post and accuse someone falsely. And people really don't verify the things and starts trolling the person. So, it can be a huge disaster. Not everyone can take criticism 
+ lightly and Some may take wrong steps. Lastly, it will creat trust issue and people won't believe the real news either. So, steps should be taken in order to reduce the 
+ fake news on social media. And we all should be more careful before sharing any post. At first, we need need to know it's validity. By taking steps, we can minimize the 
+ fake news circulating all over the social media.
+
+initial_score: 7.5
+
+gemini:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission identifies the existence of fake news and its general impacts (trolling, social conflict) but fails to provide a specific real-world example as required by the rubric for a higher score. It also misses technical mechanisms like algorithms or echo chambers.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The text is broken into numerous small fragments rather than being a single, unified paragraph. While basic transitions like 'First of all' and 'Secondly' are used, the structural unity is weak.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The register is informal, using colloquial phrases such as 'life hell' and 'trolling' instead of academic terminology like 'disinformation,' 'psychological impact,' or 'digital literacy.'
+  4. Grammar & Mechanics: 1.0 / 2.5
+     Reason: The text contains more than three errors, including spelling ('belive', 'creat'), subject-verb agreement ('people... starts'), and incorrect possessive forms ('it's validity').
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "belive"
+      Issue: Spelling error.
+      Correction: believe
+  2. "Society"
+      Issue: Incorrect capitalization of a common noun.
+      Correction: society
+  3. "people really don't verify the things and starts trolling"
+      Issue: Subject-verb agreement error (plural subject 'people' with singular verb 'starts').
+      Correction: people really don't verify the things and start trolling
+  4. "it's validity"
+      Issue: Confusion between the contraction 'it is' and the possessive pronoun 'its'.
+      Correction: its validity
+  5. "it will creat trust issue"
+      Issue: Spelling error ('creat') and lack of pluralization ('issue').
+      Correction: it will create trust issues
+  
+  Improvement Feedback:
+  1. "make a person's life hell"
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace subjective and informal phrasing with academic language. Example: "...can result in severe reputational damage and long-term psychological distress for the victim."
+  2. "[Missing real-world example]"
+      Target Area: Content & Relevance
+      Suggestion: To reach a higher score, cite a specific event where fake news had an impact. Example: "A clear example of this occurred during the COVID-19 pandemic, when misinformation about vaccines spread rapidly, causing significant public health challenges."
+  3. "Social media is now a core platform of getting news."
+      Target Area: Organization & Cohesion
+      Suggestion: Strengthen the topic sentence to better introduce the argument. Example: "Although social media has become a primary news source for many, the lack of editorial oversight has facilitated the dangerous proliferation of fake news."
+
+llama:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the prompt but remains vague and surface-level, lacking a sophisticated impact analysis and real-world examples. It touches on the effects of fake news but does not delve deeply into the mechanisms of social media (algorithms, virality) that contribute to its spread.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end but lacks a clear topic sentence and seamless transitions between ideas. The logical flow is somewhat disjointed, making it hard to follow the argument smoothly.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard and understandable but lacks technical terms specific to the field (disinformation, algorithmic bias, echo chambers). The tone is not consistently formal and objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and sentence structure problems, but they do not significantly impede the meaning.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "However we need to be sure whether it is true or not."
+      Issue: The sentence is a fragment and lacks proper punctuation.
+      Correction: However, we need to be sure whether it is true or not.
+  2. "In the modern era, we really can't belive everything we see, we need to verify every news before believing it."
+      Issue: There is a spelling error and a lack of proper punctuation.
+      Correction: In the modern era, we really can't believe everything we see; we need to verify every news item before believing it.
+  3. "It causes problem getting the real news."
+      Issue: The sentence structure is awkward and lacks clarity.
+      Correction: It causes problems when trying to get the real news.
+  
+  Improvement Feedback:
+  1. "Fake news circulating on the social media has various adverse effects on our society as well as in our daily life."
+      Target Area: Content & Relevance
+      Suggestion: To elevate this, provide specific examples of how fake news affects society and daily life, such as influencing election outcomes or causing unnecessary panic. For instance, "Fake news on social media can lead to the spread of misinformation about public health issues, causing unnecessary panic and affecting societal trust in institutions."
+  2. "Social media is now a core platform of getting news."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary to describe the role of social media in news dissemination. For example, "Social media has become a pivotal medium for news consumption, with algorithms and echo chambers playing significant roles in information diffusion."
+  3. "Not everyone can take criticism lightly and Some may take wrong steps."
+      Target Area: Grammar & Mechanics
+      Suggestion: Improve sentence structure and consistency in capitalization. For example, "Not everyone can take criticism lightly, and some may take wrong steps."
+ 

@@ -1,0 +1,93 @@
+paragraph_id: "P-02"
+
+paragraph: |
+ Fake News on Social Media
+ 
+ Now-a-days Social media is flooded with many fake news that creates "fake" hope, misunderstanding and misconception, People 
+ believe the news on Social media without verifying the news. Thus it creates Chaos and misconception among them and people 
+ lose trust and hope. Sometimes these news are circulated by the dictator government. For example: in the Israil-Gaza war, 
+ the American news media only circulates the news that are favourable for Israel. They do not show the true picture of Gaza's 
+ people, their struggles, condition and the havoc caused by the Israilies, People of the world may think that Israil is  
+ innocent and Palestine is the enemy. But that's not the case, Even in the July revolution of Bangladesh in 2024, the dictator 
+ government tried to circulate false news about the movement so that people lost their trust in the movement and became seperated. 
+ In social media, after the July Revolution, the past dictator government tries to break the trust. on the interim government to 
+ create chaos and destroy democracy throughout the country city. thus fake news in Social media Can mislead people and people will 
+ lose their trust. It should not be happened. People must verify the news on the social media before trusting them. The government 
+ also should take necessary steps to stop the circulation of fake news on social media. The government should form a disciplinary 
+ team to maintain the social media platform. Awareness raising campaign should be introduced to make people aware of the fake 
+ news of Social. Thus We can stop the fake news on social/media from creating chaos and havoc.
+
+initial_score: 8.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The response identifies real-world examples (Israel-Gaza and Bangladesh) and describes the impact of fake news on public trust. However, it lacks depth regarding the specific mechanisms of social media, such as algorithms, virality, or echo chambers, which are required for a higher score.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The text follows a logical progression from definition to examples to solutions, but it is broken into several disjointed paragraphs instead of a single cohesive one. The transitions between ideas are clunky.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and functional but lacks technical or academic terminology. The tone is somewhat emotional and repetitive, particularly with phrases like "dictator government."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors throughout the text, including frequent spelling mistakes ("Israil", "seperated"), capitalization errors, sentence fragments, and poor syntax.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Now-a-days Social media is flooded with many fake news"
+      Issue: "Nowadays" is typically one word, "Social" should not be capitalized here, and "news" is an uncountable noun that cannot be used with "many."
+      Correction: Nowadays, social media is flooded with a great deal of fake news...
+  2. "misconception, People believe"
+      Issue: Comma splice; two independent sentences are joined only by a comma.
+      Correction: ...misconception. People believe...
+  3. "Israil-Gaza war... Israilies... Israil"
+      Issue: Consistent misspelling of the country "Israel" and its people "Israelis."
+      Correction: Israel-Gaza war... Israelis... Israel.
+  4. "tries to break the trust. on the interim government"
+      Issue: Sentence fragment; a period incorrectly separates a prepositional phrase from the main verb phrase.
+      Correction: ...tries to break the trust in the interim government...
+  
+  Improvement Feedback:
+  1. "Social media is flooded with many fake news"
+      Target Area: Content & Relevance
+      Suggestion: To achieve an exceptional score, explain the role of technology in spreading news. Suggestion: "Social media platforms utilize engagement-based algorithms that often amplify sensationalist disinformation, leading to rapid virality within ideological echo chambers."
+  2. "the dictator government tried to circulate false news"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more objective, academic terminology to describe political events. Suggestion: "State-sponsored disinformation campaigns were employed by the authoritarian regime to manipulate public perception and undermine the legitimacy of the movement."
+
+
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks depth in its argument and specific evidence. It provides some real-world examples, such as the Israil-Gaza war and the July revolution of Bangladesh, but the analysis could be more sophisticated.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence could be stronger. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms specific to the field, such as disinformation, algorithmic bias, or echo chambers. The tone is not consistently formal and objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable issues with grammar, punctuation, and spelling that do not significantly impede meaning but are frequent enough to detract from the overall quality.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Now-a-days Social media is flooded with many fake news"
+      Issue: Incorrect spelling and informal language.
+      Correction: "Currently, social media is flooded with numerous fake news stories."
+  2. "People believe the news on Social media without verifying the news."
+      Issue: Lack of specificity and informal tone.
+      Correction: "Individuals often accept news on social media at face value without verifying its accuracy."
+  3. "Thus it creates Chaos and misconception among them and people lose trust and hope."
+      Issue: Overly simplistic and informal language.
+      Correction: "This leads to widespread confusion, misconceptions, and erosion of trust among the public."
+  
+  Improvement Feedback:
+  1. "For example: in the Israil-Gaza war, the American news media only circulates the news that are favourable for Israel."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms, such as "biased reporting" or "selective coverage," and maintain a formal tone. For instance, "A notable example is the Israil-Gaza conflict, where American news media has been criticized for biased reporting, favoring Israel."
+  2. "The government should form a disciplinary team to maintain the social media platform."
+      Target Area: Content & Relevance
+      Suggestion: Provide more depth to the argument by explaining how such a team would function, its powers, and how it would effectively curb fake news without infringing on freedom of speech. For example, "The government could establish an independent regulatory body tasked with monitoring social media platforms for fake news, with the power to demand the removal of harmful content, thus balancing the need to combat disinformation with the protection of free speech."

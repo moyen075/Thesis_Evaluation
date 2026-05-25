@@ -1,0 +1,93 @@
+paragraph_id: "P-19"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news are very harmful or even very destructive for a society. Nowadays, the number of fake news has increased at an alarming rate on the social media platforms. People 
+ on the news platforms usually spread fake or exegerrated news to attract more audiences so that they can earn more money from it. They don't think much about the consequence 
+ of this . Sometimes, fake news can promote hatred among different communities that Can Create clashes eventually. Sometimes, it can mislead the audiences and they can be get 
+ in some dengenous situations as a result. Fake or unverified news can even leads to war between two communities or countries and there are many examples of it. For example, 
+ the recent War between India and Pakistan was initiated based on the news of Pehelgam attack although there a were controversy about who did that attack. And many innocent 
+ civilians were Killed without any reason. So, fake news should be eliminated immidiately. The news reporters are called the backbone of a society and the should be more responsible 
+ and should verify the news properly before publishing it. General people should also be concerned and shouldn't believe any news without verifications. The responsible authority 
+ should take proper actions and should implement proper laws and punishments to prevent spreading fake news.
+
+initial_score:  7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies the financial motives behind fake news and provides a real-world example of political conflict, but it misses specific social media mechanisms such as algorithmic bias or virality as required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: While the paragraph contains a beginning, middle, and end, the transitions are repetitive (using "Sometimes" and "So") and the logical progression feels clunky rather than seamless.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The word choice is standard and appropriate for communication but lacks the technical precision of terms like "disinformation," "echo chambers," or "monetization."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The writing contains pervasive errors in spelling ("exegerrated," "dengenous," "immidiately") and grammar ("news are," "the should") that significantly undermine the academic tone.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news are"
+      Issue: Subject-verb agreement; "news" is an uncountable noun and requires the singular verb "is."
+      Correction: "Fake news is"
+  2. "exegerrated"
+      Issue: Spelling error.
+      Correction: "exaggerated"
+  3. "the should be more responsible"
+      Issue: Grammar/Typo; the sentence is missing the letter 'y' to form the pronoun "they."
+      Correction: "they should be more responsible"
+  4. "can even leads"
+      Issue: Modal verb error; the modal "can" must be followed by the base form of the verb.
+      Correction: "can even lead"
+  5. "dengenous"
+      Issue: Spelling error.
+      Correction: "dangerous"
+  
+  Improvement Feedback:
+  1. "Fake news are very harmful or even very destructive for a society."
+      Target Area: Organization & Cohesion
+      Suggestion: Replace the generic opening with a more authoritative topic sentence that specifically links the platform to the impact. Alternative: "The proliferation of disinformation across social media platforms has emerged as a destructive force that threatens the stability of modern societies."
+  2. "so that they can earn more money from it."
+      Target Area: Lexis & Academic Register
+      Suggestion: Utilize more professional social science terminology to describe the economic drivers of fake news. Alternative: "to facilitate the monetization of engagement through sensationalist content."
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks depth in its argument and specific evidence. It provides a real-world example but does not delve deeply into the mechanisms of social media (algorithms, virality) and their impact on the spread of fake news.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence could be stronger. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard but lacks technical terms specific to the field (e.g., disinformation, algorithmic bias, echo chambers). The tone is generally formal but could be more objective and less reliant on general statements.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are minor issues with grammar, punctuation, and spelling that do not significantly impede meaning but are noticeable (e.g., missing articles, incorrect verb tenses, and punctuation errors).
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news are very harmful or even very destructive for a society."
+      Issue: Subject-verb agreement error.
+      Correction: "Fake news is very harmful or even very destructive for a society."
+  2. "People on the news platforms usually spread fake or exegerrated news to attract more audiences so that they can earn more money from it."
+      Issue: Spelling error and lack of clarity.
+      Correction: "People on news platforms often spread fake or exaggerated news to attract more audiences, thereby earning more money."
+  3. "Sometimes, fake news can promote hatred among different communities that Can Create clashes eventually."
+      Issue: Inconsistent capitalization and punctuation.
+      Correction: "Sometimes, fake news can promote hatred among different communities, which can create clashes eventually."
+  
+  Improvement Feedback:
+  1. "Nowadays, the number of fake news has increased at an alarming rate on the social media platforms."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise language, such as "There has been a significant surge in the dissemination of fake news on social media platforms in recent times."
+  2. "The news reporters are called the backbone of a society and the should be more responsible and should verify the news properly before publishing it."
+      Target Area: Organization & Cohesion
+      Suggestion: Strengthen the topic sentence and improve transitions. For example, "As the backbone of society, news reporters have a critical role in verifying the accuracy of news before publication, which can prevent the spread of misinformation."
+  3. "General people should also be concerned and shouldn't believe any news without verifications."
+      Target Area: Content & Relevance
+      Suggestion: Provide specific examples or strategies for how the general public can verify news, such as fact-checking websites or cross-referencing multiple sources, to elevate the depth of argument and evidence.
+ 

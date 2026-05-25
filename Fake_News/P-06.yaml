@@ -1,0 +1,99 @@
+paragraph_id: "P-06"
+
+paragraph: |
+ Fake News on Social Media
+
+ The causes of fake news on social media are both natural and man-made. Nowadays due to high speed internet and easy access to smart phones social media like, Facebook, 
+ tweeter, instagram, whatsapp have become an essential part of our life. Both formal and informal official and unofficial all kind of nears can be spread out using social 
+ media.  As it is connected to mass both real and fake news spread rapidly in social media. We can send messages along with information through social media platform. As 
+ it is an easy and accessible way of sending information people can send any news to any one he is connected with. So, there is no need or will of fact checking of a news 
+ before sending it to another person. So, the main reason of fake news being sprede is lack of authority and easy access to internet. Another view of fake news on social 
+ media is actually evil and man made. Some evil people or organization can spread fake news through their group of people willingly. This is done for personal interest. 
+ These fake news spreads very fast through internet and before anyone coon implement fact checking the news makes unrest and chaos in the society. This is done for money 
+ and power by bad people. Also to mat Fake news on social media are also used as a medium of propaganda by foreign powers who want to make regime change inside a country. 
+ The consequences of fake news are very dangerous and when it gets the speed due to social media it can be make a devastating result. Though there are many reasons but easy 
+ access, lack of authority, unwillingness of fact checking and man made co fake news spreading are at the top of the list. As fake news create really bad consequinces by 
+ proper regulations social media platforms should be controled so that  fake news can not be speed rapidly.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies relevant themes such as speed of access and intentional propaganda; however, it lacks a specific real-world example and technical depth regarding social media algorithms.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The text is divided into three separate blocks rather than a single cohesive paragraph, and the transitions are clunky and repetitive.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses some academic terms like 'propaganda,' but the register is frequently brought down by informal and emotional phrasing like 'evil people' or 'bad people.'
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The paragraph contains pervasive spelling errors (nears, sprede, coon, consequinces, etc.) and punctuation issues that make it appear unprofessional.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "tweeter, instagram, whatsapp"
+      Issue: Proper nouns are not capitalized and 'tweeter' is misspelled.
+      Correction: Twitter, Instagram, WhatsApp
+  2. "all kind of nears"
+      Issue: Error in pluralization and significant spelling error for 'news.'
+      Correction: all kinds of news
+  3. "the main reason of fake news being sprede"
+      Issue: Misspelling of 'spread.'
+      Correction: the main reason fake news is spread
+  4. "before anyone coon implement"
+      Issue: Typo for the word 'can.'
+      Correction: before anyone can implement
+  5. "fake news can not be speed rapidly."
+      Issue: Use of the wrong word ('speed' instead of 'spread').
+      Correction: fake news cannot be spread rapidly.
+  
+  Improvement Feedback:
+  1. "Some evil people or organization can spread fake news..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace emotional, subjective descriptions with objective, academic terminology. Suggestion: 'Malicious actors or organizations may deliberately disseminate disinformation to achieve specific financial or political objectives.'
+  2. "The causes of fake news on social media are both natural and man-made."
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional tier, include specific mechanisms like algorithms or echo chambers. Suggestion: 'The proliferation of fake news is driven by human intent as well as social media algorithms that prioritize engagement over factual accuracy.'
+  3. "Also to mat Fake news on social media are also used as a medium of propaganda by foreign powers..."
+      Target Area: Content & Relevance
+      Suggestion: Support the argument with a named real-world example as required by the rubric. Suggestion: 'For instance, the use of targeted disinformation during the 2016 U.S. election serves as a primary example of social media being weaponized for foreign propaganda.'
+
+llama:
+ score: 5.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks depth in argument and specific evidence. It touches on the causes and consequences of fake news on social media but does not provide a sophisticated impact analysis or real-world examples.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The submission has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is weak. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms specific to the field (e.g., disinformation, algorithmic bias, echo chambers). It maintains a somewhat informal tone.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: The submission has minor issues with grammar and mechanics, including missing commas, singular/plural slips, and incorrect sentence structure.
+  
+  Overall Score: 5.5 / 10
+  
+  Corrective Feedback:
+  1. "The causes of fake news on social media are both natural and man-made."
+      Issue: The sentence lacks clarity and specificity regarding what is meant by "natural and man-made."
+      Correction: Consider specifying the types of causes, such as technological and human factors.
+  2. "Both formal and informal official and unofficial all kind of nears can be spread out using social media."
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: Rephrase to "Both formal and informal news, whether official or unofficial, can spread through social media."
+  3. "So, there is no need or will of fact checking of a news before sending it to another person."
+      Issue: The sentence has grammatical errors and could be more concise.
+      Correction: Consider rephrasing to "As a result, fact-checking is often neglected before sharing news with others."
+  
+  Improvement Feedback:
+  1. "The causes of fake news on social media are both natural and man-made."
+      Target Area: Content & Relevance
+      Suggestion: Elevate the argument by specifying examples of natural and man-made causes, such as algorithmic biases or intentional disinformation campaigns.
+  2. "These fake news spreads very fast through internet and before anyone coon implement fact checking the news makes unrest and chaos in the society."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical vocabulary, such as "Disinformation can disseminate rapidly online, leading to societal unrest before fact-checking can be implemented."
+  3. "Though there are many reasons but easy access, lack of authority, unwillingness of fact checking and man made co fake news spreading are at the top of the list."
+      Target Area: Organization & Cohesion
+      Suggestion: Improve the sentence structure for better clarity and flow, such as "Among the various reasons, easy access, lack of authority, and the unwillingness to fact-check are primary factors contributing to the spread of fake news, alongside man-made efforts to disseminate disinformation."
+ 

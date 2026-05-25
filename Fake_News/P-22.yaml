@@ -1,0 +1,100 @@
+paragraph_id: "P-22"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media is a severe problem in the modern world having dreadful effects like riots, communal clashes, mob justice, economic crisis etc. and so, it should 
+ be stopped for the betterment of the society. Fake news spread really fast nowadays because of social media. One of the biggest reasons of spreading fake news on social media
+ is yellow journalism. Some self claimed journalists post fake news that are entertaining to the viewers just to earn some fame and money. and people even share these news 
+ without crosschecking. Fake news can cause communal riots if a news about fake racism or discrimination is published. Fake news about somebody can concentrate public hatred 
+ towards the person and in the worse case scenario, he or she can become a victim of mob justice. Moreover, fake news about a celebrities personal life can destroy his career 
+ and lead him to suicide. Furthermore, fake news about share market on banks can cause panic in the common people and this may lead to a national economic crisis. So, fake 
+ new should be prevented from spreading. Few steps can be taken for that. Firstly, social media users should be more careful before trusting any sort of news from any sourice 
+ and they should crosscheck it before sharing. Secondly, law should be implemented to punish such yellow medias that publish fake news. Lastly, the government should have its 
+ own media cell to debunk the fake news and publish truth to the common people.
+
+initial_score: 
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies the consequences of fake news and mentions social media, but it remains somewhat generic. It lacks specific real-world examples (e.g., specific political events or health crises) and does not address technical mechanisms like algorithms or echo chambers required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph follows a basic functional structure, but the logical flow is clunky. The topic sentence is grammatically weak (ending in a comma), and the transition between the causes of fake news and the proposed solutions is abrupt.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is appropriate and understandable but lacks precision. To reach the top tier, the student needs to incorporate technical terms like "disinformation," "algorithmic bias," or "echo chambers" rather than relying on common phrases.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are several minor errors throughout the text, including subject-verb agreement with uncountable nouns, spelling, and punctuation. While these do not impede meaning, they exceed the "1–3 slips" threshold for the highest marks.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media is a severe problem... for the betterment of the society,"
+      Issue: The opening sentence ends with a comma instead of a period, creating a run-on feel.
+      Correction: ...for the betterment of society.
+  2. "fake news that are entertaining"
+      Issue: "News" is an uncountable noun and requires a singular verb.
+      Correction: fake news that is entertaining
+  3. "money. and people even share"
+      Issue: Coordination/Capitalization error after a period.
+      Correction: money. Furthermore, people often share
+  4. "if a news about fake racism"
+      Issue: "News" is uncountable and should not be used with the indefinite article "a."
+      Correction: if news regarding racism
+  5. "celebrities personal life"
+      Issue: Missing possessive apostrophe for the noun "celebrity."
+      Correction: celebrity's personal life
+  6. "sourice"
+      Issue: Spelling error.
+      Correction: source
+  
+  Improvement Feedback:
+  1. "One of the biggest reasons of spreading fake news on social media is yellow journalism."
+      Target Area: Content & Relevance
+      Suggestion: To move from "Competent" to "Exceptional," explain the role of social media technology. Example: "The rapid dissemination of fake news is primarily driven by algorithmic bias, which prioritizes engagement and virality over factual accuracy."
+  2. "Fake news can cause communal riots..."
+      Target Area: Content & Relevance
+      Suggestion: Provide a specific real-world example as requested by the rubric. Example: "This was evidenced by the 2013 Muzaffarnagar riots, where social media misinformation was cited as a primary catalyst for violence."
+  3. "So, fake new should be prevented from spreading."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal, academic terminology to maintain an objective stance. Example: "Consequently, robust measures must be implemented to mitigate the proliferation of disinformation."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples of the impact of fake news, such as communal riots and economic crisis. However, the argument is not particularly sophisticated, and the analysis could be deeper.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a clear beginning, middle, and end, but the logical flow is sometimes disrupted by abrupt transitions or lack of connecting words.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms specific to the field, such as disinformation, algorithmic bias, or echo chambers. The tone is generally formal but could be more objective.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: There are some minor issues with grammar and punctuation, such as missing commas or incorrect sentence structure, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media is a severe problem in the modern world having dreadful effects like riots, communal clashes, mob justice, economic crisis etc. and so, it should be stopped for the betterment of the society,"
+      Issue: The sentence is a comma splice and lacks proper punctuation.
+      Correction: Fake news on social media is a severe problem in the modern world, having dreadful effects like riots, communal clashes, mob justice, and economic crisis; therefore, it should be stopped for the betterment of society.
+  2. "Some self claimed journalists post fake news that are entertaining to the viewers just to earn some fame and money. and people even share these news without crosschecking."
+      Issue: The sentence contains a grammatical error and lacks proper punctuation.
+      Correction: Some self-proclaimed journalists post fake news that is entertaining to viewers just to earn fame and money. Moreover, people share this news without cross-checking.
+  3. "Lastly, the government should have its own media cell to debunk the fake news and publish truth to the common people."
+      Issue: The sentence is a bit informal and lacks proper vocabulary.
+      Correction: Lastly, the government should establish a dedicated media task force to debunk fake news and disseminate accurate information to the public.
+  
+  Improvement Feedback:
+  1. "Fake news spread really fast nowadays because of social media."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as "the dissemination of fake news is expedited by social media algorithms," to elevate the language and make it more academic.
+  2. "Few steps can be taken for that."
+      Target Area: Organization & Cohesion
+      Suggestion: Use more transitional phrases, such as "To mitigate the spread of fake news, several measures can be implemented," to improve the logical flow and cohesion of the paragraph.
+  3. "Fake news about a celebrities personal life can destroy his career and lead him to suicide."
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific examples or case studies to support the argument and make it more convincing, such as "For instance, the fake news surrounding a celebrity's personal life can lead to a significant decline in their career and even result in mental health issues, as seen in the case of [celebrity's name]."
+ 

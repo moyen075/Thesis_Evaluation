@@ -1,0 +1,105 @@
+paragraph_id: "P-43"
+
+paragraph: |
+ Fake news on Social Media
+
+ Fake news on social media is a common but serious issue which misleads young and old generation of people in every country and it may be driven by personal or pollitical 
+ agenda. Fake news on social media means posting something that may not be entirely true for one's personal gains although it may be accidental. Nowadays, almost every people 
+ in the world are connected to social media as it has become a necessity to stay connected to the real world. People use several social media platforms like Facebook, Twitter, 
+ Instagram etc. Some people use them for news and some people use them for entertainment. People use social media by watching posts, stories and videoes others have posted. 
+ And sometimes what ones eyes see may not be entirely true. There may be several made up and fake news on social media platforms. while a few of them may be accidental, most 
+ of the fake news are made deliberately. People post these fake news mainly for two reasons: for personal gain or for pollitical gain. Personal gain is usually achieved by 
+ money. There can be cases Where people pay other people to create fake news. If some people publish fake news, it may get many views and it helps them earn money from the 
+ platform. For example :- A scary video gains many views if made realistically however chances of being that video real is close to zero. On other hand, there may be some 
+ huge discount going on a product which is not even possible some people do so because it gains them followers. It boosts their publicity. Another agenda is pollitical agenda. 
+ Some pollitical party pays some people to deliberately post fake news to mislead opposition party. This misleading news can cause the opposition party to Iose supporters or 
+ votes. There are also reporting and news agencies who deliberately publish fake news. This is usually driven by government or higherups who want to mislead common people. 
+ This is even more done when a crisis is going or during ellections. The effect of fake news on social media are many. One of them is mass panic. During crisis, if mass panic 
+ can be created, the strength of the country degrades, by several times. This is why during flood or other natural calamities, our neighbouring country news media creates fake 
+ news to scare our people. Another effect of this problem is turmoil among people. People may not believe the true source of news after seeing the fake news on social media. 
+ It may lead to quarrell and fighting among people. There are children and youngsters who are the worst people effected. They are easy to mislead. They often drift away and 
+ fall into addiction after seeing fake news on social media. Another driving force nowadays is AI. There are many AI created contents that are fake and people can not even 
+ tell the difference between them. These types of practices are harmful and should be banned immidiately for the betterment of the society.
+
+initial_score: 8.5
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt and discusses impacts like mass panic and political manipulation. However, it lacks a sophisticated analysis of social media-specific mechanisms such as algorithmic bias or virality, and the examples provided (e.g., "neighbouring country") are generic rather than specific real-world cases.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph is functional with a beginning, middle, and end, but the flow is clunky and repetitive. Transitions are basic, and the structure lacks the seamless "Point-Evidence-Explanation" (PEE) quality required for a higher score.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and understandable but relies on common words. Technical terminology such as "disinformation," "echo chambers," or "algorithmic bias" is absent. 
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: Several spelling and grammatical slips are present, including "every people," "pollitical," "videoes," "ellctions," and "immidiately." While these do not impede meaning, they exceed the "1–3 slips" threshold for the highest tier.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "almost every people in the world"
+      Issue: Subject-verb/Noun agreement error; "people" is plural while "every" suggests singular.
+      Correction: "almost every person in the world" or "almost everyone."
+  2. "pollitical agenda"
+      Issue: Spelling error.
+      Correction: "political agenda."
+  3. "videoes others have posted"
+      Issue: Spelling error.
+      Correction: "videos others have posted."
+  4. "during ellections"
+      Issue: Spelling error.
+      Correction: "during elections."
+  5. "banned immidiately"
+      Issue: Spelling error.
+      Correction: "banned immediately."
+  
+  Improvement Feedback:
+  1. "Fake news on social media means posting something that may not be entirely true..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace generic definitions with more precise technical terms. For example: "Fake news, often categorized as disinformation, refers to the deliberate dissemination of false narratives to manipulate public perception."
+  2. "The effect of fake news on social media are many."
+      Target Area: Organization & Cohesion
+      Suggestion: Use a more formal and cohesive transition to introduce the consequences. For example: "The proliferation of such misinformation yields severe societal consequences, ranging from widespread public hysteria to the erosion of democratic trust."
+  3. "It may lead to quarrell and fighting among people."
+      Target Area: Lexis & Academic Register
+      Suggestion: Avoid simplistic phrasing in favor of formal terminology. For example: "Misinformation fosters social polarization and incites civil unrest."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well, discussing the issue of fake news on social media, its causes, and effects. However, it lacks a sophisticated impact analysis and real-world examples that are deeply integrated into the argument.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph has a functional structure with a beginning, middle, and end, but the logical flow is somewhat disjointed, and transitions between ideas could be smoother.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The vocabulary is standard but lacks technical terms specific to the field of social media and disinformation, and the tone sometimes slips into informality.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: There are minor issues with grammar and mechanics, such as missing commas, subject-verb agreement slips, and punctuation errors, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media is a common but serious issue which misleads young and old generation of people in every country and it may be driven by personal or pollitical agenda."
+      Issue: Lack of comma after the introductory phrase and incorrect spelling of "political".
+      Correction: "Fake news on social media is a common but serious issue, which misleads young and old generations of people in every country, and it may be driven by personal or political agendas."
+  2. "Nowadays, almost every people in the world are connected to social media as it has become a necessity to stay connected to the real world."
+      Issue: Subject-verb agreement error.
+      Correction: "Nowadays, almost every person in the world is connected to social media, as it has become a necessity to stay connected to the real world."
+  3. "People use social media by watching posts, stories and videoes others have posted."
+      Issue: Missing comma after "stories" and incorrect spelling of "videos".
+      Correction: "People use social media by watching posts, stories, and videos that others have posted."
+  
+  Improvement Feedback:
+  1. "Fake news on social media means posting something that may not be entirely true for one's personal gains although it may be accidental."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and technical terms such as "disinformation" and "algorithmic bias" to elevate the discussion. For example, "Fake news on social media often involves the spread of disinformation, which can be accidental but is frequently driven by personal or political gain, leveraging algorithmic biases for wider reach."
+  2. "The effect of fake news on social media are many."
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct the subject-verb agreement to make the sentence grammatically accurate. For example, "The effects of fake news on social media are numerous,"
+  3. "They are easy to mislead. They often drift away and fall into addiction after seeing fake news on social media."
+      Target Area: Organization & Cohesion
+      Suggestion: Connect these ideas more smoothly to the preceding discussion on the effects of fake news, possibly by using transitional phrases or embedding these points within a broader analysis of societal impacts. For example, "Moreover, the vulnerability of younger audiences to fake news can lead to significant societal issues, including increased susceptibility to misinformation and a higher risk of falling into addiction, as they drift away from reliable sources of information."
+ 

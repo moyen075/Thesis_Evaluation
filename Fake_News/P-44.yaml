@@ -1,0 +1,104 @@
+paragraph_id: "P-44"
+
+paragraph: |
+ Fake News on Social media
+
+ Fake News on Social media is a recurring orchestrated phenomenon aimed at spreading restlessness, dividing public opinion and democratic values and causing social disorderness 
+ through misinformation and overdramatization. In this age of social media, sites like facebook holds a greater grasp of general conscience than meets the eyes. For evidence, 
+ it can be showed that the whole july uprising in '24 that gained much traction and international acclaimation because of social media sites like facebook and twitter. However, 
+ it can have a negative impact on general opinion as well. In social media, any news can be spread, with highly exaggerated headlines , without the need of proper credibility 
+ and evidence. Gullible social media users can be swayed by such information easily and made to help spread such false narratives furthermore. As likes and reactions can be 
+ bought and none is held accountable, especially small news outlets and profiles can spread misinformation after getting influenced and without any reprocussion. These headlines 
+ such the seed of dubiousness in people's unity. People get divided into different groups, each groups upholding their own agenda suppressing others. This weakens the foundation 
+ of democratic unity. Public opinion gets swayed due to such misinformation and do their belief worsens. Misinformation and exaggerated accusation is often used by politicians 
+ to instigate general populace against their opposition. This can create political instability. Furthermore, no history has witnessed many religious and communal fights getting 
+ fueled by the false narratives spreading accross social medid against each other, Thus it is certain that, fake news in social media sows the seed of uprest in society. Thus 
+ every news channel and outlet, even groups must be held accountable by law. People should be media trained. Every news should be filtered accross different credible sources. 
+ False news publishers should be punished and news on social media should be taken with a grain of salt. This can help halt the potential damage on society such worldwide form 
+ of media can inflict.
+
+initial_score: 8.0
+
+gemini:
+ score: 6.0 
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.5 / 3.0
+     Reason: The submission provides a solid definition and a specific real-world example (the July '24 uprising). However, it misses the highest mark by failing to explicitly discuss technical mechanisms like algorithms or echo chambers mentioned in the rubric.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph follows a basic structure with a topic sentence and conclusion, but the transition from the July uprising example to the general negative impacts feels abrupt, and some ideas are repetitive.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The student uses several academic terms like "misinformation" and "orchestrated," but the register is weakened by invented words like "disorderness" and multiple spelling mistakes that undermine the formal tone.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors throughout the text, including frequent misspellings ("accross", "medid", "reprocussion", "uprest"), agreement issues ("each groups"), and incorrect verb usage ("such the seed").
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "social disorderness"
+      Issue: Use of a non-existent word.
+      Correction: social disorder
+  2. "acclaimation"
+      Issue: Spelling error.
+      Correction: acclamation
+  3. "each groups"
+      Issue: Number agreement error; "each" must be followed by a singular noun.
+      Correction: each group
+  4. "such the seed"
+      Issue: Word choice error; likely a confusion with the verb "sow."
+      Correction: sow the seed
+  5. "medid"
+      Issue: Typographical error.
+      Correction: media
+  6. "uprest"
+      Issue: Spelling error.
+      Correction: unrest
+  
+  Improvement Feedback:
+  1. "In social media, any news can be spread... without the need of proper credibility and evidence."
+      Target Area: Content & Relevance
+      Suggestion: To reach the exceptional tier, incorporate the role of technology. Suggestion: "Social media platforms utilize engagement-based algorithms that often prioritize sensationalism over factual accuracy, facilitating the rapid virality of unverified content."
+  2. "These headlines such the seed of dubiousness in people's unity."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace informal or awkward phrasing with precise social science terminology. Suggestion: "Such narratives exacerbate social polarization and erode the collective trust necessary for a functioning democracy."
+  3. "facebook and twitter"
+      Target Area: Grammar & Mechanics
+      Suggestion: Ensure all proper nouns, including platform names and months, are capitalized. Suggestion: "Facebook and Twitter" and "the July uprising."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples, but it could be more sophisticated in its impact analysis and depth of argument.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a functional structure, but the logical flow is sometimes clunky, and the topic sentence could be stronger.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The submission uses standard vocabulary, but it relies on common words rather than academic or field-specific terminology and sometimes uses informal language.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and incorrect verb tenses.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake News on Social media is a recurring orchestrated phenomenon aimed at spreading restlessness, dividing public opinion and democratic values and causing social disorderness through misinformation and overdramatization."
+      Issue: The sentence is wordy and contains grammatical errors.
+      Correction: "Fake news on social media is a recurring phenomenon that aims to spread restlessness, divide public opinion, and undermine democratic values by disseminating misinformation and exaggerating facts."
+  2. "For evidence, it can be showed that the whole july uprising in '24 that gained much traction and international acclaimation because of social media sites like facebook and twitter."
+      Issue: The sentence contains grammatical errors and lacks clarity.
+      Correction: "For example, the July uprising in 2024, which gained significant traction and international attention, was largely facilitated by social media platforms like Facebook and Twitter."
+  3. "Gullible social media users can be swayed by such information easily and made to help spread such false narratives furthermore."
+      Issue: The sentence contains informal language and grammatical errors.
+      Correction: "Vulnerable social media users can be easily influenced by such information and persuaded to disseminate false narratives."
+  
+  Improvement Feedback:
+  1. "Fake News on Social media is a recurring orchestrated phenomenon aimed at spreading restlessness, dividing public opinion and democratic values and causing social disorderness through misinformation and overdramatization."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as "disinformation" and "algorithmic bias," to elevate the language and provide a more nuanced analysis.
+  2. "In social media, any news can be spread, with highly exaggerated headlines , without the need of proper credibility and evidence."
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases and sentences to connect ideas and provide a clearer structure, such as "Moreover, social media platforms often lack robust fact-checking mechanisms, allowing false information to spread rapidly."
+  3. "Thus every news channel and outlet, even groups must be held accountable by law."
+      Target Area: Grammar & Mechanics
+      Suggestion: Use proper punctuation and grammar to convey the message clearly, such as "Therefore, all news channels, outlets, and groups should be held accountable by law."
+ 

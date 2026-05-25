@@ -1,0 +1,103 @@
+paragraph_id: "P-31"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake News on social Media is common phenomenon. in our day to day life. We all see news, It con be from TV, Newspaper or can be any social media like facebook, instragram, 
+ twitter, thread etc. We all came across fake news, propaganda and scam. Fake news and rumers are here and there. At first glance we can't tell its fake on real. Let's say 
+ a real life example. In the last revolution of july, most of media was forced to telecast propangand. In the social media, BAL or Bangladesh awami League fb page continusly 
+ spread fake news and propaganda. There are lot's of aspect whe social media spread fake news : It can be gambing site, international news, political propaganda, scandal about 
+ celebrities etc. At a surface level most of the us believe that and make our judement from initial news. There are lot's of drawback and serious concequences for that. Like 
+ firstly a fake news about regious sentiment can make a massive out brust in no time. It can leads to serious misunderstanding and hurt people sentiment. A fake news about a 
+ celebrities can make the hell out of the celebrities life. In extreme case it can leads to suicide or serious truma in their life. Fake news about betting site and investment 
+ side can attracted socially unaware people which leads finantial loses. So what to do. What's the solution? There are lot's of way to ovoide them. Firstly we will not share any 
+ controversial topic like regilious, political conflict without proper source and prove. Fake news are spreads from our continous sharing. Secondly we should make judement from 
+ seeing a post or comment. We will wait sometime and after sometime based on the prove and source we will make our own decision: Mostly elderly people belive what they see in 
+ social media. We should make them understand the negative side of the fake news. There are lot's of things we must avoide. So therefore fake news can be leads some unexpected 
+ events. We all should social aware and concious about Fake News on Social Media.
+
+initial_score: 7.0
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student identifies the issue and provides a specific real-world example from Bangladesh politics. However, the analysis is generic and misses social media-specific mechanisms like algorithmic bias or virality as required for the highest tier.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a basic structure (introduction, consequences, and solutions), but the logical flow is clunky and transitions are weak. It lacks a sophisticated Point-Evidence-Explanation (PEE) structure.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is standard and often conversational ("make the hell out of," "what to do?"). It fails to utilize technical terminology such as 'disinformation' or 'echo chambers.'
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The submission contains pervasive errors in spelling (propangand, instragram, belive, ovoide), capitalization (july, fb), and punctuation (sentence fragments) that significantly impede reading.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "common phenomenon. in our day to day life."
+      Issue: Sentence fragment and improper use of punctuation.
+      Correction: "...common phenomenon in our day-to-day lives."
+  2. "It con be from TV"
+      Issue: Spelling error/Typo.
+      Correction: "It can be from TV..."
+  3. "instragram, twitter, thread"
+      Issue: Proper nouns are not capitalized.
+      Correction: "Instagram, Twitter, and Threads."
+  4. "leads finantial loses"
+      Issue: Spelling errors and missing preposition.
+      Correction: "...leads to financial losses."
+  
+  Improvement Feedback:
+  1. "Fake News on social Media is common phenomenon."
+      Target Area: Organization & Cohesion
+      Suggestion: Replace the weak opening with a more formal topic sentence. Example: "The proliferation of disinformation on social media platforms has emerged as a significant threat to social stability and informed public discourse."
+  2. "BAL or Bangladesh awami League fb page continusly spread fake news"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use academic terminology to describe the behavior of institutions. Example: "Political entities have been observed utilizing social media platforms to disseminate state-sponsored propaganda and coordinated disinformation campaigns."
+  3. "Fake news are spreads from our continous sharing."
+      Target Area: Content & Relevance
+      Suggestion: Address the technical mechanisms of social media to reach the top rubric tier. Example: "The rapid spread of fake news is facilitated by platform algorithms that prioritize sensationalist content to maximize user engagement."
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.5 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but lacks depth in its argument and specific evidence. It provides some real-world examples but does not delve deeply into the mechanisms of social media that facilitate the spread of fake news.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is somewhat disjointed, and the topic sentence is not clearly defined. Transitions between ideas are not seamless.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses informal language and lacks technical terminology related to the topic, such as disinformation, algorithmic bias, and echo chambers. The tone is not formally objective.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are noticeable errors in grammar, punctuation, and spelling that impede the clarity of the message, but they do not make the paragraph impossible to understand.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake News on social Media is common phenomenon. in our day to day life."
+      Issue: Incorrect punctuation and capitalization.
+      Correction: "Fake news on social media is a common phenomenon in our day-to-day life."
+  2. "We all came across fake news, propaganda and scam."
+      Issue: Lack of specificity and incorrect comma usage.
+      Correction: "We all come across fake news, propaganda, and scams."
+  3. "Let's say a real life example."
+      Issue: Informal language and incorrect punctuation.
+      Correction: "For example,"
+  4. "In the last revolution of july, most of media was forced to telecast propangand."
+      Issue: Incorrect spelling and lack of specificity.
+      Correction: "During the last revolution in July, most media outlets were forced to broadcast propaganda."
+  
+  Improvement Feedback:
+  1. "Fake news and rumers are here and there."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise language, such as "Fake news and rumors are ubiquitous."
+  2. "At first glance we can't tell its fake on real."
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct the sentence to "At first glance, we can't tell what's fake and what's real."
+  3. "There are lot's of aspect whe social media spread fake news :"
+      Target Area: Content & Relevance
+      Suggestion: Specify these aspects, such as "There are several key factors through which social media spreads fake news, including algorithmic bias, echo chambers, and the lack of fact-checking mechanisms."
+  4. "So therefore fake news can be leads some unexpected events."
+      Target Area: Organization & Cohesion
+      Suggestion: Conclude the paragraph with a clearer summary statement, such as "In conclusion, the spread of fake news on social media can lead to unforeseen and potentially harmful consequences, emphasizing the need for critical media literacy and responsible social media practices." 
+ 

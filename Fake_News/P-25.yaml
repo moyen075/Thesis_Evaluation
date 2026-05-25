@@ -1,0 +1,89 @@
+paragraph_id: "P-25"
+
+paragraph: |
+ Fake News on Social Media
+
+ Lack of moral value sometimes causes fake news to spread in social media which in turn results in leading public opinion to a way which deviates from actual facts. In today 
+ era, we, the people all over the world, share every kind of information through social media. While it keeps us informed about up-to-date news, sometimes people spreads 
+ false news through it their own benefits. Some wants to come in lime-light, some want to cause trouble other party and some also want to create chaos in society. These are 
+ commonly found reasons for spread of fake news on social media. Moreover, there are often exaggerated news to attract attention of readers which is named as yellow journalism. 
+ These kind of incidents, spread false informations among general mass and cause mass-confusion. It also disrupts people's judgements about current political, economic and 
+ other environment, causing them to take wrong steps. Sometimes, a group of people become victims of it and suffers loss of reputation and properties. Furthermore, social 
+ sites lose its credibility and people do not easily believe any news causing slow-spread of mass awareness. In short, fake news on social media hampers our day to day life 
+ causing lasting damage of our society and economic condition and with increasing our moral awareness we cannot get out of its harmful influences.
+
+initial_score: 7.5
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+      Reason: The student addresses the prompt adequately but the analysis is generic. It fails to define fake news within the specific context of social media mechanisms like algorithms or virality, and it lacks a specific real-world example.
+  2. Organization & Cohesion: 1.0 / 2.0
+      Reason: The paragraph is functional with a beginning, middle, and end, but the flow is clunky and the topic sentence focuses on morality rather than clearly introducing the core topic.
+  3. Lexis & Academic Register: 1.5 / 2.5
+      Reason: The vocabulary is standard and includes terms like "yellow journalism," but it relies on informal first-person pronouns ("we," "us") and lacks academic terminology such as "disinformation" or "echo chambers."
+  4. Grammar & Mechanics: 0.5 / 2.5
+      Reason: The text contains pervasive grammatical errors, including subject-verb agreement, uncountable noun usage, and pronoun-antecedent errors, which detract from the overall quality.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "In today era"
+      Issue: Missing possessive marking or article.
+      Correction: "In today's era" or "In the current era"
+  2. "people spreads"
+      Issue: Subject-verb agreement error with plural subject.
+      Correction: "people spread"
+  3. "false informations"
+      Issue: "Information" is an uncountable noun and cannot be pluralized.
+      Correction: "false information"
+  4. "social sites lose its credibility"
+      Issue: Pronoun-antecedent agreement error (plural "sites" requires plural "their").
+      Correction: "social sites lose their credibility"
+  
+  Improvement Feedback:
+  1. "In today era, we, the people all over the world, share every kind of information"
+      Target Area: Lexis & Academic Register
+      Suggestion: Remove first-person pronouns to maintain an objective, academic stance. Better alternative: "In the digital age, information is disseminated globally across various social media platforms."
+  2. "These are commonly found reasons for spread of fake news on social media."
+      Target Area: Content & Relevance
+      Suggestion: To reach the 3.0 tier, integrate technical mechanisms and a concrete example. Better alternative: "These factors are often amplified by engagement-driven algorithms, as seen in the rapid spread of vaccine misinformation during the COVID-19 pandemic."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well but lacks specific evidence and a sophisticated impact analysis. It provides some general reasons for the spread of fake news on social media and mentions its consequences, but it does not delve deeply into the social media context or provide a real-world example.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a beginning, middle, and end, but the logical flow is somewhat disjointed. The topic sentence is not strong, and the transitions between ideas could be improved.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology. It also lacks a formal, objective tone in some places.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas or singular/plural slips, but they do not impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "Lack of moral value sometimes causes fake news to spread in social media"
+      Issue: The sentence is worded vaguely and could be more concise.
+      Correction: "The spread of fake news on social media is often caused by a lack of moral values."
+  2. "In today era, we, the people all over the world, share every kind of information through social media."
+      Issue: The phrase "In today era" is not grammatically correct.
+      Correction: "In today's era, people all over the world share all kinds of information through social media."
+  3. "These kind of incidents, spread false informations among general mass and cause"
+      Issue: The sentence has grammatical errors and is worded unclearly.
+      Correction: "These incidents spread false information among the general public and cause"
+  
+  Improvement Feedback:
+  1. "Lack of moral value sometimes causes fake news to spread in social media"
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more academic terminology, such as "disinformation" or "algorithmic bias," to elevate the language and provide more precision.
+  2. "It also disrupts people's judgements about current political, economic and other environment, causing them to take wrong steps."
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases to connect ideas more smoothly and provide more specific examples to support the argument.
+  3. "In short, fake news on social media hampers our day to day life causing lasting damage of our society and economic condition"
+      Target Area: Content & Relevance
+      Suggestion: Provide more specific evidence and analysis to support the claim, such as citing a real-world example or discussing the impact of fake news on a particular community. 

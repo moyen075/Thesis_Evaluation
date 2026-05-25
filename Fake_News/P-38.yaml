@@ -1,0 +1,92 @@
+paragraph_id: "P-38"
+
+paragraph: |
+ Fake news on social Media
+
+ At present Fake news on social media is a common problem in the context of Bangladesh. There is hardly any news in social media in Bangladesh that we can trust blindly. There 
+ are many reasons behind it. At the present era of globalization the users of social media is increasing day by day. It needs just a simple click to connect with the vast world 
+ through the social media. This is why scammers, propagandists use social media to circulate fake news to serve their purposes. Scammers use fake news for their monetary benefits. 
+ Like spreading fake news on the fall of dollar rate so they can buy dollars cheaply. Propagandists spread fake news to serve their agenda like to establish a political ideology, 
+ to attract the people to their ideology. At present these scammers and propagandists use more advanced tools like AI to create fake news that is so hard to fact check. Moreover 
+ many spread fake news willingly for social media views. As in the context of Bangladesh many social media users do not cross check the source of the news so it is easy to draw 
+ their attentions quickly benefitting the fake news spreader. The effects of fake news on social media is horrible. First we can say the religious clash that most often takes 
+ places based on fake news on social media often disturbing the religious harmony. At present many of the social media users have trust issue. As they are continuously exposed 
+ to these fake click bate news that they hardly believe any important real news. Many losses their money to scammers also. Concerning govt authority should take firm steps on 
+ this. Govt. should punish these scammers and propagandists so that no one ever dare to do so. Al we have to be cautious. We should cross check the source before sharing the news. 
+
+initial_score:  7.5
+
+gemini:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission identifies specific reasons for fake news and provides relevant real-world examples (currency scams and religious clashes in Bangladesh). However, it falls short of the 'Exceptional' tier by failing to discuss specific social media mechanisms like algorithms, echo chambers, or the mechanics of virality.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The logical flow is functional but 'clunky.' The student split the response into two paragraphs, which violates the single-paragraph requirement of the prompt. The transition to the final 'call to action' is abrupt.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The register is standard and understandable but relies on common words (e.g., 'scammers,' 'horrible') rather than academic terminology like 'disinformation' or 'algorithmic bias.' Some phrasing is overly subjective/emotional.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: There are more than three minor errors, including subject-verb agreement ('users... is'), spelling ('click bate'), and word form issues ('Many losses'), though they do not impede overall meaning.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1 "the users of social media is increasing"
+      Issue: Subject-verb agreement error; 'users' is plural and requires 'are.'
+      Correction: "the number of social media users is increasing."
+  2 "takes places"
+      Issue: Subject-verb agreement/Pluralization error.
+      Correction: "takes place."
+  3 "Many losses their money"
+      Issue: Incorrect word class usage; 'losses' is a noun, whereas a verb is required.
+      Correction: "Many lose their money."
+  4 "Al we have to be cautious"
+      Issue: Spelling and punctuation error.
+      Correction: "Also, we have to be cautious."
+  
+  Improvement Feedback:
+  1 "The effects of fake news on social media is horrible."
+      Target Area: Lexis & Academic Register
+      Suggestion: Avoid emotional adjectives in academic writing. Use formal alternatives to describe impact. Better alternative: "The societal ramifications of social media disinformation are profoundly destabilizing."
+  2 "This is why scammers, propagandists use social media to circulate fake news..."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate technical social media concepts to reach the top tier. Better alternative: "Propagandists exploit algorithmic amplification and the lack of gatekeeping on social platforms to ensure disinformation reaches targeted audiences rapidly."
+
+llama:
+ score: 6.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some specific examples of fake news on social media, such as scammers using fake news for monetary benefits and propagandists spreading fake news to serve their agenda. However, the analysis could be more sophisticated and provide a deeper impact analysis.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a clear beginning, middle, and end, but the logical flow is sometimes disrupted, and the topic sentence could be stronger. The transitions between ideas could be smoother.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary, but it relies on common words rather than academic or field-specific terminology. The tone is generally formal, but there are some instances of conversational language.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas, singular/plural slips, and incorrect sentence structure. However, the errors do not significantly impede the meaning.
+  
+  Overall Score: 6.0 / 10
+  
+  Corrective Feedback:
+  1. "At present Fake news on social media is a common problem in the context of Bangladesh."
+      Issue: The sentence lacks a clear topic sentence and is somewhat vague.
+      Correction: Consider starting with a more specific statement, such as "The proliferation of fake news on social media has become a significant concern in Bangladesh."
+  2. "It needs just a simple click to connect with the vast world through the social media."
+      Issue: The sentence is somewhat simplistic and lacks clarity.
+      Correction: Consider rephrasing to something like "With just a single click, social media users can access a vast array of information and connect with people worldwide."
+  3. "The effects of fake news on social media is horrible."
+      Issue: The sentence has a subject-verb agreement error.
+      Correction: Consider changing to "The effects of fake news on social media are horrible."
+  
+  Improvement Feedback:
+  1. "There are many reasons behind it."
+      Target Area: Content & Relevance
+      Suggestion: Consider providing more specific and detailed explanations for the reasons behind the spread of fake news on social media. For example, you could discuss the role of algorithms, social media platforms' lack of regulation, or the psychological factors that contribute to the spread of misinformation.
+  2. "Scammers use fake news for their monetary benefits."
+      Target Area: Lexis & Academic Register
+      Suggestion: Consider using more academic or field-specific terminology, such as "financial gains" or "economic advantages," to describe the benefits that scammers derive from spreading fake news.
+  3. "We should cross check the source before sharing the news."
+      Target Area: Organization & Cohesion
+      Suggestion: Consider providing more detailed guidance on how to effectively cross-check sources and verify the accuracy of information before sharing it on social media. This could involve discussing fact-checking strategies, evaluating sources for credibility, or using tools to detect misinformation.
+ 

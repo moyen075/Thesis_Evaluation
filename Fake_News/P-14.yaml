@@ -1,0 +1,102 @@
+paragraph_id: "P-14"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media refers to the news that is completely of partially untrue and has been spread for personal gain, political gain on just to cause unrest in society. 
+ Due to the rise of social media like Facebook, Tik Tok on Instagram etc., we are now more connected than ever and can instantly get news from any part of the world. But since 
+ anyone can share any news without verifying it, sometimes intentionally on unintentionally altered news  gets shared. Someone may edit a video or crop a picture in such a way 
+ to make his victim look bad. Someone can also impersonate another person to cause harm to him. This causes the victim a great deal of trouble both online and offline. In this 
+ way, even a single individual can ruin someone's reputation for his personal gain. But there is another more common type of fake news, political fake news. A political party 
+ can use their workers to spread defamatory news about their opposing party or  claim somone else's humanitarian work as their own. Especially during election times, all types 
+ of Social media gets flooded with fake political news because of the party's followers spreading it. There is another type of fake news that circulates social media that benefits 
+ no one but only causes chaos. News that has been accidentally altered on misunderstood evokes strong emotions in anyone who comes across int in their feed. This causes them to 
+ engage with it and increase its visibility. So everyone else also believes it to be true and gets angry at it, This causes social instabity without any motive behind it. After 
+ all, social medias are designed to spread content without verifying any thing. So it is our job to know how to spot fake news and report it without engaging with it to keep our 
+ feeds free from fake news.
+
+initial_score: 8.5 
+
+gemini:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The paragraph identifies the mechanisms of social media (engagement and visibility) and different types of fake news. However, the examples provided (political parties, individual reputation) are generic rather than specific, missing the "sophisticated impact analysis with a real-world example" required for the highest tier.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The paragraph is functional with a clear topic sentence and logical progression. However, the flow is somewhat clunky due to repetitive sentence structures and a lack of sophisticated transitional phrases between the different types of fake news.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The vocabulary is appropriate but basic. It lacks technical terminology such as "disinformation," "algorithmic bias," or "echo chambers" that would elevate the academic register. The tone is objective, which is good, but the word choice is not specialized.
+  4. Grammar & Mechanics: 1.5 / 2.5
+     Reason: The writing is clear, but there are more than three minor errors. These include recurring typographical errors (using "on" or "of" instead of "or") and punctuation issues (comma splices), though they do not impede the reader's understanding.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. "completely of partially untrue"
+      Issue: Typographical error; use of the preposition "of" instead of the conjunction "or."
+      Correction: completely or partially untrue
+  2. "political gain on just to cause"
+      Issue: Typographical error; "on" instead of "or."
+      Correction: political gain or just to cause
+  3. "Tik Tok on Instagram"
+      Issue: Typographical error; "on" instead of "or."
+      Correction: Tik Tok or Instagram
+  4. "comes across int in their feed"
+      Issue: Spelling error/typo.
+      Correction: comes across it in their feed
+  5. "angry at it, This causes"
+      Issue: Comma splice; two independent clauses joined by a comma and a capitalization error.
+      Correction: angry at it. This causes...
+  6. "social medias are designed"
+      Issue: Number agreement/Noun usage; "social media" is typically treated as an uncountable mass noun or a collective term.
+      Correction: social media platforms are designed
+  
+  Improvement Feedback:
+  1. "Fake news on social media refers to..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Elevate the register by distinguishing between "misinformation" and "disinformation." Alternative: "Disinformation on social media platforms involves the intentional spread of false narratives for strategic gain."
+  2. "This causes them to engage with it and increase its visibility."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate social-media-specific mechanisms like "algorithms" or "virality." Alternative: "High engagement levels signal algorithms to prioritize the content, leading to rapid virality regardless of the post's factual accuracy."
+  3. "A political party can use their workers..."
+      Target Area: Content & Relevance
+      Suggestion: To reach an "Exceptional" score, provide a specific real-world event. Alternative: "For example, the 2016 US Presidential Election demonstrated how coordinated disinformation campaigns can polarize public opinion and influence voter behavior."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides some examples of fake news on social media, but it could be more specific and in-depth in its analysis of the impact of fake news.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a clear beginning, middle, and end, but the logical flow is sometimes disrupted by abrupt transitions between ideas.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but lacks technical terms and field-specific terminology, and the tone is not consistently formal.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission has some minor errors in grammar and mechanics, such as missing commas and subject-verb agreement issues, but they do not significantly impede the meaning.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. Fake news on social media refers to the news that is completely of partially untrue and has been spread for personal gain, political gain on just to cause unrest in society.
+      Issue: The sentence contains a typo ('on' instead of 'or') and lacks clarity.
+      Correction: Fake news on social media refers to news that is completely or partially untrue and has been spread for personal gain, political gain, or to cause unrest in society.
+  2. Due to the rise of social media like Facebook, Tik Tok on Instagram etc., 
+      Issue: The sentence contains a typo ('on' instead of 'and') and lacks proper punctuation.
+      Correction: Due to the rise of social media like Facebook, TikTok, and Instagram, etc.,
+  3. Someone may edit a video or crop a picture in such a way to make his victim look bad.
+      Issue: The sentence lacks clarity and specificity.
+      Correction: Someone may edit a video or crop a picture to manipulate public opinion and make the victim appear bad.
+  
+  Improvement Feedback:
+  1. Fake news on social media refers to the news that is completely of partially untrue and has been spread for personal gain, political gain on just to cause unrest in society.
+      Target Area: Content & Relevance
+      Suggestion: Provide a more nuanced definition of fake news, including its various forms and the algorithms that facilitate its spread.
+  2. This causes the victim a great deal of trouble both online and offline.
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more technical terms, such as 'reputational damage' or 'psychological distress,' to describe the impact of fake news on individuals.
+  3. In this way, even a single individual can ruin someone's reputation for his personal gain.
+      Target Area: Organization & Cohesion
+      Suggestion: Use transitional phrases, such as 'Moreover' or 'Additionally,' to connect ideas and improve the logical flow of the paragraph.
+ 

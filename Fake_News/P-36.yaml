@@ -1,0 +1,89 @@
+paragraph_id: "P-36"
+
+paragraph: |
+ Fake News on Social Media
+
+ Fake news on social media caused by some morally disturbed individuals affect horribly in our day to day life. Social media is now-a-days available to everyone. Fake news 
+ and rumors are very easy to spread as people can not check the authenticity of it. Usually people who spread fake news, do thin heinous act in order to socially make someone 
+ embarrassed, for personal vengeance, political rivalry etc. Most of the people in our country do not have  the patience to cross refer the news. moreover, they start going 
+ with flow and end up contributing spreading the news. This is a huge accomplishment for that individual who is behind the fake news or rumour. The worst thing happens when 
+ other people believe those news and let that rumour affect their thinking, judgment and attitude towards that particular incident. This mentality damages relationships, 
+ destroys faith in certain object, company or people. When the fake news spreads through social media, it becomes hard to contain the flow as it moves really fast. This is an 
+ act of severe moral degradation and these laws should be passed from the parliament to sent that fugitive to jail and it needed pay monetary fines. In conclusion, social media 
+ is a really good place to start a pandemic of rumours and those who do this and destroys the peace of the common people are a menace to the society.
+
+initial_score: 7.5
+
+gemini:
+ score: 4.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.0 / 3.0
+     Reason: The submission remains at a surface level, treating fake news as general rumors rather than explaining social media-specific mechanisms like algorithms or virality. Crucially, it fails to provide a specific real-world example as required by the rubric.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a functional beginning and end, but the transition to legal punishments is abrupt, and the logical flow feels clunky rather than seamless.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: While the vocabulary is understandable, the student relies on emotional and subjective language (e.g., "horribly," "morally disturbed," "menace") and fails to use technical terms like "disinformation" or "echo chambers."
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: The text contains pervasive errors in syntax, verb forms, and subject-verb agreement (e.g., "to sent," "it needed pay," "do thin") that significantly impede the academic quality.
+  
+  Overall Score: 4.0 / 10
+  
+  Corrective Feedback:
+  1. "Fake News on Social Media caused by some morally disturbed individuals affect horribly"
+      Issue: Subject-verb agreement error and awkward adverb placement.
+      Correction: Fake news on social media, often spread by individuals, affects our daily lives significantly.
+  2. "do thin heinous act"
+      Issue: Typo/Grammar slip.
+      Correction: commit this heinous act.
+  3. "laws should be passed from the parliament to sent that fugitive to jail and it needed pay monetary fines."
+      Issue: Incorrect verb tense ("sent") and fragmented/unclear syntax.
+      Correction: laws should be passed by parliament to send these individuals to jail and require them to pay monetary fines.
+  
+  Improvement Feedback:
+  1. "Fake news and rumors are very easy to spread as people can not check the authenticity of it."
+      Target Area: Content & Relevance
+      Suggestion: Incorporate specific social media mechanisms to meet the "Exceptional" criteria. Suggestion: "The virality of fake news is often accelerated by social media algorithms that prioritize engagement over accuracy."
+  2. "The worst thing happens when other people believe those news..."
+      Target Area: Lexis & Academic Register
+      Suggestion: Replace subjective and informal phrasing with academic terminology. Suggestion: "The proliferation of disinformation within digital echo chambers significantly distorts public perception and objective judgment."
+
+
+
+llama:
+ score: 4.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 1.0 / 3.0
+     Reason: The submission addresses the topic of fake news on social media but provides a vague and surface-level analysis without specific evidence or a sophisticated impact analysis.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph has a beginning, middle, and end, but the logical flow is disjointed, and the topic sentence is weak.
+  3. Lexis & Academic Register: 0.5 / 2.5
+     Reason: The submission uses conversational language and lacks technical terminology, failing to maintain a formal, objective tone.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission has some minor issues with grammar and mechanics, such as missing commas and subject-verb agreement slips, but they do not significantly impede the meaning.
+  
+  Overall Score: 4.5 / 10
+  
+  Corrective Feedback:
+  1. "Fake news on social media caused by some morally disturbed individuals affect horribly in our day to day life."
+      Issue: The sentence has a subject-verb agreement error and lacks clarity.
+      Correction: Fake news on social media, caused by morally disturbed individuals, affects our daily lives horribly.
+  2. "Social media is now-a-days available to everyone."
+      Issue: The phrase "now-a-days" is informal and should be replaced with a more formal expression.
+      Correction: Social media is now available to everyone.
+  3. "people who spread fake news, do thin heinous act in order to socially make someone embarrassed, for personal vengeance, political rivalry etc."
+      Issue: The sentence has multiple grammatical errors, including a missing article and incorrect punctuation.
+      Correction: People who spread fake news commit heinous acts to embarrass someone socially, often for personal vengeance or political rivalry.
+  
+  Improvement Feedback:
+  1. "Fake news on social media caused by some morally disturbed individuals affect horribly in our day to day life."
+      Target Area: Content & Relevance
+      Suggestion: Provide a more nuanced analysis of the impact of fake news on social media, including specific examples and evidence to support the claim.
+  2. "Social media is a really good place to start a pandemic of rumours."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical terminology, such as "social media platforms can facilitate the dissemination of misinformation," to maintain an objective tone and elevate the language.
+  3. "those who do this and destroys the peace of the common people are a menace to the society."
+      Target Area: Grammar & Mechanics
+      Suggestion: Correct the subject-verb agreement error and rephrase the sentence for better clarity, such as "those who spread fake news and disrupt the peace of common people are a menace to society."
+ 

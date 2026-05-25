@@ -1,0 +1,93 @@
+paragraph_id: "P-05"
+
+paragraph: |
+ Fake News on Social Media
+
+ News carried by social media, plays a very vital role in human actions. Nowadays people are attracted very much to social media, as a result many fake news also appear in 
+ front of their screen. But without proper reference, findings, many people believe those news, than creates a huge massacre in real life because no such events occurs in 
+ practical life. There are hundreds of examples of the negative outcome of believing those news. A few days ago, there is a fake news gets viral, that is the honorable advisor 
+ of Bangladesh Government, Dr Mohammad Yunus, fled along with the youth leaders from Bangladesh. But the news was completely wrong. But people from village, less educated 
+ people, general people believed that news. Because of that, they felt very worried thinking of their future, of their children. They thought Bangladesh will face another 
+ killing like in July, August 2024. But the press secretary confirmed that the news was fake and they are doing well. So, every news can't be believed. Only news from 
+ verified source should be believed, so that there comes no confusion among us. In social media, everyone can share their opinion, their feelings. But not everything is 
+ permitted in the real world. So, we must be careful when we see such news in front of our screen. In the social media, no one is judged, no one is punished for their action. 
+ Some group finds benefit from that. They creates propaganda of their enemy, even though those are not true. When those false news comes in front of general people the believes 
+ that. Because of that, in real life many problematic situation occurs. There should be a team or system who can verify the news before publishing in the social media. After 
+ that filtration, some confusion will be decreased. So, fake news are very dangerous thing both in social and real media. Mass awareness must be taken to get rid of the problem.
+
+initial_score: 7.5 
+
+gemini:
+ score: 5.0
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The student provides a relevant real-world example regarding Dr. Mohammad Yunus, which adds depth. However, it misses the specific mechanisms of social media like algorithmic bias or echo chambers, focusing instead on general rumors.
+  2. Organization & Cohesion: 1.0 / 2.0
+     Reason: The paragraph is functional but clunky. The topic sentence is weak, and the transitions between the specific example and the general conclusion are not seamless.
+  3. Lexis & Academic Register: 1.5 / 2.5
+     Reason: The register is mostly appropriate but relies on common, sometimes emotional language (e.g., 'huge massacre,' 'very worried') rather than technical social science terminology.
+  4. Grammar & Mechanics: 0.5 / 2.5
+     Reason: There are pervasive errors throughout the text, including subject-verb agreement ('they creates'), countability errors ('a fake news'), and poor sentence structure that hinders readability.
+  
+  Overall Score: 5.0 / 10
+  
+  Corrective Feedback:
+  1. "News carried by social media, plays a very vital role"
+      Issue: Incorrect comma placement between the subject and the verb.
+      Correction: "News carried by social media plays a vital role..."
+  2. "there is a fake news gets viral"
+      Issue: Grammatically incorrect relative clause and misuse of the word 'news' as a countable noun.
+      Correction: "...a piece of fake news went viral..."
+  3. "They creates propaganda"
+      Issue: Subject-verb agreement error.
+      Correction: "They create propaganda..."
+  4. "when those false news comes in front of general people the believes that."
+      Issue: Subject-verb agreement ('news comes') and word choice error ('the' instead of 'they').
+      Correction: "When this false news reaches the general public, they believe it."
+  
+  Improvement Feedback:
+  1. "Nowadays people are attracted very much to social media, as a result many fake news also appear in front of their screen."
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise technical terms like 'disinformation' and 'algorithmic curation' to describe the phenomenon. Alternative: "The proliferation of social media has led to the rapid spread of disinformation, often amplified by algorithmic curation."
+  2. "So, every news can't be believed."
+      Target Area: Organization & Cohesion
+      Suggestion: Replace this informal sentence with a more academic synthesis of the argument. Alternative: "Consequently, it is imperative for users to verify sources to mitigate the societal impact of unverified digital content."
+
+llama:
+ score: 6.5
+ feedback: |
+  Score Breakdown:
+  1. Content & Relevance: 2.0 / 3.0
+     Reason: The submission addresses the prompt well and provides a real-world example, but it may be slightly generic and misses the 'social media' specific mechanisms.
+  2. Organization & Cohesion: 1.5 / 2.0
+     Reason: The submission has a beginning, middle, and end, but the logical flow is 'clunky' and the topic sentence is weak.
+  3. Lexis & Academic Register: 1.0 / 2.5
+     Reason: The submission uses standard vocabulary but relies on common words rather than academic or field-specific terminology.
+  4. Grammar & Mechanics: 2.0 / 2.5
+     Reason: The submission has minor issues with grammar and mechanics, such as missing commas and singular/plural slips.
+  
+  Overall Score: 6.5 / 10
+  
+  Corrective Feedback:
+  1. 'News carried by social media, plays a very vital role in human actions.'
+      Issue: The sentence is grammatically incorrect and lacks clarity.
+      Correction: 'Social media plays a vital role in shaping human actions.'
+  2. 'But without proper reference, findings, many people believe those news, than creates a huge massacre in real life because no such events occurs in practical life.'
+      Issue: The sentence is grammatically incorrect and lacks clarity.
+      Correction: 'However, without proper verification, many people believe this news, which can lead to significant consequences in real life.'
+  3. 'There are hundreds of examples of the negative outcome of believing those news.'
+      Issue: The sentence is grammatically incorrect.
+      Correction: 'There are hundreds of examples of the negative outcomes resulting from believing such news.'
+  
+  Improvement Feedback:
+  1. 'News carried by social media, plays a very vital role in human actions.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more formal and technical terms, such as 'social media platforms' and 'influence human behavior.'
+  2. 'But people from village, less educated people, general people believed that news.'
+      Target Area: Lexis & Academic Register
+      Suggestion: Use more precise and formal terms, such as 'rural communities' and 'individuals with limited education.'
+  3. 'So, every news can't be believed.'
+      Target Area: Grammar & Mechanics
+      Suggestion: Use more formal and grammatically correct language, such as 'Not all news can be trusted.'
+ 
