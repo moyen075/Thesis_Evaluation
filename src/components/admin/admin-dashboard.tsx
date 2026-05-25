@@ -135,6 +135,17 @@ export function AdminDashboard({
     );
   }
 
+  async function clearAssignment(paragraphId: string) {
+    if (!confirm(`Clear all assignments for ${paragraphId}?`)) return;
+    await runAction(`clear-${paragraphId}`, () =>
+      fetch("/api/admin/assignments/manual", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ paragraphId }),
+      })
+    );
+  }
+
   return (
     <div className="space-y-6 pb-16 md:pb-0">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -318,15 +329,33 @@ export function AdminDashboard({
                         )}
                       </td>
                       <td className="px-3 py-2 text-right">
-                        <Button
-                          type="button"
-                          size="sm"
-                          variant="outline"
-                          disabled={assignment.locked || loading !== null}
-                          onClick={() => saveAssignment(assignment.id)}
-                        >
-                          Save
-                        </Button>
+                        <div className="flex items-center justify-end gap-2">
+                          {!assignment.locked && assignment.teacherIds.length > 0 && (
+                            <Button
+                              type="button"
+                              size="sm"
+                              variant="outline"
+                              disabled={loading !== null}
+                              onClick={() => clearAssignment(assignment.id)}
+                            >
+                              {loading === `clear-${assignment.id}` ? (
+                                <Loader2 className="h-3 w-3 animate-spin" />
+                              ) : (
+                                <Trash2 className="h-3 w-3 text-red-500" />
+                              )}
+                              Clear
+                            </Button>
+                          )}
+                          <Button
+                            type="button"
+                            size="sm"
+                            variant="outline"
+                            disabled={assignment.locked || loading !== null}
+                            onClick={() => saveAssignment(assignment.id)}
+                          >
+                            Save
+                          </Button>
+                        </div>
                       </td>
                     </tr>
                   );
