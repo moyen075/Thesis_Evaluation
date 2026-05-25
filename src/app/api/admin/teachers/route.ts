@@ -19,6 +19,23 @@ export async function GET() {
   return NextResponse.json(data ?? []);
 }
 
+export async function DELETE(request: NextRequest) {
+  const session = await getApiSession(["ADMIN"]);
+  if (session.error) return session.error;
+
+  const { id } = await request.json();
+  if (!id) {
+    return NextResponse.json({ error: "Missing teacher id" }, { status: 400 });
+  }
+
+  const { error } = await session.admin.auth.admin.deleteUser(id);
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ deleted: id });
+}
+
 export async function POST(request: NextRequest) {
   const session = await getApiSession(["ADMIN"]);
   if (session.error) return session.error;

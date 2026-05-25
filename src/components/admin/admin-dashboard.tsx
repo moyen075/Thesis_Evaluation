@@ -8,6 +8,7 @@ import {
   Download,
   Loader2,
   RefreshCw,
+  Trash2,
   UserPlus,
   Users,
 } from "lucide-react";
@@ -90,6 +91,17 @@ export function AdminDashboard({
     } finally {
       setLoading(null);
     }
+  }
+
+  async function deleteTeacher(id: string, name: string) {
+    if (!confirm(`Delete ${name}? This will remove their account and all assigned tasks.`)) return;
+    await runAction(`delete-${id}`, () =>
+      fetch("/api/admin/teachers", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id }),
+      })
+    );
   }
 
   async function createTeacher(event: React.FormEvent<HTMLFormElement>) {
@@ -232,7 +244,22 @@ export function AdminDashboard({
                   <p className="truncate text-sm font-medium">{teacher.full_name}</p>
                   <p className="truncate text-xs text-[var(--muted-foreground)]">{teacher.email}</p>
                 </div>
-                <Badge>{workloads.get(teacher.id) ?? 0}</Badge>
+                <div className="flex items-center gap-2">
+                  <Badge>{workloads.get(teacher.id) ?? 0}</Badge>
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    disabled={loading !== null}
+                    onClick={() => deleteTeacher(teacher.id, teacher.full_name)}
+                  >
+                    {loading === `delete-${teacher.id}` ? (
+                      <Loader2 className="h-3 w-3 animate-spin" />
+                    ) : (
+                      <Trash2 className="h-3 w-3 text-red-500" />
+                    )}
+                  </Button>
+                </div>
               </div>
             ))}
           </div>
