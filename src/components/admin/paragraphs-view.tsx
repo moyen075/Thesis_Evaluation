@@ -94,7 +94,7 @@ export function ParagraphsView({ paragraphs }: { paragraphs: Paragraph[] }) {
                 </span>
                 <div className="flex shrink-0 items-center gap-2">
                   {paragraph.legacy_initial_score !== null && (
-                    <Badge variant="outline">
+                    <Badge className="border-dashed">
                       Initial: {paragraph.legacy_initial_score}
                     </Badge>
                   )}
