@@ -1,10 +1,13 @@
 import Link from "next/link";
-import { BookOpenCheck, ClipboardList, ShieldCheck } from "lucide-react";
+import { BookOpenCheck, ClipboardList, FileText, ShieldCheck } from "lucide-react";
 import { LogoutButton } from "@/components/layout/logout-button";
 import type { Role } from "@/lib/types";
 
 const links = {
-  ADMIN: [{ href: "/admin", label: "Admin", icon: ShieldCheck }],
+  ADMIN: [
+    { href: "/admin", label: "Admin", icon: ShieldCheck },
+    { href: "/admin/paragraphs", label: "Paragraphs", icon: FileText },
+  ],
   TEACHER: [{ href: "/teacher/tasks", label: "Tasks", icon: ClipboardList }],
 };
 
