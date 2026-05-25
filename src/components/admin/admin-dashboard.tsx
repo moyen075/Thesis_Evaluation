@@ -135,14 +135,10 @@ export function AdminDashboard({
     );
   }
 
-  async function clearAssignment(paragraphId: string) {
-    if (!confirm(`Clear all assignments for ${paragraphId}?`)) return;
-    await runAction(`clear-${paragraphId}`, () =>
-      fetch("/api/admin/assignments/manual", {
-        method: "DELETE",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ paragraphId }),
-      })
+  async function clearAllAssignments() {
+    if (!confirm("Clear all unstarted assignments? Only NOT_STARTED tasks will be removed.")) return;
+    await runAction("clear-all", () =>
+      fetch("/api/admin/assignments/manual", { method: "DELETE" })
     );
   }
 
@@ -188,6 +184,19 @@ export function AdminDashboard({
               <RefreshCw className="h-4 w-4" />
             )}
             Auto assign
+          </Button>
+          <Button
+            type="button"
+            variant="outline"
+            disabled={loading !== null}
+            onClick={clearAllAssignments}
+          >
+            {loading === "clear-all" ? (
+              <Loader2 className="h-4 w-4 animate-spin" />
+            ) : (
+              <Trash2 className="h-4 w-4 text-red-500" />
+            )}
+            Clear All
           </Button>
           <a href="/api/admin/export">
             <Button type="button" variant="secondary">
@@ -329,33 +338,15 @@ export function AdminDashboard({
                         )}
                       </td>
                       <td className="px-3 py-2 text-right">
-                        <div className="flex items-center justify-end gap-2">
-                          {!assignment.locked && assignment.teacherIds.length > 0 && (
-                            <Button
-                              type="button"
-                              size="sm"
-                              variant="outline"
-                              disabled={loading !== null}
-                              onClick={() => clearAssignment(assignment.id)}
-                            >
-                              {loading === `clear-${assignment.id}` ? (
-                                <Loader2 className="h-3 w-3 animate-spin" />
-                              ) : (
-                                <Trash2 className="h-3 w-3 text-red-500" />
-                              )}
-                              Clear
-                            </Button>
-                          )}
-                          <Button
-                            type="button"
-                            size="sm"
-                            variant="outline"
-                            disabled={assignment.locked || loading !== null}
-                            onClick={() => saveAssignment(assignment.id)}
-                          >
-                            Save
-                          </Button>
-                        </div>
+                        <Button
+                          type="button"
+                          size="sm"
+                          variant="outline"
+                          disabled={assignment.locked || loading !== null}
+                          onClick={() => saveAssignment(assignment.id)}
+                        >
+                          Save
+                        </Button>
                       </td>
                     </tr>
                   );
