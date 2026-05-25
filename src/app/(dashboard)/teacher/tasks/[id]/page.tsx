@@ -41,47 +41,27 @@ export default async function TeacherTaskPage({
     notFound();
   }
 
-  const { data: humanEvaluation } = await admin
-    .from("human_evaluations")
-    .select("*")
-    .eq("task_id", id)
-    .maybeSingle();
-
-  const { data: humanFactors } = humanEvaluation
-    ? await admin
-        .from("human_factor_scores")
-        .select("*")
-        .eq("human_evaluation_id", humanEvaluation.id)
-    : { data: [] };
+  // Batch 1: fetch human evaluation and AI evaluations in parallel
+  const [{ data: humanEvaluation }, { data: aiEvaluations }] = await Promise.all([
+    admin.from("human_evaluations").select("*").eq("task_id", id).maybeSingle(),
+    admin.from("ai_evaluations").select("*").eq("paragraph_id", paragraph.id).order("agent"),
+  ]);
 
   const canSeeAi = Boolean(humanEvaluation);
-
-  const { data: aiEvaluations } = canSeeAi
-    ? await admin
-        .from("ai_evaluations")
-        .select("*")
-        .eq("paragraph_id", paragraph.id)
-        .order("agent")
-    : { data: [] };
-
   const aiEvaluationIds = (aiEvaluations ?? []).map((evaluation) => evaluation.id);
 
-  const { data: aiFactors } =
+  // Batch 2: fetch dependent data in parallel
+  const [{ data: humanFactors }, { data: aiFactors }, { data: reviews }] = await Promise.all([
+    humanEvaluation
+      ? admin.from("human_factor_scores").select("*").eq("human_evaluation_id", humanEvaluation.id)
+      : Promise.resolve({ data: [] }),
     aiEvaluationIds.length > 0
-      ? await admin
-          .from("ai_factor_scores")
-          .select("*")
-          .in("ai_evaluation_id", aiEvaluationIds)
-      : { data: [] };
-
-  const { data: reviews } =
+      ? admin.from("ai_factor_scores").select("*").in("ai_evaluation_id", aiEvaluationIds)
+      : Promise.resolve({ data: [] }),
     aiEvaluationIds.length > 0
-      ? await admin
-          .from("ai_review_answers")
-          .select("*")
-          .eq("task_id", id)
-          .in("ai_evaluation_id", aiEvaluationIds)
-      : { data: [] };
+      ? admin.from("ai_review_answers").select("*").eq("task_id", id).in("ai_evaluation_id", aiEvaluationIds)
+      : Promise.resolve({ data: [] }),
+  ]);
 
   const factorsByAi = new Map<string, Array<{
     factor_key: FactorKey;
