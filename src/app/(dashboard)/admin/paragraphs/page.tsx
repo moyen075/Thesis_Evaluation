@@ -22,14 +22,17 @@ export default async function ParagraphsPage() {
         .select("id,ai_evaluation_id,factor_key,factor_label,score,max_score,reason"),
     ]);
 
-  const factorsByEval = new Map<string, typeof aiFactors>();
+  type Factor = NonNullable<typeof aiFactors>[number];
+  type EvaluationWithFactors = NonNullable<typeof aiEvaluations>[number] & { factors: Factor[] };
+
+  const factorsByEval = new Map<string, Factor[]>();
   for (const factor of aiFactors ?? []) {
     const list = factorsByEval.get(factor.ai_evaluation_id) ?? [];
     list.push(factor);
     factorsByEval.set(factor.ai_evaluation_id, list);
   }
 
-  const evalsByParagraph = new Map<string, typeof aiEvaluations>();
+  const evalsByParagraph = new Map<string, EvaluationWithFactors[]>();
   for (const evaluation of aiEvaluations ?? []) {
     const list = evalsByParagraph.get(evaluation.paragraph_id) ?? [];
     list.push({ ...evaluation, factors: factorsByEval.get(evaluation.id) ?? [] });
