@@ -26,5 +26,4 @@ jobs:
 
           curl --fail --silent --show-error --retry 3 --retry-delay 10 \
             "${SUPABASE_URL%/}/rest/v1/keep_alive?select=id&limit=1" \
-            -H "apikey: ${SUPABASE_ANON_KEY}" \
-            -H "Authorization: Bearer ${SUPABASE_ANON_KEY}"
+            -H "apikey: ${SUPABASE_ANON_KEY}"
