@@ -34,6 +34,24 @@ export async function POST(
     );
   }
 
+  const { count: remainingPhase1Count, error: remainingPhase1Error } =
+    await session.admin
+      .from("teacher_tasks")
+      .select("id", { count: "exact", head: true })
+      .eq("teacher_id", session.user.id)
+      .eq("status", "NOT_STARTED");
+
+  if (remainingPhase1Error) {
+    return NextResponse.json({ error: remainingPhase1Error.message }, { status: 500 });
+  }
+
+  if ((remainingPhase1Count ?? 0) > 0) {
+    return NextResponse.json(
+      { error: "Complete Phase 1 for all assigned tasks before reviewing AI feedback." },
+      { status: 409 }
+    );
+  }
+
   const { data: aiEvaluation, error: aiError } = await session.admin
     .from("ai_evaluations")
     .select("*")
@@ -155,4 +173,3 @@ export async function POST(
 
   return NextResponse.json({ analyticalAnswers }, { status: 201 });
 }
-

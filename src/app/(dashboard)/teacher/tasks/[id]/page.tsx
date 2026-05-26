@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, CheckCircle2, Clock3, Lock } from "lucide-react";
 import Link from "next/link";
 import { AIReviewForm } from "@/components/teacher/ai-review-form";
 import { HumanEvaluationForm } from "@/components/teacher/human-evaluation-form";
@@ -41,24 +41,43 @@ export default async function TeacherTaskPage({
     notFound();
   }
 
-  // Batch 1: fetch human evaluation and AI evaluations in parallel
-  const [{ data: humanEvaluation }, { data: aiEvaluations }] = await Promise.all([
+  const [{ data: humanEvaluation }, { data: teacherTasks }] = await Promise.all([
     admin.from("human_evaluations").select("*").eq("task_id", id).maybeSingle(),
-    admin.from("ai_evaluations").select("*").eq("paragraph_id", paragraph.id).order("agent"),
+    admin
+      .from("teacher_tasks")
+      .select("id,status")
+      .eq("teacher_id", user.id)
+      .neq("status", "ARCHIVED"),
   ]);
 
-  const canSeeAi = Boolean(humanEvaluation);
-  const aiEvaluationIds = (aiEvaluations ?? []).map((evaluation) => evaluation.id);
+  const activeTeacherTasks = teacherTasks ?? [];
+  const phase1CompleteCount = activeTeacherTasks.filter((item) =>
+    hasPhase1Complete(item.status)
+  ).length;
+  const phase1Total = activeTeacherTasks.length;
+  const phase1Remaining = phase1Total - phase1CompleteCount;
+  const allPhase1Complete = phase1Total > 0 && phase1Remaining === 0;
+  const currentPhase1Complete = Boolean(humanEvaluation);
+  const canSeeAi = currentPhase1Complete && allPhase1Complete;
+  const progressPercent =
+    phase1Total > 0 ? Math.round((phase1CompleteCount / phase1Total) * 100) : 0;
 
-  // Batch 2: fetch dependent data in parallel
-  const [{ data: humanFactors }, { data: aiFactors }, { data: reviews }] = await Promise.all([
+  const [{ data: humanFactors }, { data: aiEvaluations }] = await Promise.all([
     humanEvaluation
       ? admin.from("human_factor_scores").select("*").eq("human_evaluation_id", humanEvaluation.id)
       : Promise.resolve({ data: [] }),
-    aiEvaluationIds.length > 0
+    canSeeAi
+      ? admin.from("ai_evaluations").select("*").eq("paragraph_id", paragraph.id).order("agent")
+      : Promise.resolve({ data: [] }),
+  ]);
+
+  const aiEvaluationIds = (aiEvaluations ?? []).map((evaluation) => evaluation.id);
+
+  const [{ data: aiFactors }, { data: reviews }] = await Promise.all([
+    canSeeAi && aiEvaluationIds.length > 0
       ? admin.from("ai_factor_scores").select("*").in("ai_evaluation_id", aiEvaluationIds)
       : Promise.resolve({ data: [] }),
-    aiEvaluationIds.length > 0
+    canSeeAi && aiEvaluationIds.length > 0
       ? admin.from("ai_review_answers").select("*").eq("task_id", id).in("ai_evaluation_id", aiEvaluationIds)
       : Promise.resolve({ data: [] }),
   ]);
@@ -100,7 +119,7 @@ export default async function TeacherTaskPage({
           </Link>
           <h1 className="text-2xl font-semibold">{paragraph.paragraph_id}</h1>
         </div>
-        <Badge>{task.status}</Badge>
+        <StatusBadge status={task.status} phase2Unlocked={allPhase1Complete} />
       </div>
 
       <Card>
@@ -112,7 +131,37 @@ export default async function TeacherTaskPage({
         </CardContent>
       </Card>
 
-      {!canSeeAi ? (
+      <Card>
+        <CardContent className="flex flex-col gap-4 p-4 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex items-center gap-3">
+            <span className="flex h-10 w-10 items-center justify-center rounded-md border bg-[var(--muted)]">
+              {allPhase1Complete ? (
+                <CheckCircle2 className="h-5 w-5 text-[var(--success)]" />
+              ) : (
+                <Clock3 className="h-5 w-5 text-[var(--muted-foreground)]" />
+              )}
+            </span>
+            <div>
+              <p className="font-semibold">
+                Phase 1: {phase1CompleteCount} / {phase1Total} complete
+              </p>
+              <p className="text-sm text-[var(--muted-foreground)]">
+                {allPhase1Complete
+                  ? "All assigned Phase 1 evaluations are submitted."
+                  : `${phase1Remaining} Phase 1 ${phase1Remaining === 1 ? "task" : "tasks"} remaining before Phase 2 unlocks.`}
+              </p>
+            </div>
+          </div>
+          <div className="h-2 w-full overflow-hidden rounded-full bg-[var(--muted)] sm:w-56">
+            <div
+              className="h-full rounded-full bg-[var(--primary)]"
+              style={{ width: `${progressPercent}%` }}
+            />
+          </div>
+        </CardContent>
+      </Card>
+
+      {!currentPhase1Complete ? (
         <section className="space-y-4">
           <div>
             <h2 className="text-xl font-semibold">Phase 1: Human Evaluation</h2>
@@ -155,40 +204,93 @@ export default async function TeacherTaskPage({
             </CardContent>
           </Card>
 
-          <div>
-            <h2 className="text-xl font-semibold">Phase 2: AI Review</h2>
-            <p className="text-sm text-[var(--muted-foreground)]">
-              Gemini and Llama are reviewed separately
-            </p>
-          </div>
+          {canSeeAi ? (
+            <>
+              <div>
+                <h2 className="text-xl font-semibold">Phase 2: AI Review</h2>
+                <p className="text-sm text-[var(--muted-foreground)]">
+                  Gemini and Llama are reviewed separately
+                </p>
+              </div>
 
-          <div className="space-y-5">
-            {(aiEvaluations ?? []).map((evaluation) => (
-              <AIReviewForm
-                key={evaluation.id}
-                taskId={id}
-                evaluation={{
-                  id: evaluation.id,
-                  agent: evaluation.agent as AIAgent,
-                  total_score: Number(evaluation.total_score),
-                  raw_feedback: evaluation.raw_feedback,
-                  factors: factorsByAi.get(evaluation.id) ?? [],
-                }}
-                humanFactors={(humanFactors ?? []).map((factor) => ({
-                  factor_key: factor.factor_key,
-                  factor_label:
-                    RUBRIC_FACTORS.find((item) => item.key === factor.factor_key)
-                      ?.label ?? factor.factor_key,
-                  score: Number(factor.score),
-                  max_score: Number(factor.max_score),
-                  notes: factor.notes,
-                }))}
-                alreadySubmitted={submittedReviewIds.has(evaluation.id)}
-              />
-            ))}
-          </div>
+              <div className="space-y-5">
+                {(aiEvaluations ?? []).map((evaluation) => (
+                  <AIReviewForm
+                    key={evaluation.id}
+                    taskId={id}
+                    evaluation={{
+                      id: evaluation.id,
+                      agent: evaluation.agent as AIAgent,
+                      total_score: Number(evaluation.total_score),
+                      raw_feedback: evaluation.raw_feedback,
+                      factors: factorsByAi.get(evaluation.id) ?? [],
+                    }}
+                    humanFactors={(humanFactors ?? []).map((factor) => ({
+                      factor_key: factor.factor_key,
+                      factor_label:
+                        RUBRIC_FACTORS.find((item) => item.key === factor.factor_key)
+                          ?.label ?? factor.factor_key,
+                      score: Number(factor.score),
+                      max_score: Number(factor.max_score),
+                      notes: factor.notes,
+                    }))}
+                    alreadySubmitted={submittedReviewIds.has(evaluation.id)}
+                  />
+                ))}
+              </div>
+            </>
+          ) : (
+            <Card>
+              <CardHeader>
+                <CardTitle className="flex items-center gap-2">
+                  <Lock className="h-4 w-4 text-[var(--muted-foreground)]" />
+                  Phase 2 Locked
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-3">
+                <p className="text-sm text-[var(--muted-foreground)]">
+                  Complete Phase 1 for every assigned task before reviewing Gemini and Llama feedback.
+                </p>
+                <div className="rounded-md border bg-[var(--muted)] p-3 text-sm">
+                  {phase1Remaining} Phase 1 {phase1Remaining === 1 ? "task is" : "tasks are"} still remaining.
+                </div>
+                <Link
+                  href="/teacher/tasks"
+                  className="inline-flex h-10 items-center justify-center gap-2 rounded-md border bg-white px-4 py-2 text-sm font-medium transition hover:bg-[var(--muted)]"
+                >
+                  <ArrowLeft className="h-4 w-4" />
+                  Return to tasks
+                </Link>
+              </CardContent>
+            </Card>
+          )}
         </section>
       )}
     </div>
   );
+}
+
+function hasPhase1Complete(status: string) {
+  return status === "PHASE_1_COMPLETE" || status === "PHASE_2_COMPLETE";
+}
+
+function StatusBadge({
+  status,
+  phase2Unlocked,
+}: {
+  status: string;
+  phase2Unlocked: boolean;
+}) {
+  const label =
+    status === "NOT_STARTED"
+      ? "Phase 1"
+      : status === "PHASE_1_COMPLETE"
+        ? phase2Unlocked
+          ? "AI Review"
+          : "Phase 1 done"
+        : status === "PHASE_2_COMPLETE"
+          ? "Complete"
+          : status;
+
+  return <Badge>{label}</Badge>;
 }
