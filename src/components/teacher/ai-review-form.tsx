@@ -120,7 +120,12 @@ export function AIReviewForm({
         ) : (
           <form onSubmit={handleSubmit} className="space-y-5">
             <div className="space-y-3">
-              <h3 className="font-semibold">Part A</h3>
+              <div>
+                <h3 className="font-semibold">Part A: Analytical Factor Evaluations</h3>
+                <p className="mt-1 text-sm text-(--muted-foreground)">
+                  This section contains exactly one conditional question per factor. It is only displayed if your initial score does not match the AI&apos;s score. If the scores match exactly, the system auto-records &quot;Exact Match&quot; and skips the question.
+                </p>
+              </div>
               {RUBRIC_FACTORS.map((factor, index) => {
                 const humanScore = humanByFactor.get(factor.key) ?? 0;
                 const aiScore = aiByFactor.get(factor.key) ?? 0;
@@ -142,8 +147,8 @@ export function AIReviewForm({
                       </Badge>
                     ) : (
                       <fieldset className="space-y-2">
-                        <legend className="mb-2 text-sm text-[var(--muted-foreground)]">
-                          Your initial score was {humanScore}, and the AI score is {aiScore}. Having read the AI analysis, how do you view this difference?
+                        <legend className="mb-2 text-sm text-(--muted-foreground)">
+                          Your initial score for {factor.label} was {humanScore}, and the AI&apos;s score is {aiScore}. Having read the AI&apos;s full analysis, how do you view this difference?
                         </legend>
                         {Object.entries(FACTOR_OPTIONS).map(([value, label]) => (
                           <label
@@ -165,8 +170,8 @@ export function AIReviewForm({
                             <span>{label}</span>
                           </label>
                         ))}
-                        <p className="text-xs text-[var(--muted-foreground)]">
-                          Option 3 applies when the AI justification is logical and falls within a reasonable alternative professional judgment.
+                        <p className="text-xs text-(--muted-foreground)">
+                          <strong>Note on Option 3:</strong> Choose this if the AI&apos;s score differs from yours, but its written justification is logical and falls within a reasonable, alternative spectrum of professional judgment (e.g., the AI prioritized a different structural or thematic element than you did, but its argument makes sense).
                         </p>
                       </fieldset>
                     )}
@@ -176,10 +181,15 @@ export function AIReviewForm({
             </div>
 
             <div className="space-y-3">
-              <h3 className="font-semibold">Part B</h3>
+              <div>
+                <h3 className="font-semibold">Part B: Holistic Pedagogical Evaluations</h3>
+                <p className="mt-1 text-sm text-(--muted-foreground)">
+                  These questions are always asked once per AI agent evaluation, as they assess the macro-quality of the generated feedback block.
+                </p>
+              </div>
               <RatingSelect
                 id={`${evaluation.id}-actionability`}
-                label="Q5. Overall actionability"
+                label="Q5. Overall, how actionable is the AI's feedback for student improvement? (i.e., Does it provide clear, practical steps for a student to revise their paragraph?)"
                 value={actionabilityScore}
                 onChange={setActionabilityScore}
                 options={[
@@ -192,7 +202,7 @@ export function AIReviewForm({
               />
               <RatingSelect
                 id={`${evaluation.id}-tone`}
-                label="Q6. Tone & register"
+                label="Q6. Overall, how would you rate the professional tone and pedagogical encouragement level of the AI's critique?"
                 value={toneRegisterScore}
                 onChange={setToneRegisterScore}
                 options={[
@@ -205,9 +215,9 @@ export function AIReviewForm({
               />
               <fieldset className="rounded-md border bg-white p-3">
                 <legend className="px-1 text-sm font-medium">
-                  Q7. Technical reliability
+                  Q7. Did the AI explicitly point out any grammatical, structural, or logical &quot;errors&quot; that do not actually exist in the student&apos;s writing?
                 </legend>
-                <div className="mt-2 flex flex-wrap gap-3">
+                <div className="mt-2 flex flex-col gap-2">
                   <label className="flex items-center gap-2 text-sm">
                     <input
                       type="radio"
@@ -216,7 +226,7 @@ export function AIReviewForm({
                       value="yes"
                       onChange={(event) => setHallucinatedErrors(event.target.value)}
                     />
-                    Yes
+                    Yes <span className="text-(--muted-foreground)">(The AI hallucinated or misidentified an error)</span>
                   </label>
                   <label className="flex items-center gap-2 text-sm">
                     <input
@@ -226,7 +236,7 @@ export function AIReviewForm({
                       value="no"
                       onChange={(event) => setHallucinatedErrors(event.target.value)}
                     />
-                    No
+                    No <span className="text-(--muted-foreground)">(The AI&apos;s error tracking was technically accurate)</span>
                   </label>
                 </div>
               </fieldset>
