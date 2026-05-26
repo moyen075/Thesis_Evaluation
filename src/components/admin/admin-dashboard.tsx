@@ -3,7 +3,6 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
-  ArrowDownToLine,
   Database,
   Download,
   Loader2,
@@ -152,24 +151,7 @@ export function AdminDashboard({
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <Button
-            type="button"
-            variant="outline"
-            disabled={loading !== null}
-            onClick={() =>
-              runAction("import", () =>
-                fetch("/api/admin/import/fake-news", { method: "POST" })
-              )
-            }
-          >
-            {loading === "import" ? (
-              <Loader2 className="h-4 w-4 animate-spin" />
-            ) : (
-              <ArrowDownToLine className="h-4 w-4" />
-            )}
-            Import YAML
-          </Button>
-          <Button
+<Button
             type="button"
             disabled={loading !== null}
             onClick={() =>
