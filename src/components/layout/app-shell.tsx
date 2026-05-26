@@ -32,7 +32,7 @@ export function AppShell({
           <BookOpenCheck className="h-5 w-5 text-[var(--primary)]" />
           <span className="font-semibold">Thesis Evaluation</span>
         </div>
-        <nav className="space-y-1 p-3">
+        <nav className="space-y-1 overflow-y-auto p-3" style={{ height: "calc(100vh - 4rem)" }}>
           {roleLinks.map((link) => (
             <Link
               key={link.href}
