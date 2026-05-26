@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BookOpenCheck, ClipboardList, FileText, ShieldCheck } from "lucide-react";
 import { LogoutButton } from "@/components/layout/logout-button";
+import { TeacherTaskNav, type TeacherSidebarTask } from "@/components/layout/teacher-task-nav";
 import type { Role } from "@/lib/types";
 
 const links = {
@@ -14,10 +15,12 @@ const links = {
 export function AppShell({
   role,
   name,
+  teacherTasks = [],
   children,
 }: {
   role: Role;
   name: string;
+  teacherTasks?: TeacherSidebarTask[];
   children: React.ReactNode;
 }) {
   const roleLinks = links[role];
@@ -40,6 +43,7 @@ export function AppShell({
               {link.label}
             </Link>
           ))}
+          {role === "TEACHER" && <TeacherTaskNav tasks={teacherTasks} />}
         </nav>
       </aside>
       <div className="md:pl-64">
@@ -67,4 +71,3 @@ export function AppShell({
     </div>
   );
 }
-

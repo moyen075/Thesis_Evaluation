@@ -45,12 +45,23 @@ export default async function TeacherTaskPage({
     admin.from("human_evaluations").select("*").eq("task_id", id).maybeSingle(),
     admin
       .from("teacher_tasks")
-      .select("id,status")
+      .select("id,status,assigned_at,paragraphs(paragraph_id)")
       .eq("teacher_id", user.id)
-      .neq("status", "ARCHIVED"),
+      .neq("status", "ARCHIVED")
+      .order("assigned_at", { ascending: true }),
   ]);
 
-  const activeTeacherTasks = teacherTasks ?? [];
+  const activeTeacherTasks = (teacherTasks ?? []).map((item) => {
+    const taskParagraph = item.paragraphs as unknown as
+      | { paragraph_id: string }
+      | null;
+
+    return {
+      id: item.id,
+      status: item.status,
+      paragraphId: taskParagraph?.paragraph_id ?? "Paragraph",
+    };
+  });
   const phase1CompleteCount = activeTeacherTasks.filter((item) =>
     hasPhase1Complete(item.status)
   ).length;
@@ -108,7 +119,7 @@ export default async function TeacherTaskPage({
 
   return (
     <div className="space-y-5 pb-16 md:pb-0">
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <div>
           <Link
             href="/teacher/tasks"
@@ -254,13 +265,6 @@ export default async function TeacherTaskPage({
                 <div className="rounded-md border bg-[var(--muted)] p-3 text-sm">
                   {phase1Remaining} Phase 1 {phase1Remaining === 1 ? "task is" : "tasks are"} still remaining.
                 </div>
-                <Link
-                  href="/teacher/tasks"
-                  className="inline-flex h-10 items-center justify-center gap-2 rounded-md border bg-white px-4 py-2 text-sm font-medium transition hover:bg-[var(--muted)]"
-                >
-                  <ArrowLeft className="h-4 w-4" />
-                  Return to tasks
-                </Link>
               </CardContent>
             </Card>
           )}
