@@ -7,12 +7,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { RUBRIC_FACTORS } from "@/lib/types";
+import { RUBRIC_FACTORS, type FactorKey } from "@/lib/types";
 
 export function HumanEvaluationForm({ taskId }: { taskId: string }) {
   const router = useRouter();
-  const [scores, setScores] = useState<Record<string, number>>(
-    Object.fromEntries(RUBRIC_FACTORS.map((factor) => [factor.key, 0]))
+  const [scores, setScores] = useState<Record<FactorKey, string>>(
+    Object.fromEntries(RUBRIC_FACTORS.map((factor) => [factor.key, ""])) as Record<
+      FactorKey,
+      string
+    >
   );
   const [notes, setNotes] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(false);
@@ -34,10 +37,14 @@ export function HumanEvaluationForm({ taskId }: { taskId: string }) {
     setLoading(true);
     setError("");
 
+    const numericScores = Object.fromEntries(
+      RUBRIC_FACTORS.map((factor) => [factor.key, Number(scores[factor.key])])
+    ) as Record<FactorKey, number>;
+
     const response = await fetch(`/api/teacher/tasks/${taskId}/human-evaluation`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ scores, notes }),
+      body: JSON.stringify({ scores: numericScores, notes }),
     });
     const data = await response.json().catch(() => ({}));
 
@@ -84,10 +91,11 @@ export function HumanEvaluationForm({ taskId }: { taskId: string }) {
                   step="any"
                   required
                   value={scores[factor.key]}
+                  placeholder="0"
                   onChange={(event) =>
                     setScores({
                       ...scores,
-                      [factor.key]: Number(event.target.value),
+                      [factor.key]: event.target.value,
                     })
                   }
                   className="h-10 w-full rounded-md border bg-white px-3"
@@ -129,4 +137,3 @@ export function HumanEvaluationForm({ taskId }: { taskId: string }) {
     </form>
   );
 }
-
