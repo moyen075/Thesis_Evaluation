@@ -4,13 +4,7 @@ import { RUBRIC_FACTORS } from "@/lib/types";
 const factorShape = Object.fromEntries(
   RUBRIC_FACTORS.map((factor) => [
     factor.key,
-    z
-      .number()
-      .min(0)
-      .max(factor.maxScore)
-      .refine((value) => Number.isInteger(value * 2), {
-        message: `${factor.label} must use 0.5 increments`,
-      }),
+    z.number().min(0).max(factor.maxScore),
   ])
 ) as Record<(typeof RUBRIC_FACTORS)[number]["key"], z.ZodNumber>;
 

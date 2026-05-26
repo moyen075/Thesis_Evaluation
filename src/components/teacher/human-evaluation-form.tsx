@@ -81,7 +81,7 @@ export function HumanEvaluationForm({ taskId }: { taskId: string }) {
                   type="number"
                   min={0}
                   max={factor.maxScore}
-                  step={0.5}
+                  step="any"
                   required
                   value={scores[factor.key]}
                   onChange={(event) =>
