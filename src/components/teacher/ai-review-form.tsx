@@ -6,7 +6,6 @@ import { CheckCircle2, Loader2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
 import { FACTOR_OPTIONS, RUBRIC_FACTORS, type AIAgent, type FactorKey } from "@/lib/types";
 
 interface FactorScore {
@@ -277,23 +276,27 @@ function RatingSelect({
   options: string[];
 }) {
   return (
-    <div className="space-y-2 rounded-md border bg-white p-3">
-      <Label htmlFor={id}>{label}</Label>
-      <select
-        id={id}
-        required
-        value={value}
-        onChange={(event) => onChange(Number(event.target.value))}
-        className="h-10 w-full rounded-md border bg-white px-3"
-      >
-        <option value={0}>Select rating</option>
+    <fieldset className="rounded-md border bg-white p-3">
+      <legend className="px-1 text-sm font-medium">{label}</legend>
+      <div className="mt-2 space-y-2">
         {options.map((option, index) => (
-          <option key={option} value={index + 1}>
-            {index + 1} - {option}
-          </option>
+          <label
+            key={option}
+            className="flex gap-2 rounded-md border p-2 text-sm"
+          >
+            <input
+              type="radio"
+              name={id}
+              required
+              value={index + 1}
+              checked={value === index + 1}
+              onChange={() => onChange(index + 1)}
+            />
+            <span>{index + 1} - {option}</span>
+          </label>
         ))}
-      </select>
-    </div>
+      </div>
+    </fieldset>
   );
 }
 
